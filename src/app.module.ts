@@ -6,6 +6,7 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { AppResolver } from './app.resolver';
 import { EveModule } from './eve/eve.module';
 import { AuthModule } from './auth/auth.module';
+import { DateScalar } from './common/scalars/date.scalar';
 
 
 @Module({
@@ -24,6 +25,6 @@ import { AuthModule } from './auth/auth.module';
     AuthModule,
   ],
   controllers: [AppController],
-  providers: [AppService, AppResolver],
+  providers: [AppService, AppResolver, DateScalar],
 })
 export class AppModule {}

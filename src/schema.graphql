@@ -2,11 +2,43 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+type Alliance {
+  id: Int!
+  name: String!
+  ticker: String!
+  dateFounded: Date
+  factionId: Faction
+}
+
+type Corporation {
+  id: Int!
+  name: String!
+  ticker: String!
+  dateFounded: Date
+  memberCount: Int!
+  isNPC: Boolean!
+  allianceId: Alliance
+  factionId: Faction
+}
+
+"""Date custom scalar type"""
+scalar Date
+
+type Faction {
+  id: Int!
+  name: String!
+  description: String
+  sizeFactor: Int!
+  stationCount: Int!
+  stationSystemCount: Int!
+}
+
 type Query {
   helloWorld: String!
   hello(name: String!): String!
   system(id: Float!): System!
   systemName(name: String!): [System!]!
+  corporation(id: Float!): Corporation!
 }
 
 type Static {

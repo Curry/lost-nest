@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { requestNewAccessToken } from 'passport-oauth2-refresh';
 import { defer, of, iif, throwError, from } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
-import { IEveRawProfile } from './models/esi.model';
+import { IEveRawProfile } from '../lost/models/esi.model';
 import { PrismaService } from 'src/prisma/prisma.service';
 //@ts-nocheck
 @Injectable()
