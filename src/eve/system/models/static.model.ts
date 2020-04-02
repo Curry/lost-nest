@@ -22,4 +22,7 @@ export class Static {
 
     @Field(() => Float)
     maxOnePass: number;
+
+    @Field(() => Float, { nullable: true })
+    scanStrength: number;
 }

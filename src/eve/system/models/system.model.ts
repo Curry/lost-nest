@@ -1,5 +1,6 @@
 import { Field, Int, ObjectType, Float } from '@nestjs/graphql';
 import { Static } from './static.model';
+import { Effect } from 'src/eve/enums/effect.enum';
 
 @ObjectType()
 export class System {
@@ -30,7 +31,10 @@ export class System {
   @Field(() => String, { nullable: true })
   securityClass: string;
 
-  @Field(() => String, { nullable: true })
+  @Field(() => Number)
+  class: number;
+
+  @Field(() => Effect, { nullable: true })
   effect: string;
 
   @Field(() => [Static])

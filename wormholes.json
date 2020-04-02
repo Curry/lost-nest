@@ -1,0 +1,892 @@
+[
+  {
+    "_id": 30579,
+    "name": "Z971",
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 100000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30583,
+    "name": "R943",
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 750000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 6.67
+  },
+  {
+    "_id": 30584,
+    "name": "X702",
+    "targetClass": 3,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30642,
+    "name": "O128",
+    "targetClass": 4,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 30643,
+    "name": "N432",
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30644,
+    "name": "M555",
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30645,
+    "name": "B041",
+    "targetClass": 6,
+    "lifetime": 2880,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 30646,
+    "name": "U319",
+    "targetClass": 6,
+    "lifetime": 2880,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 30647,
+    "name": "B449",
+    "targetClass": 7,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30648,
+    "name": "N944",
+    "targetClass": 8,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30649,
+    "name": "S199",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30657,
+    "name": "A641",
+    "targetClass": 7,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30658,
+    "name": "R051",
+    "targetClass": 8,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30659,
+    "name": "V283",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30660,
+    "name": "H121",
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30661,
+    "name": "C125",
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 6.67
+  },
+  {
+    "_id": 30662,
+    "name": "O883",
+    "targetClass": 3,
+    "lifetime": 960,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30663,
+    "name": "M609",
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 4
+  },
+  {
+    "_id": 30664,
+    "name": "L614",
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30665,
+    "name": "S804",
+    "targetClass": 6,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 1.25
+  },
+  {
+    "_id": 30666,
+    "name": "N110",
+    "targetClass": 7,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30667,
+    "name": "J244",
+    "targetClass": 8,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30668,
+    "name": "Z060",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30671,
+    "name": "Z647",
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30672,
+    "name": "D382",
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 6.67
+  },
+  {
+    "_id": 30673,
+    "name": "O477",
+    "targetClass": 3,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30674,
+    "name": "Y683",
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 4
+  },
+  {
+    "_id": 30675,
+    "name": "N062",
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30676,
+    "name": "R474",
+    "targetClass": 6,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 2.22
+  },
+  {
+    "_id": 30677,
+    "name": "B274",
+    "targetClass": 7,
+    "lifetime": 1440,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30678,
+    "name": "A239",
+    "targetClass": 8,
+    "lifetime": 1440,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30679,
+    "name": "E545",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30680,
+    "name": "V301",
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30681,
+    "name": "I182",
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 4
+  },
+  {
+    "_id": 30682,
+    "name": "N968",
+    "targetClass": 3,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30683,
+    "name": "T405",
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 6.67
+  },
+  {
+    "_id": 30684,
+    "name": "N770",
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30685,
+    "name": "A982",
+    "targetClass": 6,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 2.22
+  },
+  {
+    "_id": 30686,
+    "name": "S047",
+    "targetClass": 7,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 30687,
+    "name": "U210",
+    "targetClass": 8,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30688,
+    "name": "K346",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30689,
+    "name": "P060",
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30690,
+    "name": "N766",
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 4
+  },
+  {
+    "_id": 30691,
+    "name": "C247",
+    "targetClass": 3,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30692,
+    "name": "X877",
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 6.67
+  },
+  {
+    "_id": 30693,
+    "name": "H900",
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30694,
+    "name": "U574",
+    "targetClass": 6,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 1.25
+  },
+  {
+    "_id": 30695,
+    "name": "D845",
+    "targetClass": 7,
+    "lifetime": 1440,
+    "maxMass": 5000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30696,
+    "name": "N290",
+    "targetClass": 8,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 30697,
+    "name": "K329",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 5000000000,
+    "massRegen": 0,
+    "maxOnePass": 1800000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 30698,
+    "name": "Y790",
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30699,
+    "name": "D364",
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 1.25
+  },
+  {
+    "_id": 30700,
+    "name": "M267",
+    "targetClass": 3,
+    "lifetime": 960,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 1.25
+  },
+  {
+    "_id": 30701,
+    "name": "E175",
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30702,
+    "name": "H296",
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30703,
+    "name": "V753",
+    "targetClass": 6,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 6.67
+  },
+  {
+    "_id": 30704,
+    "name": "D792",
+    "targetClass": 7,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30705,
+    "name": "C140",
+    "targetClass": 8,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30706,
+    "name": "Z142",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30707,
+    "name": "Q317",
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": 2.5
+  },
+  {
+    "_id": 30708,
+    "name": "G024",
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 1.25
+  },
+  {
+    "_id": 30709,
+    "name": "L477",
+    "targetClass": 3,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 5
+  },
+  {
+    "_id": 30710,
+    "name": "Z457",
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": 4
+  },
+  {
+    "_id": 30711,
+    "name": "V911",
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 10
+  },
+  {
+    "_id": 30712,
+    "name": "W237",
+    "targetClass": 6,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": 6.67
+  },
+  {
+    "_id": 30713,
+    "name": "B520",
+    "targetClass": 7,
+    "lifetime": 2880,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 30714,
+    "name": "C391",
+    "targetClass": 8,
+    "lifetime": 2880,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 30715,
+    "name": "C248",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34134,
+    "name": "E004",
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34135,
+    "name": "L005",
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34136,
+    "name": "Z006",
+    "targetClass": 3,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34137,
+    "name": "M001",
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34138,
+    "name": "C008",
+    "targetClass": 5,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34139,
+    "name": "G008",
+    "targetClass": 6,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34140,
+    "name": "Q003",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34338,
+    "name": "T458",
+    "targetClass": 12,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34366,
+    "name": "M164",
+    "targetClass": 12,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34367,
+    "name": "L031",
+    "targetClass": 12,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34368,
+    "name": "Q063",
+    "targetClass": 7,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34369,
+    "name": "V898",
+    "targetClass": 8,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34370,
+    "name": "E587",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34371,
+    "name": "F353",
+    "targetClass": 12,
+    "lifetime": 960,
+    "maxMass": 100000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34372,
+    "name": "F135",
+    "targetClass": 12,
+    "lifetime": 960,
+    "maxMass": 750000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 34439,
+    "name": "A009",
+    "targetClass": 13,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 35650,
+    "name": "S877",
+    "targetClass": 14,
+    "lifetime": 960,
+    "maxMass": 750000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 35651,
+    "name": "B735",
+    "targetClass": 15,
+    "lifetime": 960,
+    "maxMass": 750000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 35652,
+    "name": "V928",
+    "targetClass": 16,
+    "lifetime": 960,
+    "maxMass": 750000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 35653,
+    "name": "C414",
+    "targetClass": 17,
+    "lifetime": 960,
+    "maxMass": 750000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": null
+  },
+  {
+    "_id": 35654,
+    "name": "R259",
+    "targetClass": 18,
+    "lifetime": 960,
+    "maxMass": 750000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanWormholeStrength": null
+  }
+]

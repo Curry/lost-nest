@@ -1,5 +1,4 @@
 import { Document } from 'mongoose';
-import { Static } from './static.interface';
 
 export interface System extends Document {
     id: number;
@@ -11,6 +10,7 @@ export interface System extends Document {
     trueSec: number;
     securityStatus: number;
     securityClass: string;
+    class: number;
     effect: string;
-    statics: Static[];
+    statics: number[];
 }

@@ -2,13 +2,39 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+enum Class {
+  C1
+  C2
+  C3
+  C4
+  C5
+  C6
+  HIGH
+  LOW
+  NULL
+  THERA
+  SHATTERED
+  SENTINEL
+  BARBICAN
+  VIDETTE
+  CONFLUX
+  REDOUBT
+}
+
+enum Effect {
+  redGiant
+  cataclysmic
+  magnetar
+  pulsar
+  wolfRayet
+  blackHole
+}
+
 type Query {
   helloWorld: String!
   hello(name: String!): String!
-  systems: [System!]!
   system(id: Float!): System!
-  systemName(name: String!): [System!]!
-  systemStatic(type: String!): [System!]!
+  systems(id: Float, systemName: String, statics: [Class!] = [], effect: Effect, class: Class): [System!]!
 }
 
 type Static {
@@ -19,6 +45,7 @@ type Static {
   maxMass: Float!
   massRegen: Float!
   maxOnePass: Float!
+  scanStrength: Float
 }
 
 type System {
@@ -31,6 +58,7 @@ type System {
   trueSec: Float!
   securityStatus: Float!
   securityClass: String
-  effect: String
+  class: Float!
+  effect: Effect
   statics: [Static!]!
 }

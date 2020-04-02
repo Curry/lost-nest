@@ -16,7 +16,7 @@ import { StaticSchema } from './schemas/static.schema';
       {
         name: 'Static',
         schema: StaticSchema,
-        collection: 'statics'
+        collection: 'wormholes'
       }
     ])
   ],
