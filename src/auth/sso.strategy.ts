@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Strategy, InternalOAuthError } from 'passport-oauth2';
 import { PassportStrategy } from '@nestjs/passport';
-import { IEveRawProfile } from '../lost/models/esi.model';
+import { IEveRawProfile } from './esi.model';
 import { of } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
 import { AuthService } from './auth.service';

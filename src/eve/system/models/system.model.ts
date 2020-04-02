@@ -1,5 +1,5 @@
 import { Field, Int, ObjectType, Float } from '@nestjs/graphql';
-import { Static } from './static';
+import { Static } from './static.model';
 
 @ObjectType()
 export class System {
@@ -30,7 +30,7 @@ export class System {
   @Field(() => String, { nullable: true })
   securityClass: string;
 
-  @Field(() => String)
+  @Field(() => String, { nullable: true })
   effect: string;
 
   @Field(() => [Static])

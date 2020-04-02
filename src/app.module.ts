@@ -1,30 +1,34 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { ConfigModule, ConfigService } from '@nestjs/config';
 import { GraphQLModule } from '@nestjs/graphql';
 import { AppResolver } from './app.resolver';
-import { EveModule } from './eve/eve.module';
 import { AuthModule } from './auth/auth.module';
 import { DateScalar } from './common/scalars/date.scalar';
-
+import { MongooseModule } from '@nestjs/mongoose';
+import { SystemModule } from './eve/system/system.module';
+import * as autoPopulate from 'mongoose-autopopulate'
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true }),
-    GraphQLModule.forRootAsync({
-      useFactory: async (configService: ConfigService) => ({
-        autoSchemaFile: './src/schema.graphql',
-        debug: true,
-        playground: true,
-        context: ({ req }) => ({ req })
-      }),
-      inject: [ConfigService]
+    MongooseModule.forRoot('mongodb://localhost/lost', {
+      useCreateIndex: true,
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useFindAndModify: false,
+      connectionFactory: (connection) => {
+        connection.plugin(autoPopulate);
+        return connection;
+      }
     }),
-    EveModule,
-    AuthModule,
+    GraphQLModule.forRoot({
+      autoSchemaFile:  'schema.graphql',
+      context: ({ req }) => ({ req })
+    }),
+    // AuthModule,
+    SystemModule,
   ],
   controllers: [AppController],
-  providers: [AppService, AppResolver, DateScalar],
+  providers: [AppService, AppResolver],
 })
 export class AppModule {}

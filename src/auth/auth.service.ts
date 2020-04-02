@@ -2,12 +2,11 @@ import { Injectable } from '@nestjs/common';
 import { requestNewAccessToken } from 'passport-oauth2-refresh';
 import { defer, of, iif, throwError, from } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
-import { IEveRawProfile } from '../lost/models/esi.model';
-import { PrismaService } from 'src/prisma/prisma.service';
+import { IEveRawProfile } from './esi.model';
 //@ts-nocheck
 @Injectable()
 export class AuthService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor() {}
 
   // saveUser = (
   //   accessToken: string,
