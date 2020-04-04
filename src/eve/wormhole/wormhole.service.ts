@@ -12,6 +12,9 @@ export class WormholeService {
     private wormholeModel: Model<Wormhole>,
   ) {}
 
+  getWormholeByName = (name: string) =>
+    from(this.wormholeModel.findOne({ name: name }));
+
   getWormholesBySource = (sourceClass: Class) =>
     from(
       this.wormholeModel
@@ -19,6 +22,6 @@ export class WormholeService {
         .sort({ targetClass: 1 }),
     );
 
-  getWormholesByName = (names: Class[]) =>
+  getWormholesByTargetClass = (names: Class[]) =>
     from(this.wormholeModel.find({ targetClass: { $in: names } }));
 }

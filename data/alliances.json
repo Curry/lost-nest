@@ -1,0 +1,1073 @@
+[
+    {
+      "allianceId": 99000739,
+      "allianceName": "Of Sound Mind",
+      "ticker": "SOUND",
+      "dateFounded": "2011-05-28 04:21:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99001099,
+      "allianceName": "The Watchmen.",
+      "ticker": "TW",
+      "dateFounded": "2011-09-02 01:40:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99001317,
+      "allianceName": "Banderlogs Alliance",
+      "ticker": ".RU",
+      "dateFounded": "2011-11-02 17:41:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99001634,
+      "allianceName": "Villore Accords",
+      "ticker": "GMVA",
+      "dateFounded": "2012-01-28 00:26:00",
+      "factionId": 500004
+    },
+    {
+      "allianceId": 99001648,
+      "allianceName": "P-A-T-R-I-O-T-S",
+      "ticker": "PTR",
+      "dateFounded": "2012-01-31 00:10:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99001657,
+      "allianceName": "Rezeda Regnum",
+      "ticker": "R-R",
+      "dateFounded": "2012-02-03 05:56:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99001742,
+      "allianceName": "Templis CALSF",
+      "ticker": "CALSF",
+      "dateFounded": "2012-02-24 21:13:00",
+      "factionId": 500001
+    },
+    {
+      "allianceId": 99001932,
+      "allianceName": "COALICION HISPANA",
+      "ticker": "CHISP",
+      "dateFounded": "2012-04-04 00:04:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99001952,
+      "allianceName": "Polaris Mercenary Alliance",
+      "ticker": "PM",
+      "dateFounded": "2012-04-08 12:16:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99001954,
+      "allianceName": "Caladrius Alliance",
+      "ticker": "-000-",
+      "dateFounded": "2012-04-08 14:46:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99002003,
+      "allianceName": "No Value",
+      "ticker": "-X3-",
+      "dateFounded": "2012-04-20 21:14:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99002367,
+      "allianceName": "Evictus.",
+      "ticker": "IOU",
+      "dateFounded": "2012-08-17 17:30:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99002417,
+      "allianceName": "The Exiled Gaming",
+      "ticker": "TXG",
+      "dateFounded": "2012-09-04 11:32:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 99002775,
+      "allianceName": "CODE.",
+      "ticker": "CODE.",
+      "dateFounded": "2012-12-29 20:40:34",
+      "factionId": null
+    },
+    {
+      "allianceId": 99002826,
+      "allianceName": "KIA Alliance",
+      "ticker": "KIA",
+      "dateFounded": "2013-01-14 16:37:15",
+      "factionId": null
+    },
+    {
+      "allianceId": 99002930,
+      "allianceName": "Clever Use of Neutral Toons",
+      "ticker": "ACRNM",
+      "dateFounded": "2013-02-07 17:58:53",
+      "factionId": null
+    },
+    {
+      "allianceId": 99002938,
+      "allianceName": "DARKNESS.",
+      "ticker": "DARK.",
+      "dateFounded": "2013-02-09 22:32:32",
+      "factionId": null
+    },
+    {
+      "allianceId": 99003006,
+      "allianceName": "Brothers of Tangra",
+      "ticker": "B0T",
+      "dateFounded": "2013-02-28 06:07:31",
+      "factionId": null
+    },
+    {
+      "allianceId": 99003214,
+      "allianceName": "Brave Collective",
+      "ticker": "BRAVE",
+      "dateFounded": "2013-05-06 22:20:14",
+      "factionId": null
+    },
+    {
+      "allianceId": 99003549,
+      "allianceName": "Greater Western Co-Prosperity Sphere",
+      "ticker": "PBLRD",
+      "dateFounded": "2013-08-10 21:28:45",
+      "factionId": null
+    },
+    {
+      "allianceId": 99003581,
+      "allianceName": "Fraternity.",
+      "ticker": "FRT",
+      "dateFounded": "2013-08-23 05:45:11",
+      "factionId": null
+    },
+    {
+      "allianceId": 99003805,
+      "allianceName": "Alternate Allegiance",
+      "ticker": "ALTS",
+      "dateFounded": "2013-11-06 03:49:27",
+      "factionId": null
+    },
+    {
+      "allianceId": 99003838,
+      "allianceName": "Requiem Eternal",
+      "ticker": "REQ",
+      "dateFounded": "2013-11-18 01:12:11",
+      "factionId": null
+    },
+    {
+      "allianceId": 99003918,
+      "allianceName": "Almost Broken",
+      "ticker": "FLEET",
+      "dateFounded": "2013-12-12 00:57:47",
+      "factionId": null
+    },
+    {
+      "allianceId": 99003995,
+      "allianceName": "Invidia Gloriae Comes",
+      "ticker": "IGC",
+      "dateFounded": "2014-01-04 16:44:52",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004013,
+      "allianceName": "Odin\\'s Call",
+      "ticker": "ODIN",
+      "dateFounded": "2014-01-07 10:39:46",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004116,
+      "allianceName": "Warped Intentions",
+      "ticker": "W4RP",
+      "dateFounded": "2014-02-05 05:16:37",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004425,
+      "allianceName": "The Bastion",
+      "ticker": "BASTN",
+      "dateFounded": "2014-05-06 21:37:13",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004567,
+      "allianceName": "Honorable Third Party",
+      "ticker": "THIRD",
+      "dateFounded": "2014-06-28 01:05:21",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004734,
+      "allianceName": "Dragon Empire.",
+      "ticker": "-DRG-",
+      "dateFounded": "2014-08-31 16:16:28",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004804,
+      "allianceName": "DarkSide.",
+      "ticker": ".-D-.",
+      "dateFounded": "2014-10-01 13:37:26",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004885,
+      "allianceName": "Darwinism.",
+      "ticker": "DRWIN",
+      "dateFounded": "2014-10-31 02:37:15",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004901,
+      "allianceName": "Snuffed Out",
+      "ticker": "B B C",
+      "dateFounded": "2014-11-06 17:54:08",
+      "factionId": null
+    },
+    {
+      "allianceId": 99004945,
+      "allianceName": "Immediate Destruction",
+      "ticker": ".IED",
+      "dateFounded": "2014-11-19 16:20:42",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005065,
+      "allianceName": "Hard Knocks Citizens",
+      "ticker": "HKRAB",
+      "dateFounded": "2014-12-31 03:17:54",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005118,
+      "allianceName": "Chao3 Alliance",
+      "ticker": "CHAO3",
+      "dateFounded": "2015-01-18 16:49:07",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005383,
+      "allianceName": "Just A Game.",
+      "ticker": "JAG.",
+      "dateFounded": "2015-04-17 00:09:30",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005393,
+      "allianceName": "Blades of Grass",
+      "ticker": "2GTHR",
+      "dateFounded": "2015-04-19 14:52:46",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005481,
+      "allianceName": "Iron Armada",
+      "ticker": "FLEEP",
+      "dateFounded": "2015-05-12 17:53:47",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005492,
+      "allianceName": "Centipede Caliphate.",
+      "ticker": "CENTI",
+      "dateFounded": "2015-05-15 13:04:19",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005688,
+      "allianceName": "Central Omni Galactic Group",
+      "ticker": "COGG",
+      "dateFounded": "2015-07-28 16:52:11",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005697,
+      "allianceName": "Sixth Empire",
+      "ticker": "POPE",
+      "dateFounded": "2015-07-29 15:10:53",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005711,
+      "allianceName": "The Lost Fleet of Eve",
+      "ticker": "LFEVE",
+      "dateFounded": "2015-08-07 00:39:13",
+      "factionId": null
+    },
+    {
+      "allianceId": 99005724,
+      "allianceName": "The Minions.",
+      "ticker": "-TM-",
+      "dateFounded": "2015-08-09 20:35:42",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006069,
+      "allianceName": "Tactical Supremacy",
+      "ticker": "TIKLE",
+      "dateFounded": "2015-12-28 22:14:47",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006113,
+      "allianceName": "No Vacancies.",
+      "ticker": "NV",
+      "dateFounded": "2016-01-12 02:38:06",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006125,
+      "allianceName": "SLYCE Pirates",
+      "ticker": "ARGGG",
+      "dateFounded": "2016-01-22 13:22:19",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006225,
+      "allianceName": "Rote Works",
+      "ticker": "0MS",
+      "dateFounded": "2016-03-01 07:37:05",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006297,
+      "allianceName": "DRONE WALKERS",
+      "ticker": "WALKA",
+      "dateFounded": "2016-03-27 12:38:12",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006327,
+      "allianceName": "Old Sch00l",
+      "ticker": "OLDS",
+      "dateFounded": "2016-04-05 22:24:23",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006343,
+      "allianceName": "Lord of Worlds Alliance",
+      "ticker": "LORDE",
+      "dateFounded": "2016-04-09 04:23:12",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006371,
+      "allianceName": "Simple Farmers",
+      "ticker": "FARMD",
+      "dateFounded": "2016-04-16 03:57:42",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006384,
+      "allianceName": "Infensus",
+      "ticker": "DUTCH",
+      "dateFounded": "2016-04-20 06:44:52",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006406,
+      "allianceName": "Fraternity University",
+      "ticker": "FRT-U",
+      "dateFounded": "2016-04-25 00:48:54",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006416,
+      "allianceName": "Missed Connections",
+      "ticker": "ME4U",
+      "dateFounded": "2016-04-27 20:14:37",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006557,
+      "allianceName": "Wildly Inappropriate.",
+      "ticker": "WI.",
+      "dateFounded": "2016-05-30 04:42:30",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006625,
+      "allianceName": "Pen Is Out",
+      "ticker": "WANGS",
+      "dateFounded": "2016-06-25 06:04:38",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006756,
+      "allianceName": "Da Imbalance",
+      "ticker": "-DNA-",
+      "dateFounded": "2016-08-20 18:36:09",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006771,
+      "allianceName": "I too am gay",
+      "ticker": "IMGAY",
+      "dateFounded": "2016-08-27 23:14:27",
+      "factionId": null
+    },
+    {
+      "allianceId": 99006884,
+      "allianceName": "Unspoken Alliance.",
+      "ticker": "QUIET",
+      "dateFounded": "2016-10-14 21:07:56",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007080,
+      "allianceName": "Tribes of Poitot",
+      "ticker": "P.TOT",
+      "dateFounded": "2016-12-25 19:18:38",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007090,
+      "allianceName": "Combat Wombat.",
+      "ticker": "WOMBO",
+      "dateFounded": "2016-12-28 22:36:37",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007203,
+      "allianceName": "Siberian Squads",
+      "ticker": "SB-SQ",
+      "dateFounded": "2017-01-31 15:55:05",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007221,
+      "allianceName": "Iron Crown",
+      "ticker": "I.S.K",
+      "dateFounded": "2017-02-07 18:16:59",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007284,
+      "allianceName": "United Federation of Conifers",
+      "ticker": ".UFC.",
+      "dateFounded": "2017-03-02 19:43:27",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007289,
+      "allianceName": "Federation Uprising",
+      "ticker": "FEDUP",
+      "dateFounded": "2017-03-06 22:43:02",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007362,
+      "allianceName": "Ranger Regiment",
+      "ticker": "RR",
+      "dateFounded": "2017-04-06 17:30:27",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007391,
+      "allianceName": "Federation of Respect Honor Passion Alliance.",
+      "ticker": ".RHP",
+      "dateFounded": "2017-04-16 14:01:27",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007439,
+      "allianceName": "Blue Sun Interstellar Technologies",
+      "ticker": "BS IT",
+      "dateFounded": "2017-05-07 04:47:05",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007472,
+      "allianceName": "G0N3 F1SS10N",
+      "ticker": "G0F1S",
+      "dateFounded": "2017-05-21 00:32:58",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007498,
+      "allianceName": "STARCHASER Alliance",
+      "ticker": "SCERS",
+      "dateFounded": "2017-06-01 07:43:57",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007629,
+      "allianceName": "Ferrata Victrix",
+      "ticker": "FERRA",
+      "dateFounded": "2017-08-01 13:24:16",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007707,
+      "allianceName": "Damned Brotherhood",
+      "ticker": "DAMN",
+      "dateFounded": "2017-09-03 20:43:22",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007716,
+      "allianceName": "The Rogue Consortium",
+      "ticker": "T.R.C",
+      "dateFounded": "2017-09-07 22:14:30",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007722,
+      "allianceName": "Stellae Renascitur",
+      "ticker": "S.R",
+      "dateFounded": "2017-09-09 13:29:43",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007753,
+      "allianceName": "Parasitic Legion.",
+      "ticker": "-10.",
+      "dateFounded": "2017-09-25 14:07:35",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007860,
+      "allianceName": "Cyno.Up",
+      "ticker": ".CYNO",
+      "dateFounded": "2017-11-06 17:31:41",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007892,
+      "allianceName": "Violente Fortuna",
+      "ticker": "LUCK",
+      "dateFounded": "2017-11-17 01:58:55",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007916,
+      "allianceName": "French ConneXion.",
+      "ticker": "FXR",
+      "dateFounded": "2017-11-29 20:50:03",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007921,
+      "allianceName": "Twarde Pukanie.",
+      "ticker": "2137.",
+      "dateFounded": "2017-12-03 19:09:03",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007974,
+      "allianceName": "The Weekend Warriors",
+      "ticker": "WKEND",
+      "dateFounded": "2017-12-29 15:54:16",
+      "factionId": null
+    },
+    {
+      "allianceId": 99007991,
+      "allianceName": "Divinity.",
+      "ticker": "DVN.",
+      "dateFounded": "2018-01-06 00:03:05",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008073,
+      "allianceName": "Theran Alliance",
+      "ticker": "ALLYT",
+      "dateFounded": "2018-02-12 19:01:31",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008155,
+      "allianceName": "Endless Crew",
+      "ticker": "E-PEW",
+      "dateFounded": "2018-03-18 02:54:53",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008223,
+      "allianceName": "Hard Knocks Associates",
+      "ticker": "HKASS",
+      "dateFounded": "2018-04-15 22:26:32",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008228,
+      "allianceName": "Pan-Intergalatic Business Community",
+      "ticker": "GLD4U",
+      "dateFounded": "2018-04-16 16:25:58",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008259,
+      "allianceName": "Circle of Hell",
+      "ticker": "MKAD",
+      "dateFounded": "2018-04-28 22:38:23",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008278,
+      "allianceName": "Literally Triggered",
+      "ticker": "LTRIG",
+      "dateFounded": "2018-05-06 23:39:43",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008294,
+      "allianceName": "In da ouarp",
+      "ticker": "OUARP",
+      "dateFounded": "2018-05-13 00:20:19",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008422,
+      "allianceName": "B.L.A.C.K.",
+      "ticker": "POOR",
+      "dateFounded": "2018-07-05 05:00:48",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008425,
+      "allianceName": "Intergalactic Space Hobos",
+      "ticker": ".BUMS",
+      "dateFounded": "2018-07-07 15:02:03",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008469,
+      "allianceName": "UNREAL Alliance",
+      "ticker": "URL",
+      "dateFounded": "2018-07-25 10:35:25",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008491,
+      "allianceName": "PortRoyal",
+      "ticker": "PORT",
+      "dateFounded": "2018-08-04 03:49:12",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008511,
+      "allianceName": "Armament Supply Syndicate",
+      "ticker": "--ASS",
+      "dateFounded": "2018-08-12 02:04:19",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008569,
+      "allianceName": "Erhamkha Adonai",
+      "ticker": "ERAD",
+      "dateFounded": "2018-09-03 10:28:14",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008656,
+      "allianceName": "Quote Alliance",
+      "ticker": "Q",
+      "dateFounded": "2018-10-05 14:18:38",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008704,
+      "allianceName": "ur dunked",
+      "ticker": "YIKES",
+      "dateFounded": "2018-10-26 00:52:54",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008741,
+      "allianceName": "Free Range Chikuns",
+      "ticker": "ORGNC",
+      "dateFounded": "2018-11-11 02:13:08",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008788,
+      "allianceName": "The Skeleton Crew",
+      "ticker": "MEAN",
+      "dateFounded": "2018-11-29 20:29:37",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008802,
+      "allianceName": "Blood Demons Alliance",
+      "ticker": "BD",
+      "dateFounded": "2018-12-02 17:49:33",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008809,
+      "allianceName": "Already Replaced.",
+      "ticker": "AARP.",
+      "dateFounded": "2018-12-05 01:39:22",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008898,
+      "allianceName": "The Hivemind Federation Alliance",
+      "ticker": "THMFA",
+      "dateFounded": "2019-01-09 21:34:47",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008923,
+      "allianceName": "Toilet Paper.",
+      "ticker": "TP",
+      "dateFounded": "2019-01-25 21:30:01",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008955,
+      "allianceName": "Irritatingly-Forward Reactive Aggressive Coalition",
+      "ticker": "IFRAC",
+      "dateFounded": "2019-02-05 18:50:52",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008967,
+      "allianceName": "Oops i created",
+      "ticker": "OOPS",
+      "dateFounded": "2019-02-12 20:13:53",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008988,
+      "allianceName": "Gemini Whale United",
+      "ticker": "G.W.U",
+      "dateFounded": "2019-02-26 16:11:52",
+      "factionId": null
+    },
+    {
+      "allianceId": 99008999,
+      "allianceName": "Cheese Party",
+      "ticker": "CHP",
+      "dateFounded": "2019-03-03 22:27:03",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009025,
+      "allianceName": "Forsaken Empire.",
+      "ticker": "FE",
+      "dateFounded": "2019-03-13 22:23:57",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009033,
+      "allianceName": "Gay Mexicans",
+      "ticker": "GAYMX",
+      "dateFounded": "2019-03-16 15:33:07",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009043,
+      "allianceName": "Hostile Occupation",
+      "ticker": "G F",
+      "dateFounded": "2019-03-20 20:40:25",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009082,
+      "allianceName": "The Army of Mango Alliance",
+      "ticker": "AOM",
+      "dateFounded": "2019-04-16 02:07:12",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009103,
+      "allianceName": "D0nt Tuch Us",
+      "ticker": "DOTUS",
+      "dateFounded": "2019-04-24 16:25:17",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009104,
+      "allianceName": "VINDICTIVE",
+      "ticker": "VINDI",
+      "dateFounded": "2019-04-24 21:21:57",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009113,
+      "allianceName": "Dragons of Yggdrasil",
+      "ticker": "-YGG-",
+      "dateFounded": "2019-04-29 02:35:03",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009129,
+      "allianceName": "No Visual.",
+      "ticker": "NO",
+      "dateFounded": "2019-05-04 01:39:42",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009163,
+      "allianceName": "Dracarys.",
+      "ticker": "D.C",
+      "dateFounded": "2019-05-18 04:51:47",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009202,
+      "allianceName": "P A R A B E L L U M",
+      "ticker": "PR.BL",
+      "dateFounded": "2019-06-02 19:14:20",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009208,
+      "allianceName": "Impossible to Explode",
+      "ticker": "RMBK",
+      "dateFounded": "2019-06-05 14:50:59",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009221,
+      "allianceName": "Trigger Happy.",
+      "ticker": "TRIGG",
+      "dateFounded": "2019-06-08 23:56:07",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009233,
+      "allianceName": "Droneland Prosperity Initiative",
+      "ticker": "DR0NE",
+      "dateFounded": "2019-06-15 12:19:38",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009237,
+      "allianceName": "Fractions of PI",
+      "ticker": "1.57",
+      "dateFounded": "2019-06-16 13:16:52",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009238,
+      "allianceName": "Piastres",
+      "ticker": "PST",
+      "dateFounded": "2019-06-16 15:32:29",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009243,
+      "allianceName": "Catastrophic Diplomacy",
+      "ticker": "-CDH-",
+      "dateFounded": "2019-06-20 20:01:04",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009275,
+      "allianceName": "The Stars of northern moon",
+      "ticker": "M.S.N",
+      "dateFounded": "2019-07-05 16:24:52",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009310,
+      "allianceName": "VENI VIDI VICI.",
+      "ticker": "-VVV-",
+      "dateFounded": "2019-07-17 17:22:24",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009318,
+      "allianceName": "Hazardous Company",
+      "ticker": "TOXIC",
+      "dateFounded": "2019-07-21 12:17:02",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009331,
+      "allianceName": "Scumlords",
+      "ticker": "SCUM",
+      "dateFounded": "2019-07-24 20:36:22",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009373,
+      "allianceName": "Golden Shield",
+      "ticker": "G",
+      "dateFounded": "2019-08-04 16:47:27",
+      "factionId": null
+    },
+    {
+      "allianceId": 99009386,
+      "allianceName": "Unexpected Army",
+      "ticker": "UA",
+      "dateFounded": "2019-08-09 00:44:15",
+      "factionId": null
+    },
+    {
+      "allianceId": 131511956,
+      "allianceName": "Tactical Narcotics Team",
+      "ticker": "TNT",
+      "dateFounded": "2009-05-14 13:58:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 150097440,
+      "allianceName": "Get Off My Lawn",
+      "ticker": "LAWN",
+      "dateFounded": "2009-05-25 15:36:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 154104258,
+      "allianceName": "Apocalypse Now.",
+      "ticker": "APOC",
+      "dateFounded": "2008-05-05 15:15:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 173714703,
+      "allianceName": "PURPLE HELMETED WARRIORS",
+      "ticker": "PHEW",
+      "dateFounded": "2010-05-14 16:41:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 386292982,
+      "allianceName": "Pandemic Legion",
+      "ticker": "-10.0",
+      "dateFounded": "2007-01-17 02:51:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 498125261,
+      "allianceName": "Test Alliance Please Ignore",
+      "ticker": "TEST",
+      "dateFounded": "2010-05-12 21:05:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 707482380,
+      "allianceName": "Destiny\\'s Call",
+      "ticker": "-DTS-",
+      "dateFounded": "2010-08-22 22:43:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 741557221,
+      "allianceName": "RAZOR Alliance",
+      "ticker": "-RZR-",
+      "dateFounded": "2005-09-23 05:24:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 927292903,
+      "allianceName": "Rote Kapelle",
+      "ticker": "STUGH",
+      "dateFounded": "2008-10-30 06:41:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 933731581,
+      "allianceName": "Triumvirate.",
+      "ticker": "TRI",
+      "dateFounded": "2006-07-14 18:53:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 982284363,
+      "allianceName": "Sev3rance",
+      "ticker": "-7-",
+      "dateFounded": "2007-02-05 18:46:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1001642281,
+      "allianceName": "Beyond Ascension",
+      "ticker": "-ASN-",
+      "dateFounded": "2009-02-22 12:47:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1002884793,
+      "allianceName": "THE R0NIN",
+      "ticker": "47R",
+      "dateFounded": "2009-04-02 02:41:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1006830534,
+      "allianceName": "Fidelas Constans",
+      "ticker": "FCON",
+      "dateFounded": "2009-01-30 12:07:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1042504553,
+      "allianceName": "Solyaris Chtonium",
+      "ticker": "SLYCE",
+      "dateFounded": "2009-09-16 18:07:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1220922756,
+      "allianceName": "Red Alliance",
+      "ticker": "RED",
+      "dateFounded": "2005-02-21 15:18:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1258727717,
+      "allianceName": "Reverberation Project",
+      "ticker": "ECHO",
+      "dateFounded": "2010-04-22 05:22:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1354830081,
+      "allianceName": "Goonswarm Federation",
+      "ticker": "CONDI",
+      "dateFounded": "2010-06-01 05:36:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1411711376,
+      "allianceName": "Legion of xXDEATHXx",
+      "ticker": "X.I.X",
+      "dateFounded": "2008-08-05 13:25:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1614483120,
+      "allianceName": "Bright Side of Death",
+      "ticker": "BSOD",
+      "dateFounded": "2008-12-03 18:02:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1727758877,
+      "allianceName": "Northern Coalition.",
+      "ticker": "NC",
+      "dateFounded": "2010-08-12 00:46:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1789460651,
+      "allianceName": "Care Factor",
+      "ticker": "C.F",
+      "dateFounded": "2010-08-14 12:35:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1900696668,
+      "allianceName": "The Initiative.",
+      "ticker": "INIT.",
+      "dateFounded": "2008-10-03 22:56:00",
+      "factionId": null
+    },
+    {
+      "allianceId": 1988009451,
+      "allianceName": "Curatores Veritatis Alliance",
+      "ticker": "CVA",
+      "dateFounded": "2004-11-30 11:39:00",
+      "factionId": null
+    }
+  ]

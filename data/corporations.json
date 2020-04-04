@@ -1,0 +1,3972 @@
+[
+  {
+    "corporationId": 1000002,
+    "corporationName": "CBD Corporation",
+    "ticker": "CBDC",
+    "dateFounded": null,
+    "memberCount": 154,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000003,
+    "corporationName": "Prompt Delivery",
+    "ticker": "PD",
+    "dateFounded": null,
+    "memberCount": 36,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000004,
+    "corporationName": "Ytiri",
+    "ticker": "Y",
+    "dateFounded": null,
+    "memberCount": 85,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000005,
+    "corporationName": "Hyasyoda Corporation",
+    "ticker": "HC",
+    "dateFounded": null,
+    "memberCount": 116,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000006,
+    "corporationName": "Deep Core Mining Inc.",
+    "ticker": "DCMI",
+    "dateFounded": null,
+    "memberCount": 192390,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000007,
+    "corporationName": "Poksu Mineral Group",
+    "ticker": "PMG",
+    "dateFounded": null,
+    "memberCount": 80,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000008,
+    "corporationName": "Minedrill",
+    "ticker": "M",
+    "dateFounded": null,
+    "memberCount": 55,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000009,
+    "corporationName": "Caldari Provisions",
+    "ticker": "CP",
+    "dateFounded": null,
+    "memberCount": 259759,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000010,
+    "corporationName": "Kaalakiota Corporation",
+    "ticker": "KC",
+    "dateFounded": null,
+    "memberCount": 159,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000011,
+    "corporationName": "Wiyrkomi Corporation",
+    "ticker": "WC",
+    "dateFounded": null,
+    "memberCount": 105,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000012,
+    "corporationName": "Top Down",
+    "ticker": "TD",
+    "dateFounded": null,
+    "memberCount": 25,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000013,
+    "corporationName": "Rapid Assembly",
+    "ticker": "RA",
+    "dateFounded": null,
+    "memberCount": 53,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000014,
+    "corporationName": "Perkone",
+    "ticker": "P",
+    "dateFounded": null,
+    "memberCount": 168649,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000015,
+    "corporationName": "Caldari Steel",
+    "ticker": "CS",
+    "dateFounded": null,
+    "memberCount": 80,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000016,
+    "corporationName": "Zainou",
+    "ticker": "ZA",
+    "dateFounded": null,
+    "memberCount": 37,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000017,
+    "corporationName": "Nugoeihuvi Corporation",
+    "ticker": "NC",
+    "dateFounded": null,
+    "memberCount": 113,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000018,
+    "corporationName": "Echelon Entertainment",
+    "ticker": "EE",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000019,
+    "corporationName": "Ishukone Corporation",
+    "ticker": "ISH",
+    "dateFounded": null,
+    "memberCount": 112,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000020,
+    "corporationName": "Lai Dai Corporation",
+    "ticker": "LDC",
+    "dateFounded": null,
+    "memberCount": 80,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000021,
+    "corporationName": "Zero-G Research Firm",
+    "ticker": "ZGRF",
+    "dateFounded": null,
+    "memberCount": 7,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000022,
+    "corporationName": "Propel Dynamics",
+    "ticker": "PRO",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000023,
+    "corporationName": "Expert Distribution",
+    "ticker": "ED",
+    "dateFounded": null,
+    "memberCount": 154,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000024,
+    "corporationName": "CBD Sell Division",
+    "ticker": "CBDSD",
+    "dateFounded": null,
+    "memberCount": 33,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000025,
+    "corporationName": "Sukuuvestaa Corporation",
+    "ticker": "SC",
+    "dateFounded": null,
+    "memberCount": 117,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000026,
+    "corporationName": "Caldari Constructions",
+    "ticker": "CC",
+    "dateFounded": null,
+    "memberCount": 86,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000027,
+    "corporationName": "Expert Housing",
+    "ticker": "EH",
+    "dateFounded": null,
+    "memberCount": 53,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000028,
+    "corporationName": "Caldari Funds Unlimited",
+    "ticker": "CFU",
+    "dateFounded": null,
+    "memberCount": 31,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000029,
+    "corporationName": "State and Region Bank",
+    "ticker": "SRB",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000030,
+    "corporationName": "Modern Finances",
+    "ticker": "MF",
+    "dateFounded": null,
+    "memberCount": 48,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000031,
+    "corporationName": "Chief Executive Panel",
+    "ticker": "CEP",
+    "dateFounded": null,
+    "memberCount": 38,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000032,
+    "corporationName": "Mercantile Club",
+    "ticker": "MC",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000033,
+    "corporationName": "Caldari Business Tribunal",
+    "ticker": "CBT",
+    "dateFounded": null,
+    "memberCount": 154,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000034,
+    "corporationName": "House of Records",
+    "ticker": "HR",
+    "dateFounded": null,
+    "memberCount": 20,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000035,
+    "corporationName": "Caldari Navy",
+    "ticker": "CN",
+    "dateFounded": null,
+    "memberCount": 159,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000036,
+    "corporationName": "Internal Security",
+    "ticker": "IN",
+    "dateFounded": null,
+    "memberCount": 14,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000037,
+    "corporationName": "Lai Dai Protection Service",
+    "ticker": "LDPS",
+    "dateFounded": null,
+    "memberCount": 20,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000038,
+    "corporationName": "Ishukone Watch",
+    "ticker": "IW",
+    "dateFounded": null,
+    "memberCount": 38,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000039,
+    "corporationName": "Home Guard",
+    "ticker": "HG",
+    "dateFounded": null,
+    "memberCount": 58,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000040,
+    "corporationName": "Peace and Order Unit",
+    "ticker": "POU",
+    "dateFounded": null,
+    "memberCount": 35,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000041,
+    "corporationName": "Spacelane Patrol",
+    "ticker": "SP",
+    "dateFounded": null,
+    "memberCount": 119,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000042,
+    "corporationName": "Wiyrkomi Peace Corps",
+    "ticker": "WPC",
+    "dateFounded": null,
+    "memberCount": 19,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000043,
+    "corporationName": "Corporate Police Force",
+    "ticker": "CPF",
+    "dateFounded": null,
+    "memberCount": 82,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000044,
+    "corporationName": "School of Applied Knowledge",
+    "ticker": "SAK",
+    "dateFounded": null,
+    "memberCount": 989443,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000045,
+    "corporationName": "Science and Trade Institute",
+    "ticker": "STI",
+    "dateFounded": null,
+    "memberCount": 912917,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000046,
+    "corporationName": "Sebiestor Tribe",
+    "ticker": "S",
+    "dateFounded": null,
+    "memberCount": 130237,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000047,
+    "corporationName": "Krusual Tribe",
+    "ticker": "K",
+    "dateFounded": null,
+    "memberCount": 36,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000048,
+    "corporationName": "Vherokior Tribe",
+    "ticker": "V",
+    "dateFounded": null,
+    "memberCount": 37,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000049,
+    "corporationName": "Brutor Tribe",
+    "ticker": "B",
+    "dateFounded": null,
+    "memberCount": 114953,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000050,
+    "corporationName": "Republic Parliament",
+    "ticker": "RP",
+    "dateFounded": null,
+    "memberCount": 83,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000051,
+    "corporationName": "Republic Fleet",
+    "ticker": "RF",
+    "dateFounded": null,
+    "memberCount": 134,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000052,
+    "corporationName": "Republic Justice Department",
+    "ticker": "RJD",
+    "dateFounded": null,
+    "memberCount": 87,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000053,
+    "corporationName": "Urban Management",
+    "ticker": "UM",
+    "dateFounded": null,
+    "memberCount": 29,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000054,
+    "corporationName": "Republic Security Services",
+    "ticker": "RSS",
+    "dateFounded": null,
+    "memberCount": 121,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000055,
+    "corporationName": "Minmatar Mining Corporation",
+    "ticker": "MMC",
+    "dateFounded": null,
+    "memberCount": 121,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000056,
+    "corporationName": "Core Complexion Inc.",
+    "ticker": "CCI",
+    "dateFounded": null,
+    "memberCount": 158,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000057,
+    "corporationName": "Boundless Creation",
+    "ticker": "BC",
+    "dateFounded": null,
+    "memberCount": 35,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000058,
+    "corporationName": "Eifyr and Co.",
+    "ticker": "EC",
+    "dateFounded": null,
+    "memberCount": 15,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000059,
+    "corporationName": "Six Kin Development",
+    "ticker": "SKD",
+    "dateFounded": null,
+    "memberCount": 37,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000060,
+    "corporationName": "Native Freshfood",
+    "ticker": "NF",
+    "dateFounded": null,
+    "memberCount": 61537,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000061,
+    "corporationName": "Freedom Extension",
+    "ticker": "FE",
+    "dateFounded": null,
+    "memberCount": 151,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000062,
+    "corporationName": "The Leisure Group",
+    "ticker": "TLG",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000063,
+    "corporationName": "Amarr Constructions",
+    "ticker": "AC",
+    "dateFounded": null,
+    "memberCount": 85,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000064,
+    "corporationName": "Carthum Conglomerate",
+    "ticker": "C",
+    "dateFounded": null,
+    "memberCount": 121,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000065,
+    "corporationName": "Imperial Armaments",
+    "ticker": "IA",
+    "dateFounded": null,
+    "memberCount": 114,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000066,
+    "corporationName": "Viziam",
+    "ticker": "VI",
+    "dateFounded": null,
+    "memberCount": 136055,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000067,
+    "corporationName": "Zoar and Sons",
+    "ticker": "ZS",
+    "dateFounded": null,
+    "memberCount": 84,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000068,
+    "corporationName": "Noble Appliances",
+    "ticker": "NA",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000069,
+    "corporationName": "Ducia Foundry",
+    "ticker": "DF",
+    "dateFounded": null,
+    "memberCount": 77,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000070,
+    "corporationName": "HZO Refinery",
+    "ticker": "HZOR",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000071,
+    "corporationName": "Inherent Implants",
+    "ticker": "II",
+    "dateFounded": null,
+    "memberCount": 33,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000072,
+    "corporationName": "Imperial Shipment",
+    "ticker": "IS",
+    "dateFounded": null,
+    "memberCount": 64006,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000073,
+    "corporationName": "Amarr Certified News",
+    "ticker": "ACN",
+    "dateFounded": null,
+    "memberCount": 37,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000074,
+    "corporationName": "Joint Harvesting",
+    "ticker": "JH",
+    "dateFounded": null,
+    "memberCount": 150,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000075,
+    "corporationName": "Nurtura",
+    "ticker": "N",
+    "dateFounded": null,
+    "memberCount": 108,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000076,
+    "corporationName": "Further Foodstuffs",
+    "ticker": "FU",
+    "dateFounded": null,
+    "memberCount": 25,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000077,
+    "corporationName": "Royal Amarr Institute",
+    "ticker": "RIN",
+    "dateFounded": null,
+    "memberCount": 652697,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000078,
+    "corporationName": "Imperial Chancellor",
+    "ticker": "IC",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000079,
+    "corporationName": "Amarr Civil Service",
+    "ticker": "ACS",
+    "dateFounded": null,
+    "memberCount": 83,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000080,
+    "corporationName": "Ministry of War",
+    "ticker": "MW",
+    "dateFounded": null,
+    "memberCount": 93197,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000081,
+    "corporationName": "Ministry of Assessment",
+    "ticker": "MI",
+    "dateFounded": null,
+    "memberCount": 80,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000082,
+    "corporationName": "Ministry of Internal Order",
+    "ticker": "MIO",
+    "dateFounded": null,
+    "memberCount": 86,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000083,
+    "corporationName": "Amarr Trade Registry",
+    "ticker": "ATR",
+    "dateFounded": null,
+    "memberCount": 82,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000084,
+    "corporationName": "Amarr Navy",
+    "ticker": "AN",
+    "dateFounded": null,
+    "memberCount": 90,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000085,
+    "corporationName": "Court Chamberlain",
+    "ticker": "CO",
+    "dateFounded": null,
+    "memberCount": 19,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000086,
+    "corporationName": "Emperor Family",
+    "ticker": "EF",
+    "dateFounded": null,
+    "memberCount": 82,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000087,
+    "corporationName": "Kador Family",
+    "ticker": "KF",
+    "dateFounded": null,
+    "memberCount": 35,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000088,
+    "corporationName": "Sarum Family",
+    "ticker": "SF",
+    "dateFounded": null,
+    "memberCount": 41,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000089,
+    "corporationName": "Kor-Azor Family",
+    "ticker": "KAF",
+    "dateFounded": null,
+    "memberCount": 33,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000090,
+    "corporationName": "Ardishapur Family",
+    "ticker": "AF",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000091,
+    "corporationName": "Tash-Murkon Family",
+    "ticker": "TMF",
+    "dateFounded": null,
+    "memberCount": 38,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000092,
+    "corporationName": "Civic Court",
+    "ticker": "CI",
+    "dateFounded": null,
+    "memberCount": 80,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000093,
+    "corporationName": "Theology Council",
+    "ticker": "T",
+    "dateFounded": null,
+    "memberCount": 85,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000094,
+    "corporationName": "TransStellar Shipping",
+    "ticker": "TSS",
+    "dateFounded": null,
+    "memberCount": 156,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000095,
+    "corporationName": "Federal Freight",
+    "ticker": "FF",
+    "dateFounded": null,
+    "memberCount": 81,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000096,
+    "corporationName": "Inner Zone Shipping",
+    "ticker": "IZS",
+    "dateFounded": null,
+    "memberCount": 13,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000097,
+    "corporationName": "Material Acquisition",
+    "ticker": "MA",
+    "dateFounded": null,
+    "memberCount": 80,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000098,
+    "corporationName": "Astral Mining Inc.",
+    "ticker": "AMI",
+    "dateFounded": null,
+    "memberCount": 120,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000099,
+    "corporationName": "Combined Harvest",
+    "ticker": "CH",
+    "dateFounded": null,
+    "memberCount": 83,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000100,
+    "corporationName": "Quafe Company",
+    "ticker": "QC",
+    "dateFounded": null,
+    "memberCount": 163,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000101,
+    "corporationName": "CreoDron",
+    "ticker": "CD",
+    "dateFounded": null,
+    "memberCount": 108,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000102,
+    "corporationName": "Roden Shipyards",
+    "ticker": "RS",
+    "dateFounded": null,
+    "memberCount": 67,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000103,
+    "corporationName": "Allotek Industries",
+    "ticker": "AI",
+    "dateFounded": null,
+    "memberCount": 14,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000104,
+    "corporationName": "Poteque Pharmaceuticals",
+    "ticker": "PP",
+    "dateFounded": null,
+    "memberCount": 51,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000105,
+    "corporationName": "Impetus",
+    "ticker": "I",
+    "dateFounded": null,
+    "memberCount": 53,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000106,
+    "corporationName": "Egonics Inc.",
+    "ticker": "EI",
+    "dateFounded": null,
+    "memberCount": 31,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000107,
+    "corporationName": "The Scope",
+    "ticker": "TS",
+    "dateFounded": null,
+    "memberCount": 330088,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000108,
+    "corporationName": "Chemal Tech",
+    "ticker": "CT",
+    "dateFounded": null,
+    "memberCount": 80,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000109,
+    "corporationName": "Duvolle Laboratories",
+    "ticker": "DL",
+    "dateFounded": null,
+    "memberCount": 60,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000110,
+    "corporationName": "FedMart",
+    "ticker": "FM",
+    "dateFounded": null,
+    "memberCount": 114,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000111,
+    "corporationName": "Aliastra",
+    "ticker": "A",
+    "dateFounded": null,
+    "memberCount": 140610,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000112,
+    "corporationName": "Bank of Luminaire",
+    "ticker": "BL",
+    "dateFounded": null,
+    "memberCount": 34,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000113,
+    "corporationName": "Pend Insurance",
+    "ticker": "PI",
+    "dateFounded": null,
+    "memberCount": 77,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000114,
+    "corporationName": "Garoun Investment Bank",
+    "ticker": "GIB",
+    "dateFounded": null,
+    "memberCount": 71730,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000115,
+    "corporationName": "University of Caille",
+    "ticker": "UC",
+    "dateFounded": null,
+    "memberCount": 908919,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000116,
+    "corporationName": "President",
+    "ticker": "PR",
+    "dateFounded": null,
+    "memberCount": 12,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000117,
+    "corporationName": "Senate",
+    "ticker": "SE",
+    "dateFounded": null,
+    "memberCount": 14,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000118,
+    "corporationName": "Supreme Court",
+    "ticker": "SU",
+    "dateFounded": null,
+    "memberCount": 14,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000119,
+    "corporationName": "Federal Administration",
+    "ticker": "FA",
+    "dateFounded": null,
+    "memberCount": 85,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000120,
+    "corporationName": "Federation Navy",
+    "ticker": "FN",
+    "dateFounded": null,
+    "memberCount": 132,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000121,
+    "corporationName": "Federal Intelligence Office",
+    "ticker": "FIO",
+    "dateFounded": null,
+    "memberCount": 69,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000122,
+    "corporationName": "Federation Customs",
+    "ticker": "FC",
+    "dateFounded": null,
+    "memberCount": 91,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000123,
+    "corporationName": "Ammatar Fleet",
+    "ticker": "ATF",
+    "dateFounded": null,
+    "memberCount": 38,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000124,
+    "corporationName": "Archangels",
+    "ticker": "ARCA",
+    "dateFounded": null,
+    "memberCount": 66,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000125,
+    "corporationName": "CONCORD",
+    "ticker": "CONCO",
+    "dateFounded": null,
+    "memberCount": 163,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000126,
+    "corporationName": "Ammatar Consulate",
+    "ticker": "ATC",
+    "dateFounded": null,
+    "memberCount": 23,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000127,
+    "corporationName": "Guristas",
+    "ticker": "G",
+    "dateFounded": null,
+    "memberCount": 58,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000128,
+    "corporationName": "Mordu\\'s Legion",
+    "ticker": "MLG",
+    "dateFounded": null,
+    "memberCount": 27,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000129,
+    "corporationName": "Outer Ring Excavations",
+    "ticker": "ORE",
+    "dateFounded": null,
+    "memberCount": 19,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000130,
+    "corporationName": "Sisters of EVE",
+    "ticker": "SEVE",
+    "dateFounded": null,
+    "memberCount": 101,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000131,
+    "corporationName": "Society of Conscious Thought",
+    "ticker": "SCT",
+    "dateFounded": null,
+    "memberCount": 14,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000132,
+    "corporationName": "Secure Commerce Commission",
+    "ticker": "SCC",
+    "dateFounded": null,
+    "memberCount": 13,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000133,
+    "corporationName": "Salvation Angels",
+    "ticker": "SAG",
+    "dateFounded": null,
+    "memberCount": 29,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000134,
+    "corporationName": "Blood Raiders",
+    "ticker": "TBR",
+    "dateFounded": null,
+    "memberCount": 22,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000135,
+    "corporationName": "Serpentis Corporation",
+    "ticker": "SPC",
+    "dateFounded": null,
+    "memberCount": 85,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000136,
+    "corporationName": "Guardian Angels",
+    "ticker": "GA",
+    "dateFounded": null,
+    "memberCount": 30,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000137,
+    "corporationName": "DED",
+    "ticker": "DED",
+    "dateFounded": null,
+    "memberCount": 85,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000138,
+    "corporationName": "Dominations",
+    "ticker": "DOM",
+    "dateFounded": null,
+    "memberCount": 21,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000139,
+    "corporationName": "Food Relief",
+    "ticker": "FRL",
+    "dateFounded": null,
+    "memberCount": 13,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000140,
+    "corporationName": "Genolution",
+    "ticker": "GNL",
+    "dateFounded": null,
+    "memberCount": 97,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000141,
+    "corporationName": "Guristas Production",
+    "ticker": "GUP",
+    "dateFounded": null,
+    "memberCount": 7,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000142,
+    "corporationName": "Impro",
+    "ticker": "IPR",
+    "dateFounded": null,
+    "memberCount": 31,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000143,
+    "corporationName": "Inner Circle",
+    "ticker": "ICR",
+    "dateFounded": null,
+    "memberCount": 9,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000144,
+    "corporationName": "Intaki Bank",
+    "ticker": "IBK",
+    "dateFounded": null,
+    "memberCount": 23,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000145,
+    "corporationName": "Intaki Commerce",
+    "ticker": "ICM",
+    "dateFounded": null,
+    "memberCount": 21,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000146,
+    "corporationName": "Intaki Space Police",
+    "ticker": "ISP",
+    "dateFounded": null,
+    "memberCount": 36,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000147,
+    "corporationName": "Intaki Syndicate",
+    "ticker": "ISD",
+    "dateFounded": null,
+    "memberCount": 57,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000149,
+    "corporationName": "Jove Navy",
+    "ticker": "JVN",
+    "dateFounded": null,
+    "memberCount": 31,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000150,
+    "corporationName": "Jovian Directorate",
+    "ticker": "JDR",
+    "dateFounded": null,
+    "memberCount": 62,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000151,
+    "corporationName": "Khanid Innovation",
+    "ticker": "KIV",
+    "dateFounded": null,
+    "memberCount": 8,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000152,
+    "corporationName": "Khanid Transport",
+    "ticker": "KTP",
+    "dateFounded": null,
+    "memberCount": 22,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000153,
+    "corporationName": "Khanid Works",
+    "ticker": "KWK",
+    "dateFounded": null,
+    "memberCount": 8,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000154,
+    "corporationName": "Nefantar Miner Association",
+    "ticker": "NMA",
+    "dateFounded": null,
+    "memberCount": 16,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000155,
+    "corporationName": "Prosper",
+    "ticker": "PRP",
+    "dateFounded": null,
+    "memberCount": 21,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000156,
+    "corporationName": "Royal Khanid Navy",
+    "ticker": "RKN",
+    "dateFounded": null,
+    "memberCount": 39,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000157,
+    "corporationName": "Serpentis Inquest",
+    "ticker": "SPI",
+    "dateFounded": null,
+    "memberCount": 8,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000158,
+    "corporationName": "Shapeset",
+    "ticker": "SPS",
+    "dateFounded": null,
+    "memberCount": 21,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000159,
+    "corporationName": "The Sanctuary",
+    "ticker": "SAN",
+    "dateFounded": null,
+    "memberCount": 8,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000160,
+    "corporationName": "Thukker Mix",
+    "ticker": "TMX",
+    "dateFounded": null,
+    "memberCount": 54,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000161,
+    "corporationName": "True Creations",
+    "ticker": "TCR",
+    "dateFounded": null,
+    "memberCount": 84,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000162,
+    "corporationName": "True Power",
+    "ticker": "TPW",
+    "dateFounded": null,
+    "memberCount": 70,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000163,
+    "corporationName": "Trust Partners",
+    "ticker": "TPT",
+    "dateFounded": null,
+    "memberCount": 57,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000164,
+    "corporationName": "X-Sense",
+    "ticker": "XSN",
+    "dateFounded": null,
+    "memberCount": 46,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000165,
+    "corporationName": "Hedion University",
+    "ticker": "HU",
+    "dateFounded": null,
+    "memberCount": 508531,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000166,
+    "corporationName": "Imperial Academy",
+    "ticker": "IAC",
+    "dateFounded": null,
+    "memberCount": 962804,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000167,
+    "corporationName": "State War Academy",
+    "ticker": "SWA",
+    "dateFounded": null,
+    "memberCount": 2033119,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000168,
+    "corporationName": "Federal Navy Academy",
+    "ticker": "FNA",
+    "dateFounded": null,
+    "memberCount": 1833348,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000169,
+    "corporationName": "Center for Advanced Studies",
+    "ticker": "CAS",
+    "dateFounded": null,
+    "memberCount": 1402328,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000170,
+    "corporationName": "Republic Military School",
+    "ticker": "RMS",
+    "dateFounded": null,
+    "memberCount": 1056140,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000171,
+    "corporationName": "Republic University",
+    "ticker": "RUN",
+    "dateFounded": null,
+    "memberCount": 513073,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000172,
+    "corporationName": "Pator Tech School",
+    "ticker": "PTS",
+    "dateFounded": null,
+    "memberCount": 559786,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000173,
+    "corporationName": "Polaris Corporation",
+    "ticker": "POLAR",
+    "dateFounded": null,
+    "memberCount": 389,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000177,
+    "corporationName": "Material Institute",
+    "ticker": "MAI",
+    "dateFounded": null,
+    "memberCount": 0,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000178,
+    "corporationName": "Academy of Aggressive Behaviour",
+    "ticker": "AAB",
+    "dateFounded": null,
+    "memberCount": 0,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 1000179,
+    "corporationName": "24th Imperial Crusade",
+    "ticker": "IC24",
+    "dateFounded": null,
+    "memberCount": 16792,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": 500003
+  },
+  {
+    "corporationId": 1000180,
+    "corporationName": "State Protectorate",
+    "ticker": "SPROT",
+    "dateFounded": null,
+    "memberCount": 30594,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": 500001
+  },
+  {
+    "corporationId": 1000181,
+    "corporationName": "Federal Defense Union",
+    "ticker": "FEDEF",
+    "dateFounded": null,
+    "memberCount": 28748,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": 500004
+  },
+  {
+    "corporationId": 1000182,
+    "corporationName": "Tribal Liberation Force",
+    "ticker": "TLIB",
+    "dateFounded": null,
+    "memberCount": 18680,
+    "isNPC": true,
+    "allianceId": null,
+    "factionId": 500002
+  },
+  {
+    "corporationId": 98002209,
+    "corporationName": "The Fork",
+    "ticker": "F0RK",
+    "dateFounded": "2010-11-14 02:16:00",
+    "memberCount": 14,
+    "isNPC": false,
+    "allianceId": 99002930,
+    "factionId": null
+  },
+  {
+    "corporationId": 98013320,
+    "corporationName": "IMPERIO DE PIRATAS UNIDOS",
+    "ticker": "IDPU",
+    "dateFounded": "2011-01-08 21:15:00",
+    "memberCount": 149,
+    "isNPC": false,
+    "allianceId": 99001932,
+    "factionId": null
+  },
+  {
+    "corporationId": 98014953,
+    "corporationName": "Todos Somos Uno",
+    "ticker": "TODO",
+    "dateFounded": "2011-01-16 12:08:00",
+    "memberCount": 23,
+    "isNPC": false,
+    "allianceId": 707482380,
+    "factionId": null
+  },
+  {
+    "corporationId": 98022523,
+    "corporationName": "Piranha Protectorate",
+    "ticker": "EAT.M",
+    "dateFounded": "2011-02-18 21:20:00",
+    "memberCount": 9,
+    "isNPC": false,
+    "allianceId": 99007974,
+    "factionId": null
+  },
+  {
+    "corporationId": 98030661,
+    "corporationName": "legion of fortune",
+    "ticker": "LEOF",
+    "dateFounded": "2011-03-29 20:33:00",
+    "memberCount": 107,
+    "isNPC": false,
+    "allianceId": 99007892,
+    "factionId": null
+  },
+  {
+    "corporationId": 98040755,
+    "corporationName": "Hard Knocks Inc.",
+    "ticker": "HRDKX",
+    "dateFounded": "2011-05-16 19:27:00",
+    "memberCount": 522,
+    "isNPC": false,
+    "allianceId": 99005065,
+    "factionId": null
+  },
+  {
+    "corporationId": 98043060,
+    "corporationName": "Super Cr3w",
+    "ticker": "SCR3W",
+    "dateFounded": "2011-05-27 12:53:00",
+    "memberCount": 76,
+    "isNPC": false,
+    "allianceId": 99006327,
+    "factionId": null
+  },
+  {
+    "corporationId": 98051046,
+    "corporationName": "Gemini Talon",
+    "ticker": "GEM-T",
+    "dateFounded": "2011-06-30 15:24:00",
+    "memberCount": 54,
+    "isNPC": false,
+    "allianceId": 1988009451,
+    "factionId": null
+  },
+  {
+    "corporationId": 98055790,
+    "corporationName": "Rolling Bowlers",
+    "ticker": "ROLB",
+    "dateFounded": "2011-07-22 05:54:00",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98056040,
+    "corporationName": "Event Horizon Expeditionaries",
+    "ticker": "EHEXP",
+    "dateFounded": "2011-07-23 14:20:00",
+    "memberCount": 376,
+    "isNPC": false,
+    "allianceId": 99001099,
+    "factionId": null
+  },
+  {
+    "corporationId": 98069940,
+    "corporationName": "First Medical Aid Industry Evolution",
+    "ticker": "-MIE-",
+    "dateFounded": "2011-10-04 06:43:00",
+    "memberCount": 87,
+    "isNPC": false,
+    "allianceId": 99008656,
+    "factionId": null
+  },
+  {
+    "corporationId": 98075476,
+    "corporationName": "DIE-HARD PATRIOTS",
+    "ticker": "ZMK",
+    "dateFounded": "2011-11-03 17:23:00",
+    "memberCount": 412,
+    "isNPC": false,
+    "allianceId": 99001648,
+    "factionId": null
+  },
+  {
+    "corporationId": 98075891,
+    "corporationName": "KIA CORP.",
+    "ticker": "KIA.",
+    "dateFounded": "2011-11-05 19:49:00",
+    "memberCount": 6,
+    "isNPC": false,
+    "allianceId": 99002826,
+    "factionId": null
+  },
+  {
+    "corporationId": 98078938,
+    "corporationName": "Divinity Holdings",
+    "ticker": "DVHD",
+    "dateFounded": "2011-11-23 23:34:00",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99007991,
+    "factionId": null
+  },
+  {
+    "corporationId": 98085082,
+    "corporationName": "Rezeda Core",
+    "ticker": "R-CO",
+    "dateFounded": "2011-12-25 06:10:00",
+    "memberCount": 103,
+    "isNPC": false,
+    "allianceId": 99001657,
+    "factionId": null
+  },
+  {
+    "corporationId": 98089480,
+    "corporationName": "Stronghelm Corporation",
+    "ticker": "STHMC",
+    "dateFounded": "2012-01-15 22:22:00",
+    "memberCount": 152,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 98107258,
+    "corporationName": "Caldari Colonial Defense Ministry",
+    "ticker": "CCDM",
+    "dateFounded": "2012-04-10 06:36:00",
+    "memberCount": 90,
+    "isNPC": false,
+    "allianceId": 99001742,
+    "factionId": 500001
+  },
+  {
+    "corporationId": 98107963,
+    "corporationName": "Armada of Retards",
+    "ticker": "A0R",
+    "dateFounded": "2012-04-13 07:10:00",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98113098,
+    "corporationName": "Torneko Storage",
+    "ticker": "-090-",
+    "dateFounded": "2012-05-07 16:49:00",
+    "memberCount": 14,
+    "isNPC": false,
+    "allianceId": 99001954,
+    "factionId": null
+  },
+  {
+    "corporationId": 98118130,
+    "corporationName": "Silver Guardians",
+    "ticker": "-SLVR",
+    "dateFounded": "2012-06-02 17:36:00",
+    "memberCount": 54,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 98121869,
+    "corporationName": "Relentless Destruction",
+    "ticker": "RELNT",
+    "dateFounded": "2012-06-21 22:12:00",
+    "memberCount": 95,
+    "isNPC": false,
+    "allianceId": 99004945,
+    "factionId": null
+  },
+  {
+    "corporationId": 98132485,
+    "corporationName": "Bailiffs",
+    "ticker": "RE-PO",
+    "dateFounded": "2012-08-16 18:03:00",
+    "memberCount": 11,
+    "isNPC": false,
+    "allianceId": 99002367,
+    "factionId": null
+  },
+  {
+    "corporationId": 98135926,
+    "corporationName": "The Exiled Gaming Holding",
+    "ticker": "TXG-H",
+    "dateFounded": "2012-09-04 11:31:00",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99002417,
+    "factionId": null
+  },
+  {
+    "corporationId": 98138842,
+    "corporationName": "Vrtra Armamentarium",
+    "ticker": "VRTRA",
+    "dateFounded": "2012-09-21 02:55:00",
+    "memberCount": 29,
+    "isNPC": false,
+    "allianceId": 99009113,
+    "factionId": null
+  },
+  {
+    "corporationId": 98139285,
+    "corporationName": "Love All Woodland Nymphs",
+    "ticker": "LAWNS",
+    "dateFounded": "2012-09-23 14:23:00",
+    "memberCount": 10,
+    "isNPC": false,
+    "allianceId": 99005393,
+    "factionId": null
+  },
+  {
+    "corporationId": 98146463,
+    "corporationName": "OLIMP inc",
+    "ticker": "OLM",
+    "dateFounded": "2012-11-03 18:40:17",
+    "memberCount": 18,
+    "isNPC": false,
+    "allianceId": 99001317,
+    "factionId": null
+  },
+  {
+    "corporationId": 98149122,
+    "corporationName": "Red Concil",
+    "ticker": "REDHC",
+    "dateFounded": "2012-11-17 19:49:21",
+    "memberCount": 9,
+    "isNPC": false,
+    "allianceId": 1220922756,
+    "factionId": null
+  },
+  {
+    "corporationId": 98150829,
+    "corporationName": "Fallen Soldiers Of Concern",
+    "ticker": "FSOC",
+    "dateFounded": "2012-11-26 20:04:57",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": 99008155,
+    "factionId": null
+  },
+  {
+    "corporationId": 98151600,
+    "corporationName": "C.F. Central Command",
+    "ticker": "C.FCC",
+    "dateFounded": "2012-12-01 09:52:32",
+    "memberCount": 15,
+    "isNPC": false,
+    "allianceId": 1789460651,
+    "factionId": null
+  },
+  {
+    "corporationId": 98166473,
+    "corporationName": "Fat Dragon Mining Co.",
+    "ticker": "FAT D",
+    "dateFounded": "2013-01-26 19:43:21",
+    "memberCount": 81,
+    "isNPC": false,
+    "allianceId": 99004885,
+    "factionId": null
+  },
+  {
+    "corporationId": 98173218,
+    "corporationName": "BloodDemons",
+    "ticker": 55221,
+    "dateFounded": "2013-02-08 10:05:33",
+    "memberCount": 218,
+    "isNPC": false,
+    "allianceId": 99008802,
+    "factionId": null
+  },
+  {
+    "corporationId": 98173905,
+    "corporationName": "Darkness Holdings",
+    "ticker": "D.H..",
+    "dateFounded": "2013-02-09 22:28:24",
+    "memberCount": 22,
+    "isNPC": false,
+    "allianceId": 99002938,
+    "factionId": null
+  },
+  {
+    "corporationId": 98177708,
+    "corporationName": "Space Wolves ind.",
+    "ticker": "SWOLV",
+    "dateFounded": "2013-02-18 19:52:57",
+    "memberCount": 77,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 98178881,
+    "corporationName": "Nuwa Foundation",
+    "ticker": "NUWA",
+    "dateFounded": "2013-02-22 06:05:06",
+    "memberCount": 155,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98180236,
+    "corporationName": "Villore Accords Holdings",
+    "ticker": "GMVAH",
+    "dateFounded": "2013-02-25 20:22:30",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99001634,
+    "factionId": 500004
+  },
+  {
+    "corporationId": 98181032,
+    "corporationName": "BOT EXECS",
+    "ticker": "BOTEX",
+    "dateFounded": "2013-02-28 06:06:05",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99003006,
+    "factionId": null
+  },
+  {
+    "corporationId": 98195174,
+    "corporationName": "Cynosural Edge",
+    "ticker": "CYGNE",
+    "dateFounded": "2013-04-20 16:14:43",
+    "memberCount": 137,
+    "isNPC": false,
+    "allianceId": 1988009451,
+    "factionId": null
+  },
+  {
+    "corporationId": 98199293,
+    "corporationName": "Brave Holdings",
+    "ticker": "B-BRV",
+    "dateFounded": "2013-05-06 22:05:46",
+    "memberCount": 19,
+    "isNPC": false,
+    "allianceId": 99003214,
+    "factionId": null
+  },
+  {
+    "corporationId": 98221842,
+    "corporationName": "STARCHASER Inc.",
+    "ticker": "SCERS",
+    "dateFounded": "2013-06-27 03:52:59",
+    "memberCount": 1369,
+    "isNPC": false,
+    "allianceId": 99007498,
+    "factionId": null
+  },
+  {
+    "corporationId": 98237912,
+    "corporationName": "Greater Western Co-Prosperity Sphere Exec",
+    "ticker": "TENBX",
+    "dateFounded": "2013-08-10 22:28:20",
+    "memberCount": 21,
+    "isNPC": false,
+    "allianceId": 99003549,
+    "factionId": null
+  },
+  {
+    "corporationId": 98241771,
+    "corporationName": "Fraternity Holding",
+    "ticker": "FTNHG",
+    "dateFounded": "2013-08-22 17:50:48",
+    "memberCount": 41,
+    "isNPC": false,
+    "allianceId": 99003581,
+    "factionId": null
+  },
+  {
+    "corporationId": 98246728,
+    "corporationName": "Occulus Rifts",
+    "ticker": "ORIFT",
+    "dateFounded": "2013-09-08 19:07:00",
+    "memberCount": 54,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98248368,
+    "corporationName": "Experimental Fun Times Corp RELOADED",
+    "ticker": "FUNT.",
+    "dateFounded": "2013-09-15 01:03:14",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": 99002775,
+    "factionId": null
+  },
+  {
+    "corporationId": 98249443,
+    "corporationName": "The Icarus Expedition",
+    "ticker": "SGU-",
+    "dateFounded": "2013-09-19 09:33:11",
+    "memberCount": 143,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 98281739,
+    "corporationName": "Uranus Intruders",
+    "ticker": "8--D0",
+    "dateFounded": "2014-01-16 14:33:43",
+    "memberCount": 106,
+    "isNPC": false,
+    "allianceId": 99001932,
+    "factionId": null
+  },
+  {
+    "corporationId": 98285237,
+    "corporationName": "Iron.Guard",
+    "ticker": "FE-SR",
+    "dateFounded": "2014-01-29 07:14:16",
+    "memberCount": 249,
+    "isNPC": false,
+    "allianceId": 99005481,
+    "factionId": null
+  },
+  {
+    "corporationId": 98287666,
+    "corporationName": "Spatial Forces",
+    "ticker": "SP3C",
+    "dateFounded": "2014-02-05 05:12:35",
+    "memberCount": 18,
+    "isNPC": false,
+    "allianceId": 99004116,
+    "factionId": null
+  },
+  {
+    "corporationId": 98290999,
+    "corporationName": "Nihilistic Disorder",
+    "ticker": "N-DIS",
+    "dateFounded": "2014-02-14 21:08:48",
+    "memberCount": 80,
+    "isNPC": false,
+    "allianceId": 99005383,
+    "factionId": null
+  },
+  {
+    "corporationId": 98293349,
+    "corporationName": "Alpha Republic - Transcenders of Space and Time",
+    "ticker": "ARTOS",
+    "dateFounded": "2014-02-22 04:34:57",
+    "memberCount": 132,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 98297160,
+    "corporationName": "Neurotic Extraction Unit",
+    "ticker": ".NEU.",
+    "dateFounded": "2014-03-06 15:15:44",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99007472,
+    "factionId": null
+  },
+  {
+    "corporationId": 98298122,
+    "corporationName": "N2L Holding",
+    "ticker": "N2LH",
+    "dateFounded": "2014-03-09 20:30:22",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98311406,
+    "corporationName": "The Exchange Collective",
+    "ticker": ".TXC.",
+    "dateFounded": "2014-05-03 11:42:11",
+    "memberCount": 99,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 98312859,
+    "corporationName": "House Singularity",
+    "ticker": "HS A",
+    "dateFounded": "2014-05-08 22:44:39",
+    "memberCount": 11,
+    "isNPC": false,
+    "allianceId": 99005697,
+    "factionId": null
+  },
+  {
+    "corporationId": 98315666,
+    "corporationName": "The Night Watchmen",
+    "ticker": "NWM.",
+    "dateFounded": "2014-05-19 16:18:03",
+    "memberCount": 29,
+    "isNPC": false,
+    "allianceId": 99004425,
+    "factionId": null
+  },
+  {
+    "corporationId": 98324458,
+    "corporationName": "Wankers and Nerdy Gamers",
+    "ticker": "WANG-",
+    "dateFounded": "2014-06-24 11:45:05",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98326819,
+    "corporationName": "Lieges of the Emperor",
+    "ticker": "LIEMP",
+    "dateFounded": "2014-07-04 22:08:03",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99004734,
+    "factionId": null
+  },
+  {
+    "corporationId": 98343573,
+    "corporationName": "Poitot Detective Agency",
+    "ticker": ".PDA.",
+    "dateFounded": "2014-09-13 22:19:36",
+    "memberCount": 6,
+    "isNPC": false,
+    "allianceId": 99007080,
+    "factionId": null
+  },
+  {
+    "corporationId": 98346207,
+    "corporationName": "Chao3",
+    "ticker": "CHAO3",
+    "dateFounded": "2014-09-27 13:20:03",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": 99005118,
+    "factionId": null
+  },
+  {
+    "corporationId": 98369833,
+    "corporationName": "The Pinecone Squad",
+    "ticker": "C0NE",
+    "dateFounded": "2015-01-09 05:17:17",
+    "memberCount": 109,
+    "isNPC": false,
+    "allianceId": 99007284,
+    "factionId": null
+  },
+  {
+    "corporationId": 98371026,
+    "corporationName": "Conoco. Holdings",
+    "ticker": "CH0LD",
+    "dateFounded": "2015-01-13 15:11:49",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98374759,
+    "corporationName": "Requiem Eternal Holdings",
+    "ticker": "REHS",
+    "dateFounded": "2015-01-29 03:05:01",
+    "memberCount": 21,
+    "isNPC": false,
+    "allianceId": 99003838,
+    "factionId": null
+  },
+  {
+    "corporationId": 98377551,
+    "corporationName": "Out of Focus",
+    "ticker": "OFOC",
+    "dateFounded": "2015-02-10 14:14:21",
+    "memberCount": 184,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98380693,
+    "corporationName": "Honorable Holdings",
+    "ticker": "HTPH",
+    "dateFounded": "2015-02-25 19:38:41",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99004567,
+    "factionId": null
+  },
+  {
+    "corporationId": 98391152,
+    "corporationName": "LAWN HC",
+    "ticker": "GOML.",
+    "dateFounded": "2015-04-15 02:43:24",
+    "memberCount": 15,
+    "isNPC": false,
+    "allianceId": 150097440,
+    "factionId": null
+  },
+  {
+    "corporationId": 98397215,
+    "corporationName": "Scolopendromorpha",
+    "ticker": "SC0M0",
+    "dateFounded": "2015-05-15 12:57:16",
+    "memberCount": 9,
+    "isNPC": false,
+    "allianceId": 99005492,
+    "factionId": null
+  },
+  {
+    "corporationId": 98399796,
+    "corporationName": "Invidia Administrative",
+    "ticker": "ID-AD",
+    "dateFounded": "2015-05-29 12:52:43",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99003995,
+    "factionId": null
+  },
+  {
+    "corporationId": 98410503,
+    "corporationName": "Iron Fraction",
+    "ticker": "IFRAC",
+    "dateFounded": "2015-07-28 18:19:10",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99008955,
+    "factionId": null
+  },
+  {
+    "corporationId": 98412717,
+    "corporationName": "Gruu Master of Minions",
+    "ticker": "GRUU",
+    "dateFounded": "2015-08-09 20:30:29",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": 99005724,
+    "factionId": null
+  },
+  {
+    "corporationId": 98416511,
+    "corporationName": "The Reborn",
+    "ticker": "REBN",
+    "dateFounded": "2015-09-01 13:37:28",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": 99004804,
+    "factionId": null
+  },
+  {
+    "corporationId": 98423199,
+    "corporationName": "Kibbles And Bits",
+    "ticker": "ASHFT",
+    "dateFounded": "2015-10-12 02:29:11",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": 99006416,
+    "factionId": null
+  },
+  {
+    "corporationId": 98423366,
+    "corporationName": "Fast Fleet Auxiliary",
+    "ticker": "FFAUX",
+    "dateFounded": "2015-10-13 02:08:23",
+    "memberCount": 6,
+    "isNPC": false,
+    "allianceId": 99005711,
+    "factionId": null
+  },
+  {
+    "corporationId": 98423801,
+    "corporationName": "Alpha Flight",
+    "ticker": "A F L",
+    "dateFounded": "2015-10-16 01:31:33",
+    "memberCount": 61,
+    "isNPC": false,
+    "allianceId": 99003918,
+    "factionId": null
+  },
+  {
+    "corporationId": 98427812,
+    "corporationName": "Siberian Squad",
+    "ticker": "SIBSQ",
+    "dateFounded": "2015-11-09 09:43:29",
+    "memberCount": 347,
+    "isNPC": false,
+    "allianceId": 99007203,
+    "factionId": null
+  },
+  {
+    "corporationId": 98434316,
+    "corporationName": "Tactically Challenged",
+    "ticker": "TC-KL",
+    "dateFounded": "2015-12-21 00:35:46",
+    "memberCount": 224,
+    "isNPC": false,
+    "allianceId": 99006069,
+    "factionId": null
+  },
+  {
+    "corporationId": 98435559,
+    "corporationName": "The Blue Donut",
+    "ticker": "BDNUT",
+    "dateFounded": "2015-12-28 16:06:23",
+    "memberCount": 10,
+    "isNPC": false,
+    "allianceId": 933731581,
+    "factionId": null
+  },
+  {
+    "corporationId": 98438817,
+    "corporationName": "SLYCE Hull Incidents Investigation Team",
+    "ticker": "SCHT.",
+    "dateFounded": "2016-01-16 03:14:56",
+    "memberCount": 11,
+    "isNPC": false,
+    "allianceId": 99006125,
+    "factionId": null
+  },
+  {
+    "corporationId": 98439184,
+    "corporationName": "Shekels R\\' Us",
+    "ticker": "SHKUS",
+    "dateFounded": "2016-01-17 14:00:56",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98440766,
+    "corporationName": "Ben Booley\\'s School for Gifted Youngsters",
+    "ticker": "B.MEN",
+    "dateFounded": "2016-01-27 03:04:10",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 927292903,
+    "factionId": null
+  },
+  {
+    "corporationId": 98445327,
+    "corporationName": "Carebears and Miners Insurances Ltd.",
+    "ticker": "CBML",
+    "dateFounded": "2016-02-22 10:38:13",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98446606,
+    "corporationName": "Vic Johnson\\'s bait shop",
+    "ticker": "VJBS",
+    "dateFounded": "2016-03-01 07:29:07",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99006225,
+    "factionId": null
+  },
+  {
+    "corporationId": 98451066,
+    "corporationName": "The Drone Walkers",
+    "ticker": "WALKS",
+    "dateFounded": "2016-03-27 12:32:17",
+    "memberCount": 9,
+    "isNPC": false,
+    "allianceId": 99006297,
+    "factionId": null
+  },
+  {
+    "corporationId": 98454816,
+    "corporationName": "The Farm House",
+    "ticker": "S33D.",
+    "dateFounded": "2016-04-16 03:46:52",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99006371,
+    "factionId": null
+  },
+  {
+    "corporationId": 98454890,
+    "corporationName": "Prime Syndicate of Darkness",
+    "ticker": "PSOD",
+    "dateFounded": "2016-04-16 14:52:45",
+    "memberCount": 18,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98456439,
+    "corporationName": "Fraternity University Holding",
+    "ticker": "-FUH-",
+    "dateFounded": "2016-04-24 16:39:10",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99006406,
+    "factionId": null
+  },
+  {
+    "corporationId": 98460922,
+    "corporationName": "Piastres ltd.",
+    "ticker": "PI3DA",
+    "dateFounded": "2016-05-17 19:07:24",
+    "memberCount": 41,
+    "isNPC": false,
+    "allianceId": 99009238,
+    "factionId": null
+  },
+  {
+    "corporationId": 98461690,
+    "corporationName": "LoW Holding Corp",
+    "ticker": "LOW3",
+    "dateFounded": "2016-05-22 01:38:59",
+    "memberCount": 9,
+    "isNPC": false,
+    "allianceId": 99006343,
+    "factionId": null
+  },
+  {
+    "corporationId": 98463250,
+    "corporationName": "Impossible Kids",
+    "ticker": "AESR",
+    "dateFounded": "2016-05-31 16:57:26",
+    "memberCount": 12,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98464749,
+    "corporationName": "Odin\\'s Call Holding",
+    "ticker": "0DINS",
+    "dateFounded": "2016-06-10 14:34:47",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98466630,
+    "corporationName": "ReachAround Squad",
+    "ticker": "HJOB",
+    "dateFounded": "2016-06-25 05:41:52",
+    "memberCount": 32,
+    "isNPC": false,
+    "allianceId": 99006625,
+    "factionId": null
+  },
+  {
+    "corporationId": 98467925,
+    "corporationName": "The Order Of Asgard",
+    "ticker": "VLKRE",
+    "dateFounded": "2016-07-06 03:39:44",
+    "memberCount": 100,
+    "isNPC": false,
+    "allianceId": 99006343,
+    "factionId": null
+  },
+  {
+    "corporationId": 98469412,
+    "corporationName": "Godless Horizon.",
+    "ticker": "LOST.",
+    "dateFounded": "2016-07-18 14:30:54",
+    "memberCount": 114,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98470358,
+    "corporationName": "The Rakapas Cartel",
+    "ticker": "JDC 4",
+    "dateFounded": "2016-07-26 23:32:35",
+    "memberCount": 27,
+    "isNPC": false,
+    "allianceId": 99006771,
+    "factionId": null
+  },
+  {
+    "corporationId": 98472921,
+    "corporationName": "Da Imbalance Holding",
+    "ticker": "IM.H.",
+    "dateFounded": "2016-08-18 18:15:40",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99006756,
+    "factionId": null
+  },
+  {
+    "corporationId": 98472990,
+    "corporationName": "Nyx Legion.",
+    "ticker": "M0R0S",
+    "dateFounded": "2016-08-19 13:38:11",
+    "memberCount": 34,
+    "isNPC": false,
+    "allianceId": 99009129,
+    "factionId": null
+  },
+  {
+    "corporationId": 98473094,
+    "corporationName": "Beata stultica",
+    "ticker": "VJZ",
+    "dateFounded": "2016-08-20 07:34:24",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99008491,
+    "factionId": null
+  },
+  {
+    "corporationId": 98475638,
+    "corporationName": "Better Off Red",
+    "ticker": "R3SET",
+    "dateFounded": "2016-09-09 03:30:33",
+    "memberCount": 107,
+    "isNPC": false,
+    "allianceId": 99006884,
+    "factionId": null
+  },
+  {
+    "corporationId": 98477920,
+    "corporationName": "Nobody in Local",
+    "ticker": "SA.FE",
+    "dateFounded": "2016-09-27 02:47:29",
+    "memberCount": 379,
+    "isNPC": false,
+    "allianceId": 99000739,
+    "factionId": null
+  },
+  {
+    "corporationId": 98482621,
+    "corporationName": "Heda Shipyards",
+    "ticker": "LEKSA",
+    "dateFounded": "2016-11-05 18:48:43",
+    "memberCount": 55,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98492942,
+    "corporationName": "C0NE Holding Inc.",
+    "ticker": "C0NE.",
+    "dateFounded": "2016-12-25 19:17:01",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99007284,
+    "factionId": null
+  },
+  {
+    "corporationId": 98493549,
+    "corporationName": "puts the fun in funeral.",
+    "ticker": "HEDED",
+    "dateFounded": "2016-12-28 22:01:02",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99007090,
+    "factionId": null
+  },
+  {
+    "corporationId": 98497703,
+    "corporationName": "Lippstadt Creed",
+    "ticker": "LLPCO",
+    "dateFounded": "2017-01-20 19:39:57",
+    "memberCount": 96,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 98499616,
+    "corporationName": "Siberian Squad HQ",
+    "ticker": "SIBHQ",
+    "dateFounded": "2017-01-31 15:33:43",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": 99007203,
+    "factionId": null
+  },
+  {
+    "corporationId": 98500220,
+    "corporationName": "The Horde Holding Corp",
+    "ticker": "PLSM8",
+    "dateFounded": "2017-02-04 08:44:36",
+    "memberCount": 22,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98504899,
+    "corporationName": "Forward Guard Command",
+    "ticker": "FGARD",
+    "dateFounded": "2017-03-06 21:14:25",
+    "memberCount": 22,
+    "isNPC": false,
+    "allianceId": 99007289,
+    "factionId": null
+  },
+  {
+    "corporationId": 98506593,
+    "corporationName": "Tiger Moon Goo Inc.",
+    "ticker": "TI-MO",
+    "dateFounded": "2017-03-18 14:37:33",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98507116,
+    "corporationName": "ISKebab",
+    "ticker": "KE8A8",
+    "dateFounded": "2017-03-21 22:27:21",
+    "memberCount": 66,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98507128,
+    "corporationName": "Military Assault Command Operation",
+    "ticker": "MACO-",
+    "dateFounded": "2017-03-22 05:48:32",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99009386,
+    "factionId": null
+  },
+  {
+    "corporationId": 98508837,
+    "corporationName": "Sanlu Dairy Group",
+    "ticker": "SANLU",
+    "dateFounded": "2017-04-03 08:47:56",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99007362,
+    "factionId": null
+  },
+  {
+    "corporationId": 98509936,
+    "corporationName": "Black Star Rebels",
+    "ticker": "ZTAX0",
+    "dateFounded": "2017-04-11 02:59:22",
+    "memberCount": 42,
+    "isNPC": false,
+    "allianceId": 99007860,
+    "factionId": null
+  },
+  {
+    "corporationId": 98510757,
+    "corporationName": "Federation of Respect Honor Passion",
+    "ticker": "RHP.",
+    "dateFounded": "2017-04-16 13:54:18",
+    "memberCount": 13,
+    "isNPC": false,
+    "allianceId": 99007391,
+    "factionId": null
+  },
+  {
+    "corporationId": 98512118,
+    "corporationName": "Suddenly Spaceless",
+    "ticker": "0SLS0",
+    "dateFounded": "2017-04-26 01:01:33",
+    "memberCount": 13,
+    "isNPC": false,
+    "allianceId": 99008278,
+    "factionId": null
+  },
+  {
+    "corporationId": 98512651,
+    "corporationName": "The Mythically Intoxicated",
+    "ticker": "..TMI",
+    "dateFounded": "2017-04-30 01:44:33",
+    "memberCount": 126,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 98513654,
+    "corporationName": "Blue Sun Intellectual Property Capital",
+    "ticker": "BS.IP",
+    "dateFounded": "2017-05-07 04:38:45",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99007439,
+    "factionId": null
+  },
+  {
+    "corporationId": 98524122,
+    "corporationName": "Ferrata Victrix Exec",
+    "ticker": "FVHC",
+    "dateFounded": "2017-08-01 13:21:55",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99007629,
+    "factionId": null
+  },
+  {
+    "corporationId": 98527309,
+    "corporationName": "Lotka-Volterra",
+    "ticker": "LOTK",
+    "dateFounded": "2017-08-29 23:39:03",
+    "memberCount": 22,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98527955,
+    "corporationName": "Control Spacebar",
+    "ticker": ".WRP.",
+    "dateFounded": "2017-09-04 18:48:26",
+    "memberCount": 10,
+    "isNPC": false,
+    "allianceId": 99008425,
+    "factionId": null
+  },
+  {
+    "corporationId": 98528053,
+    "corporationName": "Shadow-Ops INC",
+    "ticker": "SHOIN",
+    "dateFounded": "2017-09-05 08:04:02",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98528301,
+    "corporationName": "The Directorate Council",
+    "ticker": "T.DCC",
+    "dateFounded": "2017-09-07 21:39:07",
+    "memberCount": 14,
+    "isNPC": false,
+    "allianceId": 99007716,
+    "factionId": null
+  },
+  {
+    "corporationId": 98528479,
+    "corporationName": "Quasi Space",
+    "ticker": ".QS.",
+    "dateFounded": "2017-09-09 14:01:07",
+    "memberCount": 6,
+    "isNPC": false,
+    "allianceId": 99007722,
+    "factionId": null
+  },
+  {
+    "corporationId": 98530588,
+    "corporationName": "Parasitic Excrements",
+    "ticker": ".PEE.",
+    "dateFounded": "2017-09-25 14:06:17",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": 99007753,
+    "factionId": null
+  },
+  {
+    "corporationId": 98532946,
+    "corporationName": "Damned Vigilance Committee",
+    "ticker": "DAMVC",
+    "dateFounded": "2017-10-13 22:31:05",
+    "memberCount": 25,
+    "isNPC": false,
+    "allianceId": 99007707,
+    "factionId": null
+  },
+  {
+    "corporationId": 98536171,
+    "corporationName": "Equ Xaeron",
+    "ticker": "EQUXA",
+    "dateFounded": "2017-11-07 22:10:58",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99009208,
+    "factionId": null
+  },
+  {
+    "corporationId": 98539643,
+    "corporationName": "HALLELUIAH",
+    "ticker": "JC316",
+    "dateFounded": "2017-12-06 01:34:19",
+    "memberCount": 17,
+    "isNPC": false,
+    "allianceId": 99008569,
+    "factionId": null
+  },
+  {
+    "corporationId": 98541475,
+    "corporationName": "Infensus Trust",
+    "ticker": "IN-TY",
+    "dateFounded": "2017-12-20 05:24:04",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99006384,
+    "factionId": null
+  },
+  {
+    "corporationId": 98542232,
+    "corporationName": "Gay Mexican\\'s",
+    "ticker": "GAYMX",
+    "dateFounded": "2017-12-26 22:04:34",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99009033,
+    "factionId": null
+  },
+  {
+    "corporationId": 98547606,
+    "corporationName": "Theran Conglomerate",
+    "ticker": "4MRKT",
+    "dateFounded": "2018-02-04 21:47:42",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": 99008073,
+    "factionId": null
+  },
+  {
+    "corporationId": 98551791,
+    "corporationName": "where the fight",
+    "ticker": "WTHEF",
+    "dateFounded": "2018-03-10 21:43:03",
+    "memberCount": 11,
+    "isNPC": false,
+    "allianceId": 99008259,
+    "factionId": null
+  },
+  {
+    "corporationId": 98553904,
+    "corporationName": "Wielka Lechia",
+    "ticker": "LOG0S",
+    "dateFounded": "2018-03-29 20:07:47",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99007921,
+    "factionId": null
+  },
+  {
+    "corporationId": 98555901,
+    "corporationName": "Pan Intergalactic Business Community Executor",
+    "ticker": "PIBCE",
+    "dateFounded": "2018-04-15 11:59:25",
+    "memberCount": 10,
+    "isNPC": false,
+    "allianceId": 99008228,
+    "factionId": null
+  },
+  {
+    "corporationId": 98555987,
+    "corporationName": "Hard Knocks Holdings",
+    "ticker": "HKHLD",
+    "dateFounded": "2018-04-15 22:24:27",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99008223,
+    "factionId": null
+  },
+  {
+    "corporationId": 98557316,
+    "corporationName": "Indefinite Mass",
+    "ticker": "IHTFP",
+    "dateFounded": "2018-04-26 07:46:39",
+    "memberCount": 12,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98560069,
+    "corporationName": "Kinetic Coil",
+    "ticker": "K.E.-",
+    "dateFounded": "2018-05-18 03:39:59",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99007472,
+    "factionId": null
+  },
+  {
+    "corporationId": 98560473,
+    "corporationName": "Now we know we are thinking",
+    "ticker": "MAYB3",
+    "dateFounded": "2018-05-20 22:03:34",
+    "memberCount": 9,
+    "isNPC": false,
+    "allianceId": 99008788,
+    "factionId": null
+  },
+  {
+    "corporationId": 98560836,
+    "corporationName": "The Down Upside",
+    "ticker": "TDUSE",
+    "dateFounded": "2018-05-23 20:48:32",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98563606,
+    "corporationName": "Iron-Bank",
+    "ticker": "I-BAN",
+    "dateFounded": "2018-06-15 10:29:22",
+    "memberCount": 19,
+    "isNPC": false,
+    "allianceId": 99007221,
+    "factionId": null
+  },
+  {
+    "corporationId": 98564524,
+    "corporationName": "Ugandian Arms Smuggling",
+    "ticker": "-P0OR",
+    "dateFounded": "2018-06-23 10:41:01",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99008422,
+    "factionId": null
+  },
+  {
+    "corporationId": 98565697,
+    "corporationName": "Learn 2 Align",
+    "ticker": "SVSRP",
+    "dateFounded": "2018-07-03 22:50:32",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": 99009221,
+    "factionId": null
+  },
+  {
+    "corporationId": 98565765,
+    "corporationName": "Daisy Ridley\\'s Fan Club",
+    "ticker": "REYY",
+    "dateFounded": "2018-07-04 17:54:05",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99008704,
+    "factionId": null
+  },
+  {
+    "corporationId": 98565874,
+    "corporationName": "ConneXion Lost",
+    "ticker": "COXLO",
+    "dateFounded": "2018-07-05 18:04:03",
+    "memberCount": 17,
+    "isNPC": false,
+    "allianceId": 99007916,
+    "factionId": null
+  },
+  {
+    "corporationId": 98567400,
+    "corporationName": "ELFxCorp",
+    "ticker": "ELFXC",
+    "dateFounded": "2018-07-19 15:41:56",
+    "memberCount": 59,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98567773,
+    "corporationName": "UNREAL Executor Corp",
+    "ticker": "UNREX",
+    "dateFounded": "2018-07-22 18:07:50",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99008469,
+    "factionId": null
+  },
+  {
+    "corporationId": 98569075,
+    "corporationName": "1 Remote Sensing Unit",
+    "ticker": "1RSU",
+    "dateFounded": "2018-08-03 12:58:26",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99009237,
+    "factionId": null
+  },
+  {
+    "corporationId": 98569549,
+    "corporationName": "Tactical Armament Incorporated.",
+    "ticker": "ARMUP",
+    "dateFounded": "2018-08-06 23:17:17",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99008511,
+    "factionId": null
+  },
+  {
+    "corporationId": 98571401,
+    "corporationName": "Pod Yourself In Game",
+    "ticker": "-PYS-",
+    "dateFounded": "2018-08-21 07:06:49",
+    "memberCount": 13,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98575653,
+    "corporationName": "Repeater Holding",
+    "ticker": "B.G.P",
+    "dateFounded": "2018-09-29 15:42:38",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98576378,
+    "corporationName": "LowSec Renegade hold",
+    "ticker": "SECL",
+    "dateFounded": "2018-10-06 09:40:17",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98577383,
+    "corporationName": "BBC Holdings",
+    "ticker": "H0LYM",
+    "dateFounded": "2018-10-15 18:55:45",
+    "memberCount": 14,
+    "isNPC": false,
+    "allianceId": 99004901,
+    "factionId": null
+  },
+  {
+    "corporationId": 98578483,
+    "corporationName": "Africanized Enraged HIV Wasps",
+    "ticker": "AWASP",
+    "dateFounded": "2018-10-26 00:46:27",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99008704,
+    "factionId": null
+  },
+  {
+    "corporationId": 98579918,
+    "corporationName": "Coop Holdings",
+    "ticker": "COOPH",
+    "dateFounded": "2018-11-08 00:40:22",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99008741,
+    "factionId": null
+  },
+  {
+    "corporationId": 98582988,
+    "corporationName": "Already Replaced Holding",
+    "ticker": "AARH",
+    "dateFounded": "2018-12-05 01:31:32",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99008809,
+    "factionId": null
+  },
+  {
+    "corporationId": 98583079,
+    "corporationName": "Night Owls.",
+    "ticker": "H0OT",
+    "dateFounded": "2018-12-06 02:45:34",
+    "memberCount": 13,
+    "isNPC": false,
+    "allianceId": 99009318,
+    "factionId": null
+  },
+  {
+    "corporationId": 98584401,
+    "corporationName": "Null Vacancies.",
+    "ticker": "0VAC",
+    "dateFounded": "2018-12-16 01:20:35",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 99006113,
+    "factionId": null
+  },
+  {
+    "corporationId": 98584516,
+    "corporationName": "Jita Gang",
+    "ticker": "JITAG",
+    "dateFounded": "2018-12-16 19:04:20",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98585864,
+    "corporationName": "I JUST LOST THE GAME",
+    "ticker": "IJLTG",
+    "dateFounded": "2018-12-26 08:13:17",
+    "memberCount": 9,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98587569,
+    "corporationName": "The Hivemind Federation Holding",
+    "ticker": "THMFH",
+    "dateFounded": "2019-01-09 21:34:11",
+    "memberCount": 6,
+    "isNPC": false,
+    "allianceId": 99008898,
+    "factionId": null
+  },
+  {
+    "corporationId": 98587575,
+    "corporationName": "Triglavian Menace.",
+    "ticker": "TRIGM",
+    "dateFounded": "2019-01-09 17:06:47",
+    "memberCount": 10,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98589023,
+    "corporationName": "Incedento Holding",
+    "ticker": "ICDNH",
+    "dateFounded": "2019-01-21 13:44:34",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": 99008967,
+    "factionId": null
+  },
+  {
+    "corporationId": 98589231,
+    "corporationName": "Premature Evacuation",
+    "ticker": "PEVAC",
+    "dateFounded": "2019-01-23 02:19:44",
+    "memberCount": 6,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98589514,
+    "corporationName": "Toilet Paper Holding",
+    "ticker": ".TPH",
+    "dateFounded": "2019-01-25 19:01:33",
+    "memberCount": 10,
+    "isNPC": false,
+    "allianceId": 99008923,
+    "factionId": null
+  },
+  {
+    "corporationId": 98589990,
+    "corporationName": "White-Star",
+    "ticker": "WH-ST",
+    "dateFounded": "2019-01-29 18:29:44",
+    "memberCount": 62,
+    "isNPC": false,
+    "allianceId": 99008999,
+    "factionId": null
+  },
+  {
+    "corporationId": 98593069,
+    "corporationName": "Gemini Whale United Executive Committee",
+    "ticker": "GWUEC",
+    "dateFounded": "2019-02-26 16:07:20",
+    "memberCount": 6,
+    "isNPC": false,
+    "allianceId": 99008988,
+    "factionId": null
+  },
+  {
+    "corporationId": 98593358,
+    "corporationName": "D0nt Tuch Me",
+    "ticker": "D0TME",
+    "dateFounded": "2019-03-01 15:11:50",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": 99009103,
+    "factionId": null
+  },
+  {
+    "corporationId": 98594528,
+    "corporationName": "The Envoys",
+    "ticker": "INFL.",
+    "dateFounded": "2019-03-12 05:19:11",
+    "memberCount": 41,
+    "isNPC": false,
+    "allianceId": 99009025,
+    "factionId": null
+  },
+  {
+    "corporationId": 98595093,
+    "corporationName": "S A N C T U A R Y",
+    "ticker": "G F.",
+    "dateFounded": "2019-03-17 20:33:39",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99009043,
+    "factionId": null
+  },
+  {
+    "corporationId": 98595252,
+    "corporationName": "Fade Structures Control Center",
+    "ticker": "F-SCC",
+    "dateFounded": "2019-03-19 16:42:37",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99002938,
+    "factionId": null
+  },
+  {
+    "corporationId": 98598337,
+    "corporationName": "AOM Holding",
+    "ticker": "AOM.H",
+    "dateFounded": "2019-04-19 09:20:25",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99009082,
+    "factionId": null
+  },
+  {
+    "corporationId": 98599047,
+    "corporationName": "VINDICTIVE EXECUTIVE",
+    "ticker": "V1NDI",
+    "dateFounded": "2019-04-24 21:18:06",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99009104,
+    "factionId": null
+  },
+  {
+    "corporationId": 98599967,
+    "corporationName": "Droneland Investment Group",
+    "ticker": "DLAND",
+    "dateFounded": "2019-05-03 10:16:54",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99009233,
+    "factionId": null
+  },
+  {
+    "corporationId": 98599985,
+    "corporationName": "Vetus Custodes",
+    "ticker": "VEUST",
+    "dateFounded": "2019-05-03 14:34:38",
+    "memberCount": 61,
+    "isNPC": false,
+    "allianceId": 99009373,
+    "factionId": null
+  },
+  {
+    "corporationId": 98601548,
+    "corporationName": "SummerHall",
+    "ticker": "SUMMH",
+    "dateFounded": "2019-05-17 14:58:07",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 99009163,
+    "factionId": null
+  },
+  {
+    "corporationId": 98602384,
+    "corporationName": "VVV Advance Alliance",
+    "ticker": "JJABC",
+    "dateFounded": "2019-05-25 15:28:25",
+    "memberCount": 55,
+    "isNPC": false,
+    "allianceId": 99009310,
+    "factionId": null
+  },
+  {
+    "corporationId": 98602507,
+    "corporationName": "Disaster Core",
+    "ticker": "DS.HL",
+    "dateFounded": "2019-05-26 13:34:18",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99009202,
+    "factionId": null
+  },
+  {
+    "corporationId": 98605251,
+    "corporationName": "Catastrophic Diplomacy Holding",
+    "ticker": "CDH-M",
+    "dateFounded": "2019-06-20 19:58:41",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99009243,
+    "factionId": null
+  },
+  {
+    "corporationId": 98605754,
+    "corporationName": "Silently Damned Vipers",
+    "ticker": "SDVS",
+    "dateFounded": "2019-06-26 04:45:36",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99007707,
+    "factionId": null
+  },
+  {
+    "corporationId": 98606702,
+    "corporationName": "M.S.N. Holding",
+    "ticker": "M-S-N",
+    "dateFounded": "2019-07-05 16:22:39",
+    "memberCount": 17,
+    "isNPC": false,
+    "allianceId": 99009275,
+    "factionId": null
+  },
+  {
+    "corporationId": 98608713,
+    "corporationName": "Scumlord Holdings",
+    "ticker": "SCUML",
+    "dateFounded": "2019-07-23 21:56:51",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": 99009331,
+    "factionId": null
+  },
+  {
+    "corporationId": 98609230,
+    "corporationName": "VVV Holding",
+    "ticker": "V V V",
+    "dateFounded": "2019-07-28 09:29:48",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": 99009310,
+    "factionId": null
+  },
+  {
+    "corporationId": 98609370,
+    "corporationName": "Romance of the Butterfly Hill",
+    "ticker": "ROBH",
+    "dateFounded": "2019-07-29 08:11:20",
+    "memberCount": 28,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98610000,
+    "corporationName": "ATF Holdings",
+    "ticker": "ATF-H",
+    "dateFounded": "2019-08-04 00:26:30",
+    "memberCount": 5,
+    "isNPC": false,
+    "allianceId": null,
+    "factionId": null
+  },
+  {
+    "corporationId": 98610719,
+    "corporationName": "Uncle Shifty\\'s Wholesale Emporium",
+    "ticker": "USHIF",
+    "dateFounded": "2019-08-09 16:47:30",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98614889,
+    "corporationName": "Lower Than The Mariana Trench",
+    "ticker": "-11KM",
+    "dateFounded": "2019-09-19 20:22:14",
+    "memberCount": 1,
+    "isNPC": false,
+    "allianceId": 99009318,
+    "factionId": null
+  },
+  {
+    "corporationId": 98619388,
+    "corporationName": "Baldur\\'s Rejects",
+    "ticker": "OFACK",
+    "dateFounded": "2019-11-07 15:56:50",
+    "memberCount": 15,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 98627752,
+    "corporationName": "De omnibus dubitandum",
+    "ticker": "ODUB",
+    "dateFounded": "2020-01-14 13:03:29",
+    "memberCount": 3,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 125490663,
+    "corporationName": "TnT Strong Hold",
+    "ticker": "FE3O4",
+    "dateFounded": "2009-05-14 13:46:00",
+    "memberCount": 39,
+    "isNPC": false,
+    "allianceId": 131511956,
+    "factionId": null
+  },
+  {
+    "corporationId": 129394754,
+    "corporationName": "L\\'AGENCE",
+    "ticker": "0Y0",
+    "dateFounded": "2010-07-26 17:39:00",
+    "memberCount": 26,
+    "isNPC": false,
+    "allianceId": 99008294,
+    "factionId": null
+  },
+  {
+    "corporationId": 144589288,
+    "corporationName": "Taggart Transdimensional",
+    "ticker": "TTI",
+    "dateFounded": "2003-05-06 16:12:00",
+    "memberCount": 116,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 158202185,
+    "corporationName": "RHC",
+    "ticker": "RHCI",
+    "dateFounded": "2006-06-24 01:09:00",
+    "memberCount": 36,
+    "isNPC": false,
+    "allianceId": 741557221,
+    "factionId": null
+  },
+  {
+    "corporationId": 213725304,
+    "corporationName": "Etoilles Mortant Ltd.",
+    "ticker": "-EML-",
+    "dateFounded": "2008-07-30 15:14:00",
+    "memberCount": 23,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 244898283,
+    "corporationName": "OEG",
+    "ticker": "O.E.G",
+    "dateFounded": "2005-06-30 10:27:00",
+    "memberCount": 134,
+    "isNPC": false,
+    "allianceId": 1614483120,
+    "factionId": null
+  },
+  {
+    "corporationId": 252677747,
+    "corporationName": "CHON",
+    "ticker": "CHN",
+    "dateFounded": "2003-06-30 12:35:00",
+    "memberCount": 149,
+    "isNPC": false,
+    "allianceId": 1002884793,
+    "factionId": null
+  },
+  {
+    "corporationId": 342600165,
+    "corporationName": "Moira.",
+    "ticker": "AISA",
+    "dateFounded": "2009-09-21 22:46:00",
+    "memberCount": 157,
+    "isNPC": false,
+    "allianceId": 99001634,
+    "factionId": 500004
+  },
+  {
+    "corporationId": 349567985,
+    "corporationName": "The Legion of Spoon",
+    "ticker": "TLOS",
+    "dateFounded": "2005-04-22 04:00:00",
+    "memberCount": 237,
+    "isNPC": false,
+    "allianceId": 1988009451,
+    "factionId": null
+  },
+  {
+    "corporationId": 362838806,
+    "corporationName": "No Fixed Abode",
+    "ticker": "NOFAD",
+    "dateFounded": "2010-10-15 18:09:00",
+    "memberCount": 40,
+    "isNPC": false,
+    "allianceId": 1042504553,
+    "factionId": null
+  },
+  {
+    "corporationId": 405268591,
+    "corporationName": "Angels of xXDEATHXx",
+    "ticker": "-A-D-",
+    "dateFounded": "2006-12-29 05:59:00",
+    "memberCount": 9,
+    "isNPC": false,
+    "allianceId": 1411711376,
+    "factionId": null
+  },
+  {
+    "corporationId": 416584095,
+    "corporationName": "Upvote",
+    "ticker": "UPVOT",
+    "dateFounded": "2010-04-27 21:29:00",
+    "memberCount": 44,
+    "isNPC": false,
+    "allianceId": 498125261,
+    "factionId": null
+  },
+  {
+    "corporationId": 432980686,
+    "corporationName": "Hostile.",
+    "ticker": ".-H-.",
+    "dateFounded": "2009-06-24 20:49:00",
+    "memberCount": 132,
+    "isNPC": false,
+    "allianceId": 173714703,
+    "factionId": null
+  },
+  {
+    "corporationId": 508632338,
+    "corporationName": "Trebeach Comrades",
+    "ticker": "VYHUL",
+    "dateFounded": "2010-08-21 11:33:00",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 1002884793,
+    "factionId": null
+  },
+  {
+    "corporationId": 515709294,
+    "corporationName": "ROGUE ALTS",
+    "ticker": "R-ALT",
+    "dateFounded": "2010-09-10 14:59:00",
+    "memberCount": 4,
+    "isNPC": false,
+    "allianceId": 99003805,
+    "factionId": null
+  },
+  {
+    "corporationId": 581816421,
+    "corporationName": "Pandemic Execs",
+    "ticker": "-PL-",
+    "dateFounded": "2008-10-28 03:19:00",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 386292982,
+    "factionId": null
+  },
+  {
+    "corporationId": 583662723,
+    "corporationName": "Omni Galactic",
+    "ticker": "-O.G-",
+    "dateFounded": "2010-07-08 00:23:00",
+    "memberCount": 287,
+    "isNPC": false,
+    "allianceId": 99005688,
+    "factionId": null
+  },
+  {
+    "corporationId": 583867044,
+    "corporationName": "Ceptacemia",
+    "ticker": "CEPTA",
+    "dateFounded": "2007-02-23 22:10:00",
+    "memberCount": 112,
+    "isNPC": false,
+    "allianceId": 99007892,
+    "factionId": null
+  },
+  {
+    "corporationId": 667531913,
+    "corporationName": "GoonWaffe",
+    "ticker": "GEWNS",
+    "dateFounded": "2006-03-07 01:18:00",
+    "memberCount": 1288,
+    "isNPC": false,
+    "allianceId": 1354830081,
+    "factionId": null
+  },
+  {
+    "corporationId": 735865015,
+    "corporationName": "Polaris Project",
+    "ticker": "POCT",
+    "dateFounded": "2006-05-06 15:43:00",
+    "memberCount": 47,
+    "isNPC": false,
+    "allianceId": 1988009451,
+    "factionId": null
+  },
+  {
+    "corporationId": 828800677,
+    "corporationName": "Sniggerdly",
+    "ticker": "SNIGG",
+    "dateFounded": "2004-02-04 12:46:00",
+    "memberCount": 753,
+    "isNPC": false,
+    "allianceId": 386292982,
+    "factionId": null
+  },
+  {
+    "corporationId": 833107938,
+    "corporationName": "IronPig",
+    "ticker": "IRNP",
+    "dateFounded": "2006-01-27 19:44:00",
+    "memberCount": 54,
+    "isNPC": false,
+    "allianceId": 982284363,
+    "factionId": null
+  },
+  {
+    "corporationId": 992634837,
+    "corporationName": "Thunder Mercenary Army",
+    "ticker": "TNND",
+    "dateFounded": "2009-11-30 13:58:00",
+    "memberCount": 83,
+    "isNPC": false,
+    "allianceId": 99001952,
+    "factionId": null
+  },
+  {
+    "corporationId": 1071913287,
+    "corporationName": "Absinthe Brothers",
+    "ticker": "AB-C-",
+    "dateFounded": "2009-10-26 12:34:00",
+    "memberCount": 10,
+    "isNPC": false,
+    "allianceId": 99004013,
+    "factionId": null
+  },
+  {
+    "corporationId": 1139652088,
+    "corporationName": "Legion of xXDEATHXx Support",
+    "ticker": "XIXS",
+    "dateFounded": "2010-09-19 15:06:00",
+    "memberCount": 62,
+    "isNPC": false,
+    "allianceId": 1411711376,
+    "factionId": null
+  },
+  {
+    "corporationId": 1169891682,
+    "corporationName": "Caldari Independent Navy Reserve",
+    "ticker": "CAIN",
+    "dateFounded": "2005-01-18 14:33:00",
+    "memberCount": 66,
+    "isNPC": false,
+    "allianceId": 1988009451,
+    "factionId": null
+  },
+  {
+    "corporationId": 1242725856,
+    "corporationName": "Echo of Illumination",
+    "ticker": "ECHO5",
+    "dateFounded": "2010-04-22 03:49:00",
+    "memberCount": 7,
+    "isNPC": false,
+    "allianceId": 1258727717,
+    "factionId": null
+  },
+  {
+    "corporationId": 1344654522,
+    "corporationName": "DJ\\'s Retirement Fund",
+    "ticker": ".FART",
+    "dateFounded": "2010-03-10 03:44:00",
+    "memberCount": 38,
+    "isNPC": false,
+    "allianceId": 1354830081,
+    "factionId": null
+  },
+  {
+    "corporationId": 1354117495,
+    "corporationName": "Bad Kitty Inc.",
+    "ticker": "NYAN.",
+    "dateFounded": "2010-08-30 06:41:00",
+    "memberCount": 2,
+    "isNPC": false,
+    "allianceId": 99006557,
+    "factionId": null
+  },
+  {
+    "corporationId": 1371955702,
+    "corporationName": "FCON Aerarium Militare",
+    "ticker": "FCNAM",
+    "dateFounded": "2009-11-22 15:48:00",
+    "memberCount": 8,
+    "isNPC": false,
+    "allianceId": 1006830534,
+    "factionId": null
+  },
+  {
+    "corporationId": 1378053282,
+    "corporationName": "Wind of Change",
+    "ticker": "ANCXI",
+    "dateFounded": "2010-03-10 20:12:00",
+    "memberCount": 6,
+    "isNPC": false,
+    "allianceId": 99002003,
+    "factionId": null
+  },
+  {
+    "corporationId": 1441288013,
+    "corporationName": "The Squirrel Academy",
+    "ticker": ".SQL.",
+    "dateFounded": "2004-08-06 15:40:00",
+    "memberCount": 105,
+    "isNPC": false,
+    "allianceId": 1988009451,
+    "factionId": null
+  },
+  {
+    "corporationId": 1613831809,
+    "corporationName": "Burning Skies",
+    "ticker": "BUSK",
+    "dateFounded": "2008-07-17 20:53:00",
+    "memberCount": 101,
+    "isNPC": false,
+    "allianceId": 154104258,
+    "factionId": null
+  },
+  {
+    "corporationId": 1639878825,
+    "corporationName": "Initiative Holding",
+    "ticker": "-I.H-",
+    "dateFounded": "2008-09-26 21:35:00",
+    "memberCount": 12,
+    "isNPC": false,
+    "allianceId": 1900696668,
+    "factionId": null
+  },
+  {
+    "corporationId": 1727573569,
+    "corporationName": "Best Friends Forever",
+    "ticker": "P3WN",
+    "dateFounded": "2010-08-12 00:36:00",
+    "memberCount": 28,
+    "isNPC": false,
+    "allianceId": 1727758877,
+    "factionId": null
+  },
+  {
+    "corporationId": 1812594659,
+    "corporationName": "Risk Breakers",
+    "ticker": "EXOP",
+    "dateFounded": "2010-09-29 00:37:00",
+    "memberCount": 82,
+    "isNPC": false,
+    "allianceId": 99004901,
+    "factionId": null
+  },
+  {
+    "corporationId": 1945933088,
+    "corporationName": "XMX Corp",
+    "ticker": "XMX",
+    "dateFounded": "2004-11-19 19:48:00",
+    "memberCount": 34,
+    "isNPC": false,
+    "allianceId": 1002884793,
+    "factionId": null
+  }
+]

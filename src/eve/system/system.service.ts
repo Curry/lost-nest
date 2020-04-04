@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
+import { Model, FilterQuery } from 'mongoose';
 import { from } from 'rxjs';
 import { mergeMap, map } from 'rxjs/operators';
 import { System } from './system.interface';
@@ -18,7 +18,7 @@ export class SystemService {
   getSystemById = (id: number) => from(this.systemModel.findOne({ id: id }));
 
   getSystems = (name: SystemArgs) =>
-    this.wormholeService.getWormholesByName(name.statics).pipe(
+    this.wormholeService.getWormholesByTargetClass(name.statics).pipe(
       map(val => ({
         ...(name.id && { _id: name.id.toString() }),
         ...(name.systemName && {
@@ -27,7 +27,7 @@ export class SystemService {
         ...(name.effect && { effect: name.effect }),
         ...(name.class && { class: name.class }),
         ...(val.length !== 0 && { statics: { $in: val.map(stat => stat.id) } }),
-      })),
+      } as FilterQuery<System>)),
       mergeMap(val => this.systemModel.find(val)),
     );
 }

@@ -2,6 +2,14 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+type Alliance {
+  allianceId: Int!
+  allianceName: String!
+  ticker: String!
+  dateFounded: Date
+  factionId: Int
+}
+
 enum Class {
   C1
   C2
@@ -21,6 +29,33 @@ enum Class {
   REDOUBT
 }
 
+type Corporation {
+  corporationId: Int!
+  corporationName: String!
+  ticker: String!
+  dateFounded: Date
+  memberCount: Int!
+  isNPC: Boolean!
+  allianceId: Int
+  factionId: Int
+  allianceName: String
+  alliance: Alliance
+}
+
+input CorporationInput {
+  corporationId: Int!
+  corporationName: String!
+  ticker: String!
+  dateFounded: Date
+  memberCount: Int!
+  isNPC: Boolean!
+  allianceId: Int
+  factionId: Int
+}
+
+"""Date custom scalar type"""
+scalar Date
+
 enum Effect {
   redGiant
   cataclysmic
@@ -30,13 +65,19 @@ enum Effect {
   blackHole
 }
 
+type Mutation {
+  addCorporation(corporationData: CorporationInput!): Corporation!
+}
+
 type Query {
   helloWorld: String!
   hello(name: String!): String!
   ship(name: String!): Ship!
   system(id: Float!): System!
   systems(id: Float, systemName: String, statics: [Class!] = [], effect: Effect, class: Class): [System!]!
-  wormhole(source: Class!): [Wormhole!]!
+  wormhole(name: String!): Wormhole!
+  wormholes(source: Class!): [Wormhole!]!
+  corporation(name: String!): Corporation!
 }
 
 type Ship {

@@ -6,6 +6,7 @@ import { AppResolver } from './app.resolver';
 import { MongooseModule } from '@nestjs/mongoose';
 import * as autoPopulate from 'mongoose-autopopulate'
 import { EveModule } from './eve/eve.module';
+import { DateScalar } from './common/scalars/date.scalar';
 
 @Module({
   imports: [
@@ -27,6 +28,6 @@ import { EveModule } from './eve/eve.module';
     EveModule,
   ],
   controllers: [AppController],
-  providers: [AppService, AppResolver],
+  providers: [AppService, AppResolver, DateScalar],
 })
 export class AppModule {}

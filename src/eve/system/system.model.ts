@@ -1,6 +1,6 @@
 import { Field, Int, ObjectType, Float } from '@nestjs/graphql';
-import { Effect } from 'src/eve/common/enums/effect.enum';
-import { Wormhole } from 'src/eve/wormhole/wormhole.model';
+import { Effect } from '../common/enums/effect.enum';
+import { Wormhole } from '../wormhole/wormhole.model';
 
 @ObjectType()
 export class System {

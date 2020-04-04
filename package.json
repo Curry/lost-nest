@@ -19,7 +19,8 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "dev": "rimraf dist && nest start --watch"
+    "dev": "rimraf dist && nest start --watch",
+    "gen": "./nest-gen.sh"
   },
   "dependencies": {
     "@nestjs/common": "^7.0.0",

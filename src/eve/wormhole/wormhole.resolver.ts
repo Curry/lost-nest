@@ -7,8 +7,13 @@ import { Class } from '../common/enums/class.enum';
 export class WormholeResolver {
   constructor(private service: WormholeService) {}
 
+  @Query(() => Wormhole)
+  wormhole(@Args('name') name: string) {
+    return this.service.getWormholeByName(name);
+  }
+
   @Query(() => [Wormhole])
-  wormhole(@Args('source', { type: () => Class }) source: Class) {
+  wormholes(@Args('source', { type: () => Class }) source: Class) {
     return this.service.getWormholesBySource(source);
   }
 }
