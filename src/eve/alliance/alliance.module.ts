@@ -10,11 +10,11 @@ import { AllianceSchema } from './alliance.schema';
       {
         name: 'Alliance',
         schema: AllianceSchema,
-        collection: 'alliances'
+        collection: 'alliances',
       },
     ]),
   ],
   exports: [AllianceService],
-  providers: [AllianceService, AllianceResolver]
+  providers: [AllianceService, AllianceResolver],
 })
 export class AllianceModule {}

@@ -19,15 +19,20 @@ export class SystemService {
 
   getSystems = (name: SystemArgs) =>
     this.wormholeService.getWormholesByTargetClass(name.statics).pipe(
-      map(val => ({
-        ...(name.id && { _id: name.id.toString() }),
-        ...(name.systemName && {
-          systemName: { $regex: new RegExp(name.systemName, 'i') },
-        }),
-        ...(name.effect && { effect: name.effect }),
-        ...(name.class && { class: name.class }),
-        ...(val.length !== 0 && { statics: { $in: val.map(stat => stat.id) } }),
-      } as FilterQuery<System>)),
+      map(
+        val =>
+          ({
+            ...(name.id && { _id: name.id.toString() }),
+            ...(name.systemName && {
+              systemName: { $regex: new RegExp(name.systemName, 'i') },
+            }),
+            ...(name.effect && { effect: name.effect }),
+            ...(name.class && { class: name.class }),
+            ...(val.length !== 0 && {
+              statics: { $in: val.map(stat => stat.id) },
+            }),
+          } as FilterQuery<System>),
+      ),
       mergeMap(val => this.systemModel.find(val)),
     );
 }

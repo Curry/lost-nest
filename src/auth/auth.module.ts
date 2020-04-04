@@ -5,6 +5,6 @@ import { SSOStrategy } from './sso.strategy';
 
 @Module({
   imports: [PassportModule],
-  providers: [AuthService, SSOStrategy]
+  providers: [AuthService, SSOStrategy],
 })
 export class AuthModule {}

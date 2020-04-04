@@ -6,11 +6,11 @@ export class DateScalar implements CustomScalar<string, Date> {
   description = 'Date custom scalar type';
 
   parseValue(value: string): Date {
-    return new Date(value); // value from the client
+    return new Date(value);
   }
 
   serialize(value: Date): string {
-    return new Date(value).toISOString(); // value sent to the client
+    return new Date(value).toISOString();
   }
 
   parseLiteral(ast: any): Date {

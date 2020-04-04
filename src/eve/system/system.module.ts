@@ -11,12 +11,12 @@ import { WormholeModule } from '../wormhole/wormhole.module';
       {
         name: 'System',
         schema: SystemSchema,
-        collection: 'systems'
+        collection: 'systems',
       },
     ]),
-    WormholeModule
+    WormholeModule,
   ],
   exports: [SystemService],
-  providers: [SystemService, SystemResolver]
+  providers: [SystemService, SystemResolver],
 })
 export class SystemModule {}

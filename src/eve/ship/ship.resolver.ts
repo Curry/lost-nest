@@ -9,6 +9,6 @@ export class ShipResolver {
 
   @Query(() => Ship)
   ship(@Args('name') name: string) {
-      return this.service.getShipByName(name);
+    return this.service.getShipByName(name);
   }
 }

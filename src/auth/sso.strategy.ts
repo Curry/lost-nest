@@ -9,9 +9,7 @@ import { use as refreshUse } from 'passport-oauth2-refresh';
 
 @Injectable()
 export class SSOStrategy extends PassportStrategy(Strategy) {
-  constructor(
-    private readonly authService: AuthService,
-  ) {
+  constructor(private readonly authService: AuthService) {
     super({
       authorizationURL: 'https://login.eveonline.com/oauth/authorize',
       tokenURL: 'https://login.eveonline.com/oauth/token',
@@ -28,12 +26,12 @@ export class SSOStrategy extends PassportStrategy(Strategy) {
     accessToken: string,
     refreshToken: string,
     profile: IEveRawProfile,
-    done: any
-  ) => {}
-    // this.authService
-    //   .saveUser(accessToken, refreshToken, profile)
-    //   .pipe(mergeMap(val => of(done(null, val))))
-    //   .toPromise();
+    done: any,
+  ) => {};
+  // this.authService
+  //   .saveUser(accessToken, refreshToken, profile)
+  //   .pipe(mergeMap(val => of(done(null, val))))
+  //   .toPromise();
 
   userProfile = (
     accessToken: string,

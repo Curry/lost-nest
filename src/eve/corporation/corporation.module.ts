@@ -11,12 +11,12 @@ import { AllianceModule } from '../alliance/alliance.module';
       {
         name: 'Corporation',
         schema: CorporationSchema,
-        collection: 'corporations'
+        collection: 'corporations',
       },
     ]),
     AllianceModule,
   ],
   exports: [CorporationService],
-  providers: [CorporationService, CorporationResolver]
+  providers: [CorporationService, CorporationResolver],
 })
 export class CorporationModule {}

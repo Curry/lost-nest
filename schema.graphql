@@ -46,11 +46,11 @@ input CorporationInput {
   corporationId: Int!
   corporationName: String!
   ticker: String!
-  dateFounded: Date
+  dateFounded: Date = null
   memberCount: Int!
-  isNPC: Boolean!
-  allianceId: Int
-  factionId: Int
+  isNPC: Boolean = false
+  allianceId: Int = null
+  factionId: Int = null
 }
 
 """Date custom scalar type"""
@@ -66,7 +66,7 @@ enum Effect {
 }
 
 type Mutation {
-  addCorporation(corporationData: CorporationInput!): Corporation!
+  addCorporation(corporationData: CorporationInput!): Boolean!
 }
 
 type Query {

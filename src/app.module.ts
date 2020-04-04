@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { GraphQLModule } from '@nestjs/graphql';
 import { AppResolver } from './app.resolver';
 import { MongooseModule } from '@nestjs/mongoose';
-import * as autoPopulate from 'mongoose-autopopulate'
+import * as autoPopulate from 'mongoose-autopopulate';
 import { EveModule } from './eve/eve.module';
 import { DateScalar } from './common/scalars/date.scalar';
 
@@ -15,14 +15,15 @@ import { DateScalar } from './common/scalars/date.scalar';
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
-      connectionFactory: (connection) => {
+      installSubscriptionHandlers: true,
+      connectionFactory: connection => {
         connection.plugin(autoPopulate);
         return connection;
-      }
+      },
     }),
     GraphQLModule.forRoot({
-      autoSchemaFile:  'schema.graphql',
-      context: ({ req }) => ({ req })
+      autoSchemaFile: 'schema.graphql',
+      context: ({ req }) => ({ req }),
     }),
     // AuthModule,
     EveModule,

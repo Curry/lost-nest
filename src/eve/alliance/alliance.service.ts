@@ -11,5 +11,6 @@ export class AllianceService {
     private allianceModel: Model<Alliance>,
   ) {}
 
-  getAllianceById = (id: number) => from(this.allianceModel.findOne({ allianceId: id }))
+  getAllianceById = (id: number) =>
+    from(this.allianceModel.findOne({ allianceId: id }));
 }

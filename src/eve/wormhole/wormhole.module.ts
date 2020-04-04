@@ -10,11 +10,11 @@ import { WormholeSchema } from './wormhole.schema';
       {
         name: 'Wormhole',
         schema: WormholeSchema,
-        collection: 'wormholes'
-      }
-    ])
+        collection: 'wormholes',
+      },
+    ]),
   ],
   exports: [WormholeService],
-  providers: [WormholeService, WormholeResolver]
+  providers: [WormholeService, WormholeResolver],
 })
 export class WormholeModule {}

@@ -1,4 +1,11 @@
-import { Resolver, Query, Args, ResolveField, Parent, Mutation } from '@nestjs/graphql';
+import {
+  Resolver,
+  Query,
+  Args,
+  ResolveField,
+  Parent,
+  Mutation,
+} from '@nestjs/graphql';
 import { CorporationService } from './corporation.service';
 import { Corporation } from './corporation.model';
 import { AllianceService } from '../alliance/alliance.service';
@@ -18,7 +25,7 @@ export class CorporationResolver {
     return this.service.getCorporationByName(name);
   }
 
-  @Mutation(() => Corporation)
+  @Mutation(() => Boolean)
   addCorporation(@Args('corporationData') corporationData: CorporationInput) {
     return this.service.saveCorporation(corporationData);
   }

@@ -13,7 +13,7 @@ export class Alliance {
 
   @Field(() => Date, { nullable: true })
   dateFounded: Date;
-  
+
   @Field(() => Int, { nullable: true })
   factionId: number;
 }

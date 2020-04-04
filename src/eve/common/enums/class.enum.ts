@@ -1,4 +1,4 @@
-import { registerEnumType } from "@nestjs/graphql";
+import { registerEnumType } from '@nestjs/graphql';
 
 export enum Class {
   C1 = 1,
@@ -20,5 +20,5 @@ export enum Class {
 }
 
 registerEnumType(Class, {
-    name: 'Class',
-})
+  name: 'Class',
+});

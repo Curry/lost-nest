@@ -1,7 +1,7 @@
-import { Schema } from 'mongoose'
+import { Schema } from 'mongoose';
 
 export const ShipSchema = new Schema({
-    _id: Number,
-    name: String,
-    mass: Number,
-})
+  _id: Number,
+  name: String,
+  mass: Number,
+});

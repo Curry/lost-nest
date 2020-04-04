@@ -6,12 +6,12 @@ import { AllianceModule } from './alliance/alliance.module';
 import { CorporationModule } from './corporation/corporation.module';
 
 @Module({
-    imports: [
-        ShipModule,
-        SystemModule,
-        WormholeModule,
-        AllianceModule,
-        CorporationModule,
-    ],
+  imports: [
+    ShipModule,
+    SystemModule,
+    WormholeModule,
+    AllianceModule,
+    CorporationModule,
+  ],
 })
 export class EveModule {}

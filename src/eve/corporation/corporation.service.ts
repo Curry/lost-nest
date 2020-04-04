@@ -4,6 +4,7 @@ import { Model } from 'mongoose';
 import { Corporation } from './corporation.interface';
 import { from } from 'rxjs';
 import { CorporationInput } from './corporation.input';
+import { map } from 'rxjs/operators';
 
 @Injectable()
 export class CorporationService {
@@ -22,5 +23,12 @@ export class CorporationService {
       }),
     );
 
-  saveCorporation = (corp: CorporationInput) => from(this.corporationModel.create(corp))
+  saveCorporation = (corp: CorporationInput) =>
+    from(
+      this.corporationModel.updateOne(
+        { corporationId: corp.corporationId },
+        corp,
+        { upsert: true },
+      ),
+    ).pipe(map(val => val.ok));
 }
