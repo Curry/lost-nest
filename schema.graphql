@@ -33,9 +33,16 @@ enum Effect {
 type Query {
   helloWorld: String!
   hello(name: String!): String!
+  ship(name: String!): Ship!
   system(id: Float!): System!
   systems(id: Float, systemName: String, statics: [Class!] = [], effect: Effect, class: Class): [System!]!
   wormhole(source: Class!): [Wormhole!]!
+}
+
+type Ship {
+  id: Int!
+  name: String!
+  mass: Float!
 }
 
 type System {

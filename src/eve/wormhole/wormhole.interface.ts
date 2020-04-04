@@ -1,7 +1,7 @@
 import { Document } from 'mongoose';
 
 export interface Wormhole extends Document {
-    _id: number;
+    id: number;
     name: string;
     sourceClasses: number[];
     targetClass: number;

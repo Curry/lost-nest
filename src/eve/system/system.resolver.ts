@@ -7,13 +7,13 @@ import { SystemArgs } from '../common/inputs/systemArgs.input';
 export class SystemResolver {
   constructor(private service: SystemService) {}
 
-  @Query(() => System, { name: 'system' })
-  getSystemById(@Args('id') id: number) {
+  @Query(() => System)
+  system(@Args('id') id: number) {
     return this.service.getSystemById(id);
   }
 
-  @Query(() => [System], { name: 'systems' })
-  getSystemsByStatics(@Args() types: SystemArgs) {
-    return this.service.getSystemsByStatics(types);
+  @Query(() => [System])
+  systems(@Args() types: SystemArgs) {
+    return this.service.getSystems(types);
   }
 }

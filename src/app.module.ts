@@ -3,12 +3,9 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { GraphQLModule } from '@nestjs/graphql';
 import { AppResolver } from './app.resolver';
-import { AuthModule } from './auth/auth.module';
-import { DateScalar } from './common/scalars/date.scalar';
 import { MongooseModule } from '@nestjs/mongoose';
-import { SystemModule } from './eve/system/system.module';
 import * as autoPopulate from 'mongoose-autopopulate'
-import { WormholeModule } from './eve/wormhole/wormhole.module';
+import { EveModule } from './eve/eve.module';
 
 @Module({
   imports: [
@@ -27,8 +24,7 @@ import { WormholeModule } from './eve/wormhole/wormhole.module';
       context: ({ req }) => ({ req })
     }),
     // AuthModule,
-    SystemModule,
-    WormholeModule,
+    EveModule,
   ],
   controllers: [AppController],
   providers: [AppService, AppResolver],

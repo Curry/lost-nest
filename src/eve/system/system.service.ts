@@ -15,16 +15,9 @@ export class SystemService {
     private wormholeService: WormholeService,
   ) {}
 
-  getSystems = () => from(this.systemModel.find());
-
   getSystemById = (id: number) => from(this.systemModel.findOne({ id: id }));
 
-  getSystemsByName = (name: string) =>
-    from(
-      this.systemModel.find({ systemName: { $regex: new RegExp(name, 'i') } }),
-    );
-
-  getSystemsByStatics = (name: SystemArgs) =>
+  getSystems = (name: SystemArgs) =>
     this.wormholeService.getWormholesByName(name.statics).pipe(
       map(val => ({
         ...(name.id && { _id: name.id.toString() }),
