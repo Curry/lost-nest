@@ -1,7 +1,7 @@
 import { Resolver, Query, Args } from '@nestjs/graphql';
-import { System } from './models/system.model';
+import { System } from './system.model';
 import { SystemService } from './system.service';
-import { SystemArgs } from './inputs/systemArgs.input';
+import { SystemArgs } from '../common/inputs/systemArgs.input';
 
 @Resolver(() => System)
 export class SystemResolver {

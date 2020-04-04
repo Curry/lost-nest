@@ -35,17 +35,7 @@ type Query {
   hello(name: String!): String!
   system(id: Float!): System!
   systems(id: Float, systemName: String, statics: [Class!] = [], effect: Effect, class: Class): [System!]!
-}
-
-type Static {
-  id: Int!
-  name: String!
-  targetClass: Float!
-  lifetime: Float!
-  maxMass: Float!
-  massRegen: Float!
-  maxOnePass: Float!
-  scanStrength: Float
+  wormhole(source: Class!): [Wormhole!]!
 }
 
 type System {
@@ -60,5 +50,17 @@ type System {
   securityClass: String
   class: Float!
   effect: Effect
-  statics: [Static!]!
+  statics: [Wormhole!]!
+}
+
+type Wormhole {
+  id: Int!
+  name: String!
+  sourceClasses: [Float!]!
+  targetClass: Float!
+  lifetime: Float!
+  maxMass: Float!
+  massRegen: Float!
+  maxOnePass: Float!
+  scanStrength: Float
 }

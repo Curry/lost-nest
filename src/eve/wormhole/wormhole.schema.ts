@@ -1,8 +1,9 @@
 import { Schema } from 'mongoose'
 
-export const StaticSchema = new Schema({
+export const WormholeSchema = new Schema({
     _id: Number,
     name: String,
+    sourceClasses: [Number],
     targetClass: Number,
     lifetime: Number,
     maxMass: Number,

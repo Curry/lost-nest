@@ -8,6 +8,7 @@ import { DateScalar } from './common/scalars/date.scalar';
 import { MongooseModule } from '@nestjs/mongoose';
 import { SystemModule } from './eve/system/system.module';
 import * as autoPopulate from 'mongoose-autopopulate'
+import { WormholeModule } from './eve/wormhole/wormhole.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import * as autoPopulate from 'mongoose-autopopulate'
     }),
     // AuthModule,
     SystemModule,
+    WormholeModule,
   ],
   controllers: [AppController],
   providers: [AppService, AppResolver],

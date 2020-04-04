@@ -1,6 +1,6 @@
 import { Field, Int, ObjectType, Float } from '@nestjs/graphql';
-import { Static } from './static.model';
-import { Effect } from 'src/eve/enums/effect.enum';
+import { Effect } from 'src/eve/common/enums/effect.enum';
+import { Wormhole } from 'src/eve/wormhole/wormhole.model';
 
 @ObjectType()
 export class System {
@@ -37,6 +37,6 @@ export class System {
   @Field(() => Effect, { nullable: true })
   effect: string;
 
-  @Field(() => [Static])
-  statics?: Static[];
+  @Field(() => [Wormhole])
+  statics?: Wormhole[];
 }

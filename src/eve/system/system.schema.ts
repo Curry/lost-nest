@@ -12,5 +12,5 @@ export const SystemSchema = new Schema({
     securityClass: String,
     class: Number,
     effect: String,
-    statics: [{ type: Schema.Types.Number, ref: 'Static', autopopulate: true}]
+    statics: [{ type: Schema.Types.Number, ref: 'Wormhole', autopopulate: true}]
 });

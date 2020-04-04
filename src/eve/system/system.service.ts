@@ -3,17 +3,16 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { from } from 'rxjs';
 import { mergeMap, map } from 'rxjs/operators';
-import { System } from './interfaces/system.interface';
-import { Static } from './interfaces/static.interface';
-import { SystemArgs } from './inputs/systemArgs.input';
+import { System } from './system.interface';
+import { SystemArgs } from '../common/inputs/systemArgs.input';
+import { WormholeService } from '../wormhole/wormhole.service';
 
 @Injectable()
 export class SystemService {
   constructor(
     @InjectModel('System')
     private systemModel: Model<System>,
-    @InjectModel('Static')
-    private staticModel: Model<Static>,
+    private wormholeService: WormholeService,
   ) {}
 
   getSystems = () => from(this.systemModel.find());
@@ -26,7 +25,7 @@ export class SystemService {
     );
 
   getSystemsByStatics = (name: SystemArgs) =>
-    from(this.staticModel.find({ targetClass: { $in: name.statics } })).pipe(
+    this.wormholeService.getWormholesByName(name.statics).pipe(
       map(val => ({
         ...(name.id && { _id: name.id.toString() }),
         ...(name.systemName && {

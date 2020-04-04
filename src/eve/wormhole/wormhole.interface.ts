@@ -1,8 +1,9 @@
 import { Document } from 'mongoose';
 
-export interface Static extends Document {
+export interface Wormhole extends Document {
     _id: number;
     name: string;
+    sourceClasses: number[];
     targetClass: number;
     lifetime: number;
     maxMass: number;

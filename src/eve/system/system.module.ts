@@ -2,8 +2,8 @@ import { Module } from '@nestjs/common';
 import { SystemService } from './system.service';
 import { SystemResolver } from './system.resolver';
 import { MongooseModule } from '@nestjs/mongoose';
-import { SystemSchema } from './schemas/system.schema';
-import { StaticSchema } from './schemas/static.schema';
+import { SystemSchema } from './system.schema';
+import { WormholeModule } from '../wormhole/wormhole.module';
 
 @Module({
   imports: [
@@ -13,13 +13,10 @@ import { StaticSchema } from './schemas/static.schema';
         schema: SystemSchema,
         collection: 'systems'
       },
-      {
-        name: 'Static',
-        schema: StaticSchema,
-        collection: 'wormholes'
-      }
-    ])
+    ]),
+    WormholeModule
   ],
+  exports: [SystemService],
   providers: [SystemService, SystemResolver]
 })
 export class SystemModule {}

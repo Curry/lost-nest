@@ -700,11 +700,6 @@
     consola "^2.3.0"
     node-fetch "^2.3.0"
 
-"@prisma/client@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.0.0-beta.1.tgz#457d83167cf1657e16473ebf467a9b339d982932"
-  integrity sha512-4uRHUJs/RGc517wLZPrr9ZRq/NbUoPrX4Pa8mb4wIluJMxk4d1raE0O2/LBM5EcVH0RaoIA+dffTvPGfI3by+g==
-
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"

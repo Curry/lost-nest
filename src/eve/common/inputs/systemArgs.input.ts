@@ -1,6 +1,6 @@
 import { ArgsType, Field } from '@nestjs/graphql';
-import { Effect } from 'src/eve/enums/effect.enum';
-import { Class } from 'src/eve/enums/class.enum';
+import { Effect } from '../enums/effect.enum';
+import { Class } from '../enums/class.enum';
 
 @ArgsType()
 export class SystemArgs {
