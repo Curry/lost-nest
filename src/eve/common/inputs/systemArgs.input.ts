@@ -18,4 +18,7 @@ export class SystemArgs {
 
   @Field(() => Class, { nullable: true })
   class: Class;
+
+  @Field(() => Boolean, { defaultValue: false })
+  shattered: boolean;
 }

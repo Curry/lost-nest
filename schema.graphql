@@ -66,24 +66,31 @@ enum Effect {
 }
 
 type Mutation {
-  addCorporation(corporationData: CorporationInput!): Boolean!
+  addCorporation(corporationData: CorporationInput!): Corporation!
 }
 
 type Query {
   helloWorld: String!
   hello(name: String!): String!
   ship(name: String!): Ship!
-  system(id: Float!): System!
-  systems(id: Float, systemName: String, statics: [Class!] = [], effect: Effect, class: Class): [System!]!
+  systemId(id: Float!): System!
+  systemName(name: String!): System!
+  systemReg(name: String!): [String!]!
+  systems(effect: Effect = null, statics: [Class!] = [], class: Class = null): [System!]!
   wormhole(name: String!): Wormhole!
-  wormholes(source: Class!): [Wormhole!]!
+  wormholeConn(source: Class!): [Wormhole!]!
   corporation(name: String!): Corporation!
+  val: Boolean!
 }
 
 type Ship {
   id: Int!
   name: String!
   mass: Float!
+}
+
+type Subscription {
+  corpChanged: Corporation!
 }
 
 type System {
@@ -104,8 +111,8 @@ type System {
 type Wormhole {
   id: Int!
   name: String!
-  sourceClasses: [Float!]!
-  targetClass: Float!
+  sourceClasses: [Class!]!
+  targetClass: Class!
   lifetime: Float!
   maxMass: Float!
   massRegen: Float!

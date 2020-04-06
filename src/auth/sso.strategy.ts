@@ -17,7 +17,7 @@ export class SSOStrategy extends PassportStrategy(Strategy) {
       clientSecret: 'dZLJrBJP2B6XWo1kGms2aWI8PgCnRGmGfxUkFpzw',
       scope:
         'esi-location.read_location.v1 esi-location.read_ship_type.v1 esi-ui.write_waypoint.v1 esi-location.read_online.v1',
-      callbackURL: 'http://localhost:3000/callback/',
+      callbackURL: 'http://localhost:3000/auth/callback/',
     });
     refreshUse(this);
   }
@@ -27,7 +27,11 @@ export class SSOStrategy extends PassportStrategy(Strategy) {
     refreshToken: string,
     profile: IEveRawProfile,
     done: any,
-  ) => {};
+  ) => {
+    console.log(accessToken);
+    console.log(refreshToken)
+    done(null, {name: "name"})
+  };
   // this.authService
   //   .saveUser(accessToken, refreshToken, profile)
   //   .pipe(mergeMap(val => of(done(null, val))))

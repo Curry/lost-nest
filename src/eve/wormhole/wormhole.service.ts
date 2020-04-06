@@ -18,10 +18,7 @@ export class WormholeService {
   getWormholesBySource = (sourceClass: Class) =>
     from(
       this.wormholeModel
-        .find({ sourceClasses: { $eq: sourceClass } })
+        .find({ sourceClasses: sourceClass })
         .sort({ targetClass: 1 }),
     );
-
-  getWormholesByTargetClass = (names: Class[]) =>
-    from(this.wormholeModel.find({ targetClass: { $in: names } }));
 }

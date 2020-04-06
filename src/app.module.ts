@@ -7,6 +7,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import * as autoPopulate from 'mongoose-autopopulate';
 import { EveModule } from './eve/eve.module';
 import { DateScalar } from './common/scalars/date.scalar';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -15,7 +16,6 @@ import { DateScalar } from './common/scalars/date.scalar';
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
-      installSubscriptionHandlers: true,
       connectionFactory: connection => {
         connection.plugin(autoPopulate);
         return connection;
@@ -23,12 +23,17 @@ import { DateScalar } from './common/scalars/date.scalar';
     }),
     GraphQLModule.forRoot({
       autoSchemaFile: 'schema.graphql',
+      installSubscriptionHandlers: true,
       context: ({ req }) => ({ req }),
     }),
-    // AuthModule,
     EveModule,
+    AuthModule,
   ],
   controllers: [AppController],
-  providers: [AppService, AppResolver, DateScalar],
+  providers: [
+    AppService,
+    AppResolver,
+    DateScalar,
+  ],
 })
 export class AppModule {}

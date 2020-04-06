@@ -1,4 +1,5 @@
 import { Field, Float, ObjectType, Int } from '@nestjs/graphql';
+import { Class } from '../common/enums/class.enum';
 
 @ObjectType()
 export class Wormhole {
@@ -8,11 +9,11 @@ export class Wormhole {
   @Field(() => String)
   name: string;
 
-  @Field(() => [Number])
-  sourceClasses: number[];
+  @Field(() => [Class])
+  sourceClasses: Class[];
 
-  @Field(() => Float)
-  targetClass: number;
+  @Field(() => Class)
+  targetClass: Class;
 
   @Field(() => Float)
   lifetime: number;

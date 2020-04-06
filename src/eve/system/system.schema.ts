@@ -13,4 +13,5 @@ export const SystemSchema = new Schema({
   class: Number,
   effect: String,
   statics: [{ type: Schema.Types.Number, ref: 'Wormhole', autopopulate: true }],
+  staticTargets: [Number],
 });

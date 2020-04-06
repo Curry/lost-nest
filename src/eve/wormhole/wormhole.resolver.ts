@@ -13,7 +13,7 @@ export class WormholeResolver {
   }
 
   @Query(() => [Wormhole])
-  wormholes(@Args('source', { type: () => Class }) source: Class) {
+  wormholeConn(@Args('source', { type: () => Class }) source: Class) {
     return this.service.getWormholesBySource(source);
   }
 }

@@ -4,6 +4,7 @@ import { CorporationService } from './corporation.service';
 import { CorporationResolver } from './corporation.resolver';
 import { CorporationSchema } from './corporation.schema';
 import { AllianceModule } from '../alliance/alliance.module';
+import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Module({
   imports: [
@@ -17,6 +18,13 @@ import { AllianceModule } from '../alliance/alliance.module';
     AllianceModule,
   ],
   exports: [CorporationService],
-  providers: [CorporationService, CorporationResolver],
+  providers: [
+    CorporationService,
+    CorporationResolver,
+    {
+      provide: 'PUB_SUB',
+      useValue: new RedisPubSub(),
+    },
+  ],
 })
 export class CorporationModule {}

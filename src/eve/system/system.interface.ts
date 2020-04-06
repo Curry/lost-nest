@@ -13,4 +13,5 @@ export interface System extends Document {
   class: number;
   effect: string;
   statics: number[];
+  staticTargets: number[];
 }

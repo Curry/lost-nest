@@ -1,0 +1,41 @@
+db.wormholes2.aggregate([
+    { $match: { targetClass:  { $in: [2, 9]} }},
+    { $unwind: "$sourceClasses" },
+])
+
+db.systems.aggregate([
+  { $lookup: {
+    from: "wormholes",
+    localField: "statics",
+    foreignField: "_id",
+    as: "staticWormholes"
+  }},
+  { $unwind: "$staticWormholes" },
+  { $addFields: { targetClass: "$staticWormholes.targetClass"}},
+  { $unset: "staticWormholes" },
+  { $group: {
+      _id: "$_id",
+      class: { $first: "$class" },
+      constellationId: { $first: "$constellationId" },
+      effect: { $first: "$effect" },
+      regionId: { $first: "$regionId" },
+      securityClass: { $first: "$securityClass" },
+      starId: { $first: "$starId" },
+      statics: { $first: "$statics" },
+      systemName: { $first: "$systemName" },
+      trueSec: { $first: "$trueSec" },
+      staticTargets: { $addToSet: "$targetClass" }
+  }},
+  { $merge: "systems2" }
+])
+
+db.systems.aggregate([
+  { $match: { statics: [] }},
+  { $set: { staticTargets: [] } },
+  { $merge: "systems2" }
+])
+
+
+db.systems2.aggregate([
+    { $match: { class: }}
+])

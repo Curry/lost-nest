@@ -4,6 +4,8 @@ import { SystemModule } from './system/system.module';
 import { WormholeModule } from './wormhole/wormhole.module';
 import { AllianceModule } from './alliance/alliance.module';
 import { CorporationModule } from './corporation/corporation.module';
+import { EsiModule } from './esi/esi.module';
+import { CharacterModule } from './character/character.module';
 
 @Module({
   imports: [
@@ -12,6 +14,8 @@ import { CorporationModule } from './corporation/corporation.module';
     WormholeModule,
     AllianceModule,
     CorporationModule,
+    EsiModule,
+    CharacterModule,
   ],
 })
 export class EveModule {}
