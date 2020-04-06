@@ -32,7 +32,7 @@ export class ESICorporation {
 export interface IEveRawProfile {
   CharacterID: number;
   CharacterName: string;
-  ExpiresOn: Date;
+  ExpiresOn: number;
   Scopes: string;
   TokenType: string;
   CharacterOwnerHash: string;

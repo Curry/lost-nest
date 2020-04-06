@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
 import { Strategy, InternalOAuthError } from 'passport-oauth2';
 import { PassportStrategy } from '@nestjs/passport';
-import { IEveRawProfile } from './esi.model';
+import { IEveRawProfile } from '../esi.model';
 import { of } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
-import { AuthService } from './auth.service';
+import { AuthService } from '../auth.service';
 import { use as refreshUse } from 'passport-oauth2-refresh';
 
 @Injectable()
@@ -17,7 +17,7 @@ export class SSOStrategy extends PassportStrategy(Strategy) {
       clientSecret: 'dZLJrBJP2B6XWo1kGms2aWI8PgCnRGmGfxUkFpzw',
       scope:
         'esi-location.read_location.v1 esi-location.read_ship_type.v1 esi-ui.write_waypoint.v1 esi-location.read_online.v1',
-      callbackURL: 'http://localhost:3000/auth/callback/',
+      callbackURL: 'http://localhost:3000/auth/esi/callback/',
     });
     refreshUse(this);
   }
@@ -27,15 +27,10 @@ export class SSOStrategy extends PassportStrategy(Strategy) {
     refreshToken: string,
     profile: IEveRawProfile,
     done: any,
-  ) => {
-    console.log(accessToken);
-    console.log(refreshToken)
-    done(null, {name: "name"})
-  };
-  // this.authService
-  //   .saveUser(accessToken, refreshToken, profile)
-  //   .pipe(mergeMap(val => of(done(null, val))))
-  //   .toPromise();
+  ) => this.authService
+    .saveUser(accessToken, refreshToken, profile)
+    .pipe(mergeMap(val => of(done(null, val))))
+    .toPromise();
 
   userProfile = (
     accessToken: string,
@@ -51,8 +46,7 @@ export class SSOStrategy extends PassportStrategy(Strategy) {
             new InternalOAuthError('Failed to parse character profile.', err),
           );
         }
-        const profile = JSON.parse(body) as IEveRawProfile;
-        done(null, profile);
+        done(null, JSON.parse(body) as IEveRawProfile);
       },
     );
   };

@@ -6,6 +6,7 @@ import { AllianceModule } from './alliance/alliance.module';
 import { CorporationModule } from './corporation/corporation.module';
 import { EsiModule } from './esi/esi.module';
 import { CharacterModule } from './character/character.module';
+import { UserModule } from './user/user.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { CharacterModule } from './character/character.module';
     CorporationModule,
     EsiModule,
     CharacterModule,
+    UserModule,
   ],
 })
 export class EveModule {}

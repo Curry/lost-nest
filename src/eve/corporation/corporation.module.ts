@@ -15,7 +15,7 @@ import { RedisPubSub } from 'graphql-redis-subscriptions';
         collection: 'corporations',
       },
     ]),
-    AllianceModule,
+    AllianceModule
   ],
   exports: [CorporationService],
   providers: [

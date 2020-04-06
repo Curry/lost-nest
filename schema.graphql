@@ -81,6 +81,7 @@ type Query {
   wormholeConn(source: Class!): [Wormhole!]!
   corporation(name: String!): Corporation!
   val: Boolean!
+  whoAmI: User!
 }
 
 type Ship {
@@ -106,6 +107,10 @@ type System {
   class: Float!
   effect: Effect
   statics: [Wormhole!]!
+}
+
+type User {
+  username: String!
 }
 
 type Wormhole {

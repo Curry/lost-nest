@@ -10,15 +10,6 @@ export const CharacterSchema = new Schema({
     esiAccessTokenExpires: Date,
     esiRefreshToken: String,
     esiScopes: String,
-    corporationId: Number,
-    allianceId: Number,
-    roleId: Number,
-    cloneLocationId: Number,
-    cloneLocationType: String,
-    kicked: Date,
-    banned: Date,
-    shared: Boolean,
-    logLocation: Boolean,
-    selectLocation: Boolean,
-    securityStatus: Boolean
+    corporationId: {type: Number, default: ''},
+    allianceId: {type: Number, default: ''},
 }, { timestamps: true });
