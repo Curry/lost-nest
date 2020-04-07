@@ -10,11 +10,11 @@ import { CharacterSchema } from './character.schema';
       {
         name: 'Character',
         schema: CharacterSchema,
-        collection: 'characters'
+        collection: 'characters',
       },
     ]),
   ],
   exports: [CharacterService],
-  providers: [CharacterService, CharacterResolver]
+  providers: [CharacterService, CharacterResolver],
 })
 export class CharacterModule {}

@@ -10,7 +10,7 @@ export class EsiResolver {
 
   @Query(() => Boolean)
   @UseGuards(GqlAuthGuard)
-  online(@CurrentCharacter() char: { hash: string, id: number}) {
+  online(@CurrentCharacter() char: { hash: string; id: number }) {
     return this.service.getOnline(char.id);
   }
 }

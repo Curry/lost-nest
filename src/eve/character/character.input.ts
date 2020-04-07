@@ -31,7 +31,7 @@ export class CharacterInput {
 
   @Field(() => Int)
   corporationId: number;
-  
+
   @Field(() => Int)
   allianceId: number;
 }

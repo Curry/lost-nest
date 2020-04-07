@@ -38,6 +38,6 @@ export class EsiService {
     );
 
   test = () => {
-    this.pubSub.subscribe
-  }
+    this.pubSub.subscribe;
+  };
 }

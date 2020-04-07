@@ -23,7 +23,5 @@ export class AllianceService {
         alliance,
         { upsert: true },
       ),
-    ).pipe(
-      map(() => alliance),
-    );
+    ).pipe(map(() => alliance));
 }

@@ -1,6 +1,7 @@
 import { Schema } from 'mongoose';
 
-export const CharacterSchema = new Schema({
+export const CharacterSchema = new Schema(
+  {
     characterId: Number,
     lastLogin: Date,
     active: Boolean,
@@ -10,6 +11,8 @@ export const CharacterSchema = new Schema({
     esiAccessTokenExpires: Date,
     esiRefreshToken: String,
     esiScopes: String,
-    corporationId: {type: Number, default: ''},
-    allianceId: {type: Number, default: ''},
-}, { timestamps: true });
+    corporationId: { type: Number, default: '' },
+    allianceId: { type: Number, default: '' },
+  },
+  { timestamps: true },
+);

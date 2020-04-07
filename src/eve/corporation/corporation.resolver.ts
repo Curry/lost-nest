@@ -47,10 +47,10 @@ export class CorporationResolver {
   }
 
   @Subscription(() => Corporation, {
-    resolve: val => val
+    resolve: val => val,
   })
   corpChanged() {
-    console.log('subscription')
+    console.log('subscription');
     return this.pubSub.asyncIterator('test');
   }
 }

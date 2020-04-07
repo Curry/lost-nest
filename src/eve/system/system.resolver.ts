@@ -13,7 +13,7 @@ export class SystemResolver {
 
   @Query(() => System)
   @UseGuards(GqlAuthGuard)
-  location(@CurrentCharacter() char: { hash: string, id: number}) {
+  location(@CurrentCharacter() char: { hash: string; id: number }) {
     return this.service.getLocation(char.id);
   }
 
@@ -34,8 +34,10 @@ export class SystemResolver {
 
   @Query(() => [System])
   systems(
-    @Args('class', { type: () => Class, defaultValue: null }) sourceClass: Class,
-    @Args('statics', { type: () => [Class], defaultValue: [] }) statics: Class[],
+    @Args('class', { type: () => Class, defaultValue: null })
+    sourceClass: Class,
+    @Args('statics', { type: () => [Class], defaultValue: [] })
+    statics: Class[],
     @Args('effect', { type: () => Effect, defaultValue: null }) effect: Effect,
   ) {
     return this.service.getSystems(sourceClass, statics, effect);

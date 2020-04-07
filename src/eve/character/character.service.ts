@@ -13,7 +13,8 @@ export class CharacterService {
     private characterModel: Model<Character>,
   ) {}
 
-  findCharacter = (id: number) => from(this.characterModel.findOne({ characterId: id }))
+  findCharacter = (id: number) =>
+    from(this.characterModel.findOne({ characterId: id }));
 
   saveCharacter = (character: CharacterInput) =>
     from(
@@ -24,9 +25,13 @@ export class CharacterService {
       ),
     ).pipe(map(() => character));
 
-  checkToken = (id: number) => this.findCharacter(id).pipe(
-    map(val => val.esiAccessToken === '' || val.esiAccessTokenExpires < new Date())
-  )
+  checkToken = (id: number) =>
+    this.findCharacter(id).pipe(
+      map(
+        val =>
+          val.esiAccessToken === '' || val.esiAccessTokenExpires < new Date(),
+      ),
+    );
 
   updateAccessToken = (accessToken: string, refreshToken: string) =>
     from(
@@ -35,8 +40,10 @@ export class CharacterService {
         {
           esiAccessToken: accessToken,
           esiRefreshToken: refreshToken,
-          esiAccessTokenExpires: new Date(new Date().getTime() + 30*60000).toUTCString()
+          esiAccessTokenExpires: new Date(
+            new Date().getTime() + 30 * 60000,
+          ).toUTCString(),
         },
       ),
-    )
+    );
 }

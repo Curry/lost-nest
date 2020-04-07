@@ -17,20 +17,20 @@ export class SystemService {
   ) {}
 
   getLocation = (id: number) =>
-    this.esiService.accessEsiWithAuth<any>(`characters/${id}/location`, id).pipe(
-      mergeMap(data => this.getSystemById(data.solar_system_id)),
-    );
+    this.esiService
+      .accessEsiWithAuth<any>(`characters/${id}/location`, id)
+      .pipe(mergeMap(data => this.getSystemById(data.solar_system_id)));
 
   getSystemById = (id: number) =>
     from(this.systemModel.findOne({ _id: id.toString() }));
-  
+
   getSystemByName = (name: string) =>
     from(this.systemModel.findOne({ systemName: name }));
-  
+
   getSystemsRegex = (name: string) =>
-    from(this.systemModel.find({ systemName: { $regex: new RegExp(name, 'i') } })).pipe(
-      map(val => val.map(sys => sys.systemName))
-    );
+    from(
+      this.systemModel.find({ systemName: { $regex: new RegExp(name, 'i') } }),
+    ).pipe(map(val => val.map(sys => sys.systemName)));
 
   getSystems = (sourceClass: Class, statics: Class[], effect: Effect) => {
     return this.systemModel.find({

@@ -11,7 +11,7 @@ export class CharacterResolver {
 
   @Query(() => Character)
   @UseGuards(GqlAuthGuard)
-  whoAmI(@CurrentCharacter() char: { hash: string, id: number}) {
+  whoAmI(@CurrentCharacter() char: { hash: string; id: number }) {
     return this.service.findCharacter(char.id);
   }
 }

@@ -8,18 +8,25 @@ import * as autoPopulate from 'mongoose-autopopulate';
 import { EveModule } from './eve/eve.module';
 import { DateScalar } from './common/scalars/date.scalar';
 import { AuthModule } from './auth/auth.module';
+import { ConfigModule, ConfigService } from '@nestjs/config';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/lost', {
-      useCreateIndex: true,
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useFindAndModify: false,
-      connectionFactory: connection => {
-        connection.plugin(autoPopulate);
-        return connection;
-      },
+    ConfigModule.forRoot(),
+    MongooseModule.forRootAsync({
+      imports: [ConfigModule],
+      useFactory: async (configService: ConfigService) => ({
+        uri: configService.get<string>('MONGODB_URI'),
+        useCreateIndex: true,
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useFindAndModify: false,
+        connectionFactory: connection => {
+          connection.plugin(autoPopulate);
+          return connection;
+        },
+      }),
+      inject: [ConfigService],
     }),
     GraphQLModule.forRoot({
       autoSchemaFile: 'schema.graphql',
@@ -30,10 +37,6 @@ import { AuthModule } from './auth/auth.module';
     AuthModule,
   ],
   controllers: [AppController],
-  providers: [
-    AppService,
-    AppResolver,
-    DateScalar,
-  ],
+  providers: [AppService, AppResolver, DateScalar],
 })
 export class AppModule {}

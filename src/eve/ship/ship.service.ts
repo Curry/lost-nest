@@ -12,18 +12,16 @@ export class ShipService {
     @InjectModel('Ship')
     private shipModel: Model<Ship>,
     private esiService: EsiService,
-
   ) {}
 
-
   getShip = (id: number) =>
-    this.esiService.accessEsiWithAuth<any>(`characters/${id}/ship`, id).pipe(
-      mergeMap(data => this.getShipById(data.ship_type_id)),
-    );
+    this.esiService
+      .accessEsiWithAuth<any>(`characters/${id}/ship`, id)
+      .pipe(mergeMap(data => this.getShipById(data.ship_type_id)));
 
   getShipByName = (name: string) =>
     from(this.shipModel.findOne({ name: name }));
 
-  getShipById = (id: number) => 
+  getShipById = (id: number) =>
     from(this.shipModel.findOne({ _id: id.toString() }));
 }

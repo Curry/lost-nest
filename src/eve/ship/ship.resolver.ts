@@ -12,7 +12,7 @@ export class ShipResolver {
 
   @Query(() => Ship)
   @UseGuards(GqlAuthGuard)
-  currentShip(@CurrentCharacter() char: { hash: string, id: number}) {
+  currentShip(@CurrentCharacter() char: { hash: string; id: number }) {
     return this.service.getShip(char.id);
   }
 
