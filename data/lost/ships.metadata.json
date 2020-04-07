@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"lost.ships"}],"uuid":"9c59979da5264ab88a7b4c238b9c8c33"}

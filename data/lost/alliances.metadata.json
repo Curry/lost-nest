@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"lost.alliances"}],"uuid":"0c057e0bb32d4ef9a64e52302bc83769"}
