@@ -1,4 +1,4 @@
-import { Controller, Get, UseGuards, Res, Request, Post } from '@nestjs/common';
+import { Controller, Get, UseGuards, Res } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
 import { Response } from 'express';
 import { AuthService } from './auth.service';
@@ -9,20 +9,13 @@ export class AuthController {
 
   @UseGuards(AuthGuard('oauth2'))
   @Get('/esi')
-  esi(@Request() req) {
+  esi() {
     return;
   }
 
   @UseGuards(AuthGuard('oauth2'))
   @Get('/esi/callback')
-  callback(@Request() req, @Res() res: Response) {
-    console.log(req.user);
+  callback(@Res() res: Response) {
     res.redirect('http://localhost:4200/');
-  }
-
-  @UseGuards(AuthGuard('local'))
-  @Post('/login')
-  async login(@Request() req) {
-    return this.authService.login(req.user);
   }
 }

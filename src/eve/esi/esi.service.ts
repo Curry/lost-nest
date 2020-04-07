@@ -4,35 +4,6 @@ import { iif, of } from 'rxjs';
 import { CharacterService } from '../character/character.service';
 import { AuthService } from 'src/auth/auth.service';
 
-export class AllianceModel {
-  creator_corporation_id: number;
-  allianceId?: number;
-  creator_id: number;
-  date_founded: Date;
-  executor_corporation_id: number;
-  name: string;
-  ticker: string;
-  faction_id?: number;
-  corps?: CorporationModel[];
-}
-
-export class CorporationModel {
-  alliance_id: number;
-  corporationId?: number;
-  ceo_id: number;
-  creator_id: number;
-  date_founded: Date;
-  description: string;
-  home_station_id: number;
-  member_count: number;
-  name: string;
-  shares: number;
-  tax_rate: number;
-  ticker: string;
-  faction_id?: number;
-  url: string;
-}
-
 @Injectable()
 export class EsiService {
   constructor(
