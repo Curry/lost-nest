@@ -4,7 +4,7 @@ import { Model } from 'mongoose';
 import { Character } from './character.interface';
 import { from } from 'rxjs';
 import { CharacterInput } from './character.input';
-import { map, tap } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 @Injectable()
 export class CharacterService {
@@ -25,8 +25,7 @@ export class CharacterService {
     ).pipe(map(() => character));
 
   checkToken = (id: number) => this.findCharacter(id).pipe(
-    map(val => val.esiAccessToken === '' || val.esiAccessTokenExpires > new Date()),
-    tap(val => console.log(val))
+    map(val => val.esiAccessToken === '' || val.esiAccessTokenExpires < new Date())
   )
 
   updateAccessToken = (accessToken: string, refreshToken: string) =>
@@ -36,6 +35,7 @@ export class CharacterService {
         {
           esiAccessToken: accessToken,
           esiRefreshToken: refreshToken,
+          esiAccessTokenExpires: new Date(new Date().getTime() + 30*60000).toUTCString()
         },
       ),
     )

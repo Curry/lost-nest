@@ -5,14 +5,21 @@ import { from } from 'rxjs';
 import { System } from './system.interface';
 import { Class } from '../common/enums/class.enum';
 import { Effect } from '../common/enums/effect.enum';
-import { map } from 'rxjs/operators';
+import { map, mergeMap } from 'rxjs/operators';
+import { EsiService } from '../esi/esi.service';
 
 @Injectable()
 export class SystemService {
   constructor(
     @InjectModel('System')
-    private systemModel: Model<System>
+    private systemModel: Model<System>,
+    private esiService: EsiService,
   ) {}
+
+  getLocation = (id: number) =>
+    this.esiService.accessEsiWithAuth<any>(`characters/${id}/location`, id).pipe(
+      mergeMap(data => this.getSystemById(data.solar_system_id)),
+    );
 
   getSystemById = (id: number) =>
     from(this.systemModel.findOne({ _id: id.toString() }));

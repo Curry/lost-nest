@@ -87,7 +87,11 @@ type Mutation {
 type Query {
   helloWorld: String!
   hello(name: String!): String!
+  currentShip: Ship!
   ship(name: String!): Ship!
+  online: Boolean!
+  whoAmI: Character!
+  location: System!
   systemId(id: Float!): System!
   systemName(name: String!): System!
   systemReg(name: String!): [String!]!
@@ -95,9 +99,6 @@ type Query {
   wormhole(name: String!): Wormhole!
   wormholeConn(source: Class!): [Wormhole!]!
   corporation(name: String!): Corporation!
-  val: Boolean!
-  location: Float!
-  whoAmI: Character!
 }
 
 type Ship {

@@ -3,6 +3,7 @@ import { SystemService } from './system.service';
 import { SystemResolver } from './system.resolver';
 import { MongooseModule } from '@nestjs/mongoose';
 import { SystemSchema } from './system.schema';
+import { EsiModule } from '../esi/esi.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { SystemSchema } from './system.schema';
         collection: 'systems',
       },
     ]),
+    EsiModule,
   ],
   exports: [SystemService],
   providers: [SystemService, SystemResolver],
