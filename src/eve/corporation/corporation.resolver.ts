@@ -14,14 +14,14 @@ import { Alliance } from '../alliance/alliance.model';
 import { map } from 'rxjs/operators';
 import { CorporationInput } from './corporation.input';
 import { Inject } from '@nestjs/common';
-import { PubSub } from 'graphql-subscriptions';
+import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Resolver(() => Corporation)
 export class CorporationResolver {
   constructor(
     private service: CorporationService,
     private allianceService: AllianceService,
-    @Inject('PUB_SUB') private pubSub: PubSub,
+    @Inject('PUB_SUB') private pubSub: RedisPubSub,
   ) {}
 
   @Query(() => Corporation)

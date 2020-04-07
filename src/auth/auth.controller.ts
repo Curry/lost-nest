@@ -16,6 +16,6 @@ export class AuthController {
   @UseGuards(AuthGuard('oauth2'))
   @Get('/esi/callback')
   callback(@Res() res: Response) {
-    res.redirect('http://localhost:4200/');
+    res.redirect(`http://localhost:4200/?token=${res.req.user['token']}`);
   }
 }

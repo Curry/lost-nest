@@ -1,8 +1,9 @@
-import { Injectable, HttpService } from '@nestjs/common';
+import { Injectable, HttpService, Inject } from '@nestjs/common';
 import { map, mergeMap } from 'rxjs/operators';
 import { iif, of } from 'rxjs';
 import { CharacterService } from '../character/character.service';
 import { AuthService } from 'src/auth/auth.service';
+import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Injectable()
 export class EsiService {
@@ -10,6 +11,7 @@ export class EsiService {
     private http: HttpService,
     private characterService: CharacterService,
     private authService: AuthService,
+    @Inject('PUB_SUB') private pubSub: RedisPubSub,
   ) {}
 
   private url = 'https://esi.evetech.net/latest';
@@ -34,4 +36,8 @@ export class EsiService {
       ),
       map(val => val.data),
     );
+
+  test = () => {
+    this.pubSub.subscribe
+  }
 }
