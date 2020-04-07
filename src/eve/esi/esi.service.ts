@@ -2,10 +2,12 @@ import { Injectable, HttpService } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Esi } from './esi.interface';
-import { map, mergeMap, retry, combineAll } from 'rxjs/operators';
-import { from } from 'rxjs';
+import { map, mergeMap, retry, combineAll, retryWhen } from 'rxjs/operators';
+import { from, iif, of } from 'rxjs';
 import { CorporationService } from '../corporation/corporation.service';
 import { AllianceService } from '../alliance/alliance.service';
+import { CharacterService } from '../character/character.service';
+import { AuthService } from 'src/auth/auth.service';
 
 export class AllianceModel {
   creator_corporation_id: number;
@@ -44,9 +46,28 @@ export class EsiService {
     private http: HttpService,
     private corpService: CorporationService,
     private allianceService: AllianceService,
+    private characterService: CharacterService,
+    private authService: AuthService,
   ) {}
 
   private url = 'https://esi.evetech.net/latest';
+
+  getLocation = (id: number) =>
+    this.accessEsiWithAuth<any>(`characters/${id}/location`, id).pipe(
+      map(data => data.solar_system_id),
+    );
+
+  accessEsiWithAuth = <T>(path: string, id: number) =>
+  this.characterService.checkToken(id).pipe(
+    mergeMap(val => iif(() => val, this.authService.refreshToken(id), of({}))),
+    mergeMap(() => this.characterService.findCharacter(id)),
+    mergeMap(val => this.http.get<T>(`${this.url}/${path}`, {
+      headers: {
+        Authorization: `Bearer ${val.esiAccessToken}`,
+      },
+    })),
+    map(val => val.data)
+  )
 
   getNAlliances = (start: number, end?: number) =>
     this.getAllAlliances().pipe(

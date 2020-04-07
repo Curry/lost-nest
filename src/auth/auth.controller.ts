@@ -9,13 +9,14 @@ export class AuthController {
 
   @UseGuards(AuthGuard('oauth2'))
   @Get('/esi')
-  esi() {
+  esi(@Request() req) {
     return;
   }
 
   @UseGuards(AuthGuard('oauth2'))
   @Get('/esi/callback')
-  callback(@Res() res: Response) {
+  callback(@Request() req, @Res() res: Response) {
+    console.log(req.user);
     res.redirect('http://localhost:4200/');
   }
 

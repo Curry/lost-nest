@@ -5,6 +5,8 @@ import { EsiResolver } from './esi.resolver';
 import { EsiSchema } from './esi.schema';
 import { CorporationModule } from '../corporation/corporation.module';
 import { AllianceModule } from '../alliance/alliance.module';
+import { CharacterModule } from '../character/character.module';
+import { AuthModule } from 'src/auth/auth.module';
 
 @Module({
   imports: [
@@ -18,6 +20,8 @@ import { AllianceModule } from '../alliance/alliance.module';
     HttpModule,
     CorporationModule,
     AllianceModule,
+    CharacterModule,
+    AuthModule,
   ],
   exports: [EsiService],
   providers: [EsiService, EsiResolver]
