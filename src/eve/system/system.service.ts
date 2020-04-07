@@ -5,7 +5,7 @@ import { from } from 'rxjs';
 import { System } from './system.interface';
 import { Class } from '../common/enums/class.enum';
 import { Effect } from '../common/enums/effect.enum';
-import { map, mergeMap } from 'rxjs/operators';
+import { map, mergeMap, combineAll } from 'rxjs/operators';
 import { EsiService } from '../esi/esi.service';
 
 @Injectable()
@@ -39,4 +39,16 @@ export class SystemService {
       ...(statics.length > 0 && { staticTargets: { $all: statics } }),
     });
   };
+
+  getRoute = (source: number, dest: number) =>
+    this.esiService.getRoute(source, dest).pipe(
+      mergeMap(val =>
+        from(val).pipe(
+          map(system =>
+            this.getSystemById(system)
+          ),
+          combineAll(),
+        ),
+      ),
+    );
 }

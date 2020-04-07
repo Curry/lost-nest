@@ -40,4 +40,9 @@ export class EsiService {
   test = () => {
     this.pubSub.subscribe;
   };
+
+  getRoute = (source: number, dest: number) =>
+    this.http
+      .get<number[]>(`${this.url}/route/${source}/${dest}`)
+      .pipe(map(val => val.data));
 }

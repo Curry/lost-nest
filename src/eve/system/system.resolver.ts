@@ -42,4 +42,9 @@ export class SystemResolver {
   ) {
     return this.service.getSystems(sourceClass, statics, effect);
   }
+
+  @Query(() => [System])
+  route(@Args('source') source: number, @Args('dest') dest: number) {
+    return this.service.getRoute(source, dest);
+  }
 }

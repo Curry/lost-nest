@@ -96,6 +96,7 @@ type Query {
   systemName(name: String!): System!
   systemReg(name: String!): [String!]!
   systems(effect: Effect = null, statics: [Class!] = [], class: Class = null): [System!]!
+  route(dest: Float!, source: Float!): [System!]!
   wormhole(name: String!): Wormhole!
   wormholeConn(source: Class!): [Wormhole!]!
   corporation(name: String!): Corporation!

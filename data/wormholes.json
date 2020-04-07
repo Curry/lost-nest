@@ -1,71 +1,5 @@
 [
   {
-    "_id": 30579,
-    "name": "Z971",
-    "sourceClasses": [7, 8, 9],
-    "targetClass": 1,
-    "lifetime": 960,
-    "maxMass": 100000000,
-    "massRegen": 0,
-    "maxOnePass": 20000000,
-    "scanStrength": 10
-  },
-  {
-    "_id": 30583,
-    "name": "R943",
-    "sourceClasses": [7, 8, 9],
-    "targetClass": 2,
-    "lifetime": 960,
-    "maxMass": 750000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": 6.67
-  },
-  {
-    "_id": 30584,
-    "name": "X702",
-    "sourceClasses": [7, 8, 9],
-    "targetClass": 3,
-    "lifetime": 1440,
-    "maxMass": 1000000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": 10
-  },
-  {
-    "_id": 30642,
-    "name": "O128",
-    "sourceClasses": [7, 8, 9],
-    "targetClass": 4,
-    "lifetime": 1440,
-    "maxMass": 1000000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": null
-  },
-  {
-    "_id": 30643,
-    "name": "N432",
-    "sourceClasses": [8, 9],
-    "targetClass": 5,
-    "lifetime": 1440,
-    "maxMass": 3300000000,
-    "massRegen": 0,
-    "maxOnePass": 1480000000,
-    "scanStrength": 10
-  },
-  {
-    "_id": 30644,
-    "name": "M555",
-    "sourceClasses": [7],
-    "targetClass": 5,
-    "lifetime": 1440,
-    "maxMass": 3000000000,
-    "massRegen": 0,
-    "maxOnePass": 1000000000,
-    "scanStrength": 2.5
-  },
-  {
     "_id": 30645,
     "name": "B041",
     "sourceClasses": [7],
@@ -99,15 +33,15 @@
     "scanStrength": 2.5
   },
   {
-    "_id": 30648,
-    "name": "N944",
-    "sourceClasses": [8, 9],
-    "targetClass": 8,
-    "lifetime": 1440,
-    "maxMass": 3300000000,
+    "_id": 30583,
+    "name": "R943",
+    "sourceClasses": [7, 8, 9],
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 750000000,
     "massRegen": 0,
-    "maxOnePass": 1480000000,
-    "scanStrength": 10
+    "maxOnePass": 300000000,
+    "scanStrength": 6.67
   },
   {
     "_id": 30649,
@@ -121,6 +55,17 @@
     "scanStrength": 10
   },
   {
+    "_id": 30642,
+    "name": "O128",
+    "sourceClasses": [7, 8, 9],
+    "targetClass": 4,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanStrength": null
+  },
+  {
     "_id": 30657,
     "name": "A641",
     "sourceClasses": [7],
@@ -130,6 +75,28 @@
     "massRegen": 0,
     "maxOnePass": 1000000000,
     "scanStrength": 10
+  },
+  {
+    "_id": 30648,
+    "name": "N944",
+    "sourceClasses": [8, 9],
+    "targetClass": 8,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
+    "scanStrength": 10
+  },
+  {
+    "_id": 30644,
+    "name": "M555",
+    "sourceClasses": [7],
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanStrength": 2.5
   },
   {
     "_id": 30658,
@@ -143,25 +110,14 @@
     "scanStrength": 5
   },
   {
-    "_id": 30659,
-    "name": "V283",
-    "sourceClasses": [7],
-    "targetClass": 9,
-    "lifetime": 960,
-    "maxMass": 3000000000,
+    "_id": 30584,
+    "name": "X702",
+    "sourceClasses": [7, 8, 9],
+    "targetClass": 3,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
     "massRegen": 0,
-    "maxOnePass": 1000000000,
-    "scanStrength": 2.5
-  },
-  {
-    "_id": 30660,
-    "name": "H121",
-    "sourceClasses": [1],
-    "targetClass": 1,
-    "lifetime": 960,
-    "maxMass": 500000000,
-    "massRegen": 0,
-    "maxOnePass": 20000000,
+    "maxOnePass": 300000000,
     "scanStrength": 10
   },
   {
@@ -176,15 +132,26 @@
     "scanStrength": 6.67
   },
   {
-    "_id": 30662,
-    "name": "O883",
+    "_id": 30660,
+    "name": "H121",
     "sourceClasses": [1],
-    "targetClass": 3,
+    "targetClass": 1,
     "lifetime": 960,
-    "maxMass": 1000000000,
+    "maxMass": 500000000,
     "massRegen": 0,
     "maxOnePass": 20000000,
-    "scanStrength": 5
+    "scanStrength": 10
+  },
+  {
+    "_id": 30659,
+    "name": "V283",
+    "sourceClasses": [7],
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 1000000000,
+    "scanStrength": 2.5
   },
   {
     "_id": 30663,
@@ -198,15 +165,15 @@
     "scanStrength": 4
   },
   {
-    "_id": 30664,
-    "name": "L614",
+    "_id": 30662,
+    "name": "O883",
     "sourceClasses": [1],
-    "targetClass": 5,
-    "lifetime": 1440,
+    "targetClass": 3,
+    "lifetime": 960,
     "maxMass": 1000000000,
     "massRegen": 0,
     "maxOnePass": 20000000,
-    "scanStrength": 2.5
+    "scanStrength": 5
   },
   {
     "_id": 30665,
@@ -220,6 +187,17 @@
     "scanStrength": 1.25
   },
   {
+    "_id": 30664,
+    "name": "L614",
+    "sourceClasses": [1],
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 1000000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanStrength": 2.5
+  },
+  {
     "_id": 30666,
     "name": "N110",
     "sourceClasses": [1],
@@ -228,6 +206,28 @@
     "maxMass": 1000000000,
     "massRegen": 0,
     "maxOnePass": 20000000,
+    "scanStrength": 10
+  },
+  {
+    "_id": 30579,
+    "name": "Z971",
+    "sourceClasses": [7, 8, 9],
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 100000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanStrength": 10
+  },
+  {
+    "_id": 30643,
+    "name": "N432",
+    "sourceClasses": [8, 9],
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
+    "massRegen": 0,
+    "maxOnePass": 1480000000,
     "scanStrength": 10
   },
   {
@@ -286,15 +286,15 @@
     "scanStrength": 5
   },
   {
-    "_id": 30674,
-    "name": "Y683",
+    "_id": 30676,
+    "name": "R474",
     "sourceClasses": [2],
-    "targetClass": 4,
-    "lifetime": 960,
-    "maxMass": 2000000000,
+    "targetClass": 6,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
     "massRegen": 0,
     "maxOnePass": 300000000,
-    "scanStrength": 4
+    "scanStrength": 2.22
   },
   {
     "_id": 30675,
@@ -308,15 +308,26 @@
     "scanStrength": 2.5
   },
   {
-    "_id": 30676,
-    "name": "R474",
+    "_id": 30674,
+    "name": "Y683",
     "sourceClasses": [2],
-    "targetClass": 6,
-    "lifetime": 1440,
-    "maxMass": 3000000000,
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 2000000000,
     "massRegen": 0,
     "maxOnePass": 300000000,
-    "scanStrength": 2.22
+    "scanStrength": 4
+  },
+  {
+    "_id": 30679,
+    "name": "E545",
+    "sourceClasses": [2],
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanStrength": 2.5
   },
   {
     "_id": 30677,
@@ -341,17 +352,6 @@
     "scanStrength": 5
   },
   {
-    "_id": 30679,
-    "name": "E545",
-    "sourceClasses": [2],
-    "targetClass": 9,
-    "lifetime": 960,
-    "maxMass": 2000000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": 2.5
-  },
-  {
     "_id": 30680,
     "name": "V301",
     "sourceClasses": [3],
@@ -363,17 +363,6 @@
     "scanStrength": 5
   },
   {
-    "_id": 30681,
-    "name": "I182",
-    "sourceClasses": [3],
-    "targetClass": 2,
-    "lifetime": 960,
-    "maxMass": 2000000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": 4
-  },
-  {
     "_id": 30682,
     "name": "N968",
     "sourceClasses": [3],
@@ -383,6 +372,17 @@
     "massRegen": 0,
     "maxOnePass": 300000000,
     "scanStrength": 10
+  },
+  {
+    "_id": 30681,
+    "name": "I182",
+    "sourceClasses": [3],
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanStrength": 4
   },
   {
     "_id": 30683,
@@ -440,17 +440,6 @@
     "scanStrength": 10
   },
   {
-    "_id": 30688,
-    "name": "K346",
-    "sourceClasses": [3],
-    "targetClass": 9,
-    "lifetime": 960,
-    "maxMass": 3000000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": 2.5
-  },
-  {
     "_id": 30689,
     "name": "P060",
     "sourceClasses": [4],
@@ -462,15 +451,15 @@
     "scanStrength": 5
   },
   {
-    "_id": 30690,
-    "name": "N766",
-    "sourceClasses": [4],
-    "targetClass": 2,
+    "_id": 30688,
+    "name": "K346",
+    "sourceClasses": [3],
+    "targetClass": 9,
     "lifetime": 960,
-    "maxMass": 2000000000,
+    "maxMass": 3000000000,
     "massRegen": 0,
     "maxOnePass": 300000000,
-    "scanStrength": 4
+    "scanStrength": 2.5
   },
   {
     "_id": 30691,
@@ -495,17 +484,6 @@
     "scanStrength": 6.67
   },
   {
-    "_id": 30693,
-    "name": "H900",
-    "sourceClasses": [4],
-    "targetClass": 5,
-    "lifetime": 1440,
-    "maxMass": 3000000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": 2.5
-  },
-  {
     "_id": 30694,
     "name": "U574",
     "sourceClasses": [4],
@@ -515,6 +493,28 @@
     "massRegen": 0,
     "maxOnePass": 300000000,
     "scanStrength": 1.25
+  },
+  {
+    "_id": 30690,
+    "name": "N766",
+    "sourceClasses": [4],
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanStrength": 4
+  },
+  {
+    "_id": 30693,
+    "name": "H900",
+    "sourceClasses": [4],
+    "targetClass": 5,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanStrength": 2.5
   },
   {
     "_id": 30695,
@@ -528,17 +528,6 @@
     "scanStrength": 5
   },
   {
-    "_id": 30696,
-    "name": "N290",
-    "sourceClasses": [4],
-    "targetClass": 8,
-    "lifetime": 1440,
-    "maxMass": 3300000000,
-    "massRegen": 0,
-    "maxOnePass": 1480000000,
-    "scanStrength": null
-  },
-  {
     "_id": 30697,
     "name": "K329",
     "sourceClasses": [4],
@@ -550,15 +539,26 @@
     "scanStrength": null
   },
   {
-    "_id": 30698,
-    "name": "Y790",
-    "sourceClasses": [5],
-    "targetClass": 1,
-    "lifetime": 960,
-    "maxMass": 500000000,
+    "_id": 30696,
+    "name": "N290",
+    "sourceClasses": [4],
+    "targetClass": 8,
+    "lifetime": 1440,
+    "maxMass": 3300000000,
     "massRegen": 0,
-    "maxOnePass": 20000000,
-    "scanStrength": 2.5
+    "maxOnePass": 1480000000,
+    "scanStrength": null
+  },
+  {
+    "_id": 30701,
+    "name": "E175",
+    "sourceClasses": [5],
+    "targetClass": 4,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanStrength": 5
   },
   {
     "_id": 30699,
@@ -572,6 +572,17 @@
     "scanStrength": 1.25
   },
   {
+    "_id": 30698,
+    "name": "Y790",
+    "sourceClasses": [5],
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanStrength": 2.5
+  },
+  {
     "_id": 30700,
     "name": "M267",
     "sourceClasses": [5],
@@ -581,17 +592,6 @@
     "massRegen": 0,
     "maxOnePass": 300000000,
     "scanStrength": 1.25
-  },
-  {
-    "_id": 30701,
-    "name": "E175",
-    "sourceClasses": [5],
-    "targetClass": 4,
-    "lifetime": 960,
-    "maxMass": 2000000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": 5
   },
   {
     "_id": 30702,
@@ -616,17 +616,6 @@
     "scanStrength": 6.67
   },
   {
-    "_id": 30704,
-    "name": "D792",
-    "sourceClasses": [5, 6],
-    "targetClass": 7,
-    "lifetime": 1440,
-    "maxMass": 3000000000,
-    "massRegen": 0,
-    "maxOnePass": 1000000000,
-    "scanStrength": 2.5
-  },
-  {
     "_id": 30705,
     "name": "C140",
     "sourceClasses": [5, 6],
@@ -649,26 +638,15 @@
     "scanStrength": 10
   },
   {
-    "_id": 30707,
-    "name": "Q317",
-    "sourceClasses": [6],
-    "targetClass": 1,
-    "lifetime": 960,
-    "maxMass": 500000000,
+    "_id": 30704,
+    "name": "D792",
+    "sourceClasses": [5, 6],
+    "targetClass": 7,
+    "lifetime": 1440,
+    "maxMass": 3000000000,
     "massRegen": 0,
-    "maxOnePass": 20000000,
+    "maxOnePass": 1000000000,
     "scanStrength": 2.5
-  },
-  {
-    "_id": 30708,
-    "name": "G024",
-    "sourceClasses": [6],
-    "targetClass": 2,
-    "lifetime": 960,
-    "maxMass": 2000000000,
-    "massRegen": 0,
-    "maxOnePass": 300000000,
-    "scanStrength": 1.25
   },
   {
     "_id": 30709,
@@ -704,6 +682,28 @@
     "scanStrength": 10
   },
   {
+    "_id": 30707,
+    "name": "Q317",
+    "sourceClasses": [6],
+    "targetClass": 1,
+    "lifetime": 960,
+    "maxMass": 500000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
+    "scanStrength": 2.5
+  },
+  {
+    "_id": 30708,
+    "name": "G024",
+    "sourceClasses": [6],
+    "targetClass": 2,
+    "lifetime": 960,
+    "maxMass": 2000000000,
+    "massRegen": 0,
+    "maxOnePass": 300000000,
+    "scanStrength": 1.25
+  },
+  {
     "_id": 30712,
     "name": "W237",
     "sourceClasses": [6],
@@ -726,14 +726,14 @@
     "scanStrength": null
   },
   {
-    "_id": 30714,
-    "name": "C391",
-    "sourceClasses": [6],
-    "targetClass": 8,
-    "lifetime": 2880,
-    "maxMass": 3300000000,
-    "massRegen": 0,
-    "maxOnePass": 1480000000,
+    "_id": 34136,
+    "name": "Z006",
+    "sourceClasses": null,
+    "targetClass": 3,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
     "scanStrength": null
   },
   {
@@ -748,17 +748,6 @@
     "scanStrength": null
   },
   {
-    "_id": 34134,
-    "name": "E004",
-    "sourceClasses": null,
-    "targetClass": 1,
-    "lifetime": 960,
-    "maxMass": 3000000000,
-    "massRegen": 3000000000,
-    "maxOnePass": 5000000,
-    "scanStrength": null
-  },
-  {
     "_id": 34135,
     "name": "L005",
     "sourceClasses": null,
@@ -770,10 +759,10 @@
     "scanStrength": null
   },
   {
-    "_id": 34136,
-    "name": "Z006",
+    "_id": 34134,
+    "name": "E004",
     "sourceClasses": null,
-    "targetClass": 3,
+    "targetClass": 1,
     "lifetime": 960,
     "maxMass": 3000000000,
     "massRegen": 3000000000,
@@ -814,16 +803,6 @@
     "scanStrength": null
   },
   {
-    "_id": 34140,
-    "name": "Q003",
-    "targetClass": 9,
-    "lifetime": 960,
-    "maxMass": 3000000000,
-    "massRegen": 3000000000,
-    "maxOnePass": 5000000,
-    "scanStrength": null
-  },
-  {
     "_id": 34338,
     "name": "T458",
     "sourceClasses": [7],
@@ -832,6 +811,16 @@
     "maxMass": 500000000,
     "massRegen": 0,
     "maxOnePass": 20000000,
+    "scanStrength": null
+  },
+  {
+    "_id": 34140,
+    "name": "Q003",
+    "targetClass": 9,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
     "scanStrength": null
   },
   {
@@ -879,6 +868,17 @@
     "scanStrength": null
   },
   {
+    "_id": 34439,
+    "name": "A009",
+    "sourceClasses": null,
+    "targetClass": 13,
+    "lifetime": 960,
+    "maxMass": 3000000000,
+    "massRegen": 3000000000,
+    "maxOnePass": 5000000,
+    "scanStrength": null
+  },
+  {
     "_id": 34370,
     "name": "E587",
     "sourceClasses": [12],
@@ -890,14 +890,14 @@
     "scanStrength": null
   },
   {
-    "_id": 34371,
-    "name": "F353",
-    "sourceClasses": [1],
-    "targetClass": 12,
-    "lifetime": 960,
-    "maxMass": 100000000,
+    "_id": 30714,
+    "name": "C391",
+    "sourceClasses": [6],
+    "targetClass": 8,
+    "lifetime": 2880,
+    "maxMass": 3300000000,
     "massRegen": 0,
-    "maxOnePass": 20000000,
+    "maxOnePass": 1480000000,
     "scanStrength": null
   },
   {
@@ -912,21 +912,21 @@
     "scanStrength": null
   },
   {
-    "_id": 34439,
-    "name": "A009",
-    "sourceClasses": null,
-    "targetClass": 13,
+    "_id": 34371,
+    "name": "F353",
+    "sourceClasses": [1],
+    "targetClass": 12,
     "lifetime": 960,
-    "maxMass": 3000000000,
-    "massRegen": 3000000000,
-    "maxOnePass": 5000000,
+    "maxMass": 100000000,
+    "massRegen": 0,
+    "maxOnePass": 20000000,
     "scanStrength": null
   },
   {
-    "_id": 35650,
-    "name": "S877",
+    "_id": 35652,
+    "name": "V928",
     "sourceClasses": null,
-    "targetClass": 14,
+    "targetClass": 16,
     "lifetime": 960,
     "maxMass": 750000000,
     "massRegen": 0,
@@ -945,10 +945,10 @@
     "scanStrength": null
   },
   {
-    "_id": 35652,
-    "name": "V928",
+    "_id": 35650,
+    "name": "S877",
     "sourceClasses": null,
-    "targetClass": 16,
+    "targetClass": 14,
     "lifetime": 960,
     "maxMass": 750000000,
     "massRegen": 0,
