@@ -9,7 +9,11 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
+    "incremental": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "eve/*": ["src/eve/*"]
+    }
   },
   "exclude": ["node_modules", "dist"]
 }

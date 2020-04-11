@@ -1,83 +1,84 @@
 #!/bin/bash
 
-nest g mo eve/$1
-nest g s eve/$1
-nest g r eve/$1
-nest g interface eve/$1/$1
-nest g class eve/$1/$1.schema
-nest g class eve/$1/$1.model
-rm src/eve/$1/*.spec.ts
-cat << EOF > src/eve/$1/$1.schema.ts
-import { Schema } from 'mongoose';
+if [[ $# -ne 2 ]]; then
+    echo "Illegal number of parameters"
+    exit 2
+fi
 
-export const ${1^}Schema = new Schema({
-    _id: Number,
+nest g mo $1/$2
+nest g s $1/$2
+nest g r $1/$2
+nest g interface $1/$2/$2
+nest g class $1/$2/$2.schema
+nest g class $1/$2/$2.model
+rm src/$1/$2/*.spec.ts
+cat << EOF > src/$1/$2/$2.schema.ts
+import * as mongoose from 'mongoose';
+
+export const ${2^}Schema = new mongoose.Schema({
 });
 EOF
 
-cat << EOF > src/eve/$1/$1.model.ts
+cat << EOF > src/$1/$2/$2.model.ts
 import { Field, Int, ObjectType } from '@nestjs/graphql';
 
 @ObjectType()
-export class ${1^} {
-  @Field(() => Int)
-  id: number;
+export class ${2^} {
 }
 EOF
 
-cat << EOF > src/eve/$1/$1.interface.ts
+cat << EOF > src/$1/$2/$2.interface.ts
 import { Document } from 'mongoose';
 
-export interface ${1^} extends Document {
-    id: number;
+export interface ${2^} extends Document {
 }
 EOF
 
-cat << EOF > src/eve/$1/$1.module.ts
+cat << EOF > src/$1/$2/$2.module.ts
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { ${1^}Service } from './$1.service';
-import { ${1^}Resolver } from './$1.resolver';
-import { ${1^}Schema } from './$1.schema';
+import { ${2^}Service } from './$2.service';
+import { ${2^}Resolver } from './$2.resolver';
+import { ${2^}Schema } from './$2.schema';
 
 @Module({
   imports: [
-    MongooseModule.forFeature([
-      {
-        name: '${1^}',
-        schema: ${1^}Schema,
-        collection: '$1s'
-      },
-    ]),
+  MongooseModule.forFeature([
+    {
+    name: '${2^}',
+    schema: ${2^}Schema,
+    collection: '$2s'
+    },
+  ]),
   ],
-  exports: [${1^}Service],
-  providers: [${1^}Service, ${1^}Resolver]
+  exports: [${2^}Service],
+  providers: [${2^}Service, ${2^}Resolver]
 })
-export class ${1^}Module {}
+export class ${2^}Module {}
 EOF
 
-cat << EOF > src/eve/$1/$1.service.ts
+cat << EOF > src/$1/$2/$2.service.ts
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { ${1^} } from './$1.interface';
+import { ${2^} } from './$2.interface';
 
 @Injectable()
-export class ${1^}Service {
+export class ${2^}Service {
   constructor(
-    @InjectModel('${1^}')
-    private $1Model: Model<${1^}>,
+  @InjectModel('${2^}')
+  private $2Model: Model<${2^}>,
   ) {}
 }
 EOF
 
-cat << EOF > src/eve/$1/$1.resolver.ts
+cat << EOF > src/$1/$2/$2.resolver.ts
 import { Resolver } from '@nestjs/graphql';
-import { ${1^}Service } from './$1.service';
-import { ${1^} } from './$1.model';
+import { ${2^}Service } from './$2.service';
+import { ${2^} } from './$2.model';
 
-@Resolver(() => ${1^})
-export class ${1^}Resolver {
-  constructor(private service: ${1^}Service) {}
+@Resolver(() => ${2^})
+export class ${2^}Resolver {
+  constructor(private service: ${2^}Service) {}
 }
 EOF

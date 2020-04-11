@@ -44,9 +44,7 @@ export class SystemService {
     this.esiService.getRoute(source, dest).pipe(
       mergeMap(val =>
         from(val).pipe(
-          map(system =>
-            this.getSystemById(system)
-          ),
+          map(system => this.getSystemById(system)),
           combineAll(),
         ),
       ),

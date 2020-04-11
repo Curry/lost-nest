@@ -1,9 +1,8 @@
-import { Schema } from 'mongoose';
+import * as mongoose from 'mongoose';
 
-export const SystemSchema = new Schema({
+export const SystemSchema = new mongoose.Schema({
   _id: Number,
   constellationId: Number,
-  starId: Number,
   regionId: Number,
   systemName: String,
   security: String,
@@ -12,6 +11,8 @@ export const SystemSchema = new Schema({
   securityClass: String,
   class: Number,
   effect: String,
-  statics: [{ type: Schema.Types.Number, ref: 'Wormhole', autopopulate: true }],
+  statics: [{ type: Number, ref: 'Wormhole', autopopulate: true }],
   staticTargets: [Number],
+  planets: [String],
+  moons: Number,
 });

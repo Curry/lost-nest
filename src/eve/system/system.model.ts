@@ -1,6 +1,7 @@
 import { Field, Int, ObjectType, Float } from '@nestjs/graphql';
 import { Effect } from '../common/enums/effect.enum';
 import { Wormhole } from '../wormhole/wormhole.model';
+import { Class } from '../common/enums/class.enum';
 
 @ObjectType()
 export class System {
@@ -9,9 +10,6 @@ export class System {
 
   @Field(() => Int, { nullable: true })
   constellationId: number;
-
-  @Field(() => Int, { nullable: true })
-  starId: number;
 
   @Field(() => Int, { nullable: true })
   regionId: number;
@@ -31,8 +29,8 @@ export class System {
   @Field(() => String, { nullable: true })
   securityClass: string;
 
-  @Field(() => Number)
-  class: number;
+  @Field(() => Class)
+  class: Class;
 
   @Field(() => Effect, { nullable: true })
   effect: string;

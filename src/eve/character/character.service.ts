@@ -18,12 +18,12 @@ export class CharacterService {
 
   saveCharacter = (character: CharacterInput) =>
     from(
-      this.characterModel.updateOne(
+      this.characterModel.findOneAndUpdate(
         { characterId: character.characterId },
         character,
-        { upsert: true },
+        { upsert: true, setDefaultsOnInsert: true },
       ),
-    ).pipe(map(() => character));
+    );
 
   checkToken = (id: number) =>
     this.findCharacter(id).pipe(

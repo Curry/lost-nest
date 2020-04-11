@@ -1,6 +1,6 @@
-import { Schema } from 'mongoose';
+import * as mongoose from 'mongoose';
 
-export const WormholeSchema = new Schema({
+export const WormholeSchema = new mongoose.Schema({
   _id: Number,
   name: String,
   sourceClasses: [Number],

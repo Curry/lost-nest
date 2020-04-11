@@ -44,6 +44,15 @@ enum Class {
   REDOUBT
 }
 
+type Connection {
+  id: String!
+  mapId: Int!
+  source: String!
+  target: String!
+  createdAt: Date!
+  updatedAt: Date!
+}
+
 type Corporation {
   corporationId: Int!
   corporationName: String!
@@ -84,6 +93,12 @@ type Mutation {
   addCorporation(corporationData: CorporationInput!): Corporation!
 }
 
+type Node {
+  id: String!
+  mapId: Int!
+  system: System!
+}
+
 type Query {
   helloWorld: String!
   hello(name: String!): String!
@@ -100,12 +115,15 @@ type Query {
   wormhole(name: String!): Wormhole!
   wormholeConn(source: Class!): [Wormhole!]!
   corporation(name: String!): Corporation!
+  connections(map: Float!): [Connection!]!
+  nodes(map: Float!): [Node!]!
 }
 
 type Ship {
   id: Int!
   name: String!
   mass: Float!
+  alias: String
 }
 
 type Subscription {
@@ -115,14 +133,13 @@ type Subscription {
 type System {
   id: Int!
   constellationId: Int
-  starId: Int
   regionId: Int
   systemName: String!
   security: String
   trueSec: Float!
   securityStatus: Float!
   securityClass: String
-  class: Float!
+  class: Class!
   effect: Effect
   statics: [Wormhole!]!
 }

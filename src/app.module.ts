@@ -9,6 +9,7 @@ import { EveModule } from './eve/eve.module';
 import { DateScalar } from './common/scalars/date.scalar';
 import { AuthModule } from './auth/auth.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
+import { MapModule } from './map/map.module';
 
 @Module({
   imports: [
@@ -35,6 +36,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
     }),
     EveModule,
     AuthModule,
+    MapModule,
   ],
   controllers: [AppController],
   providers: [AppService, AppResolver, DateScalar],

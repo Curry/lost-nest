@@ -8,7 +8,7 @@ export class CharacterInput {
   @Field(() => Date, { defaultValue: null })
   lastLogin: Date;
 
-  @Field(() => Boolean, { defaultValue: true })
+  @Field(() => Boolean, { defaultValue: false })
   active: boolean;
 
   @Field(() => String)

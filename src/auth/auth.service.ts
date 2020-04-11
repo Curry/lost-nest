@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { requestNewAccessToken } from 'passport-oauth2-refresh';
-import { defer, of, iif, throwError, Observable, Observer } from 'rxjs';
+import { Observable, Observer } from 'rxjs';
 import { IEveRawProfile } from '../eve/esi/esi.model';
-import { CharacterService } from 'src/eve/character/character.service';
-import { CharacterInput } from 'src/eve/character/character.input';
+import { CharacterService } from 'eve/character/character.service';
+import { CharacterInput } from 'eve/character/character.input';
 import { JwtService } from '@nestjs/jwt';
-import { tap, map, mergeMap } from 'rxjs/operators';
+import { mergeMap } from 'rxjs/operators';
 @Injectable()
 export class AuthService {
   constructor(

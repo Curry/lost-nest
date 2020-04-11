@@ -1,6 +1,6 @@
-import { Schema } from 'mongoose';
+import * as mongoose from 'mongoose';
 
-export const CorporationSchema = new Schema({
+export const CorporationSchema = new mongoose.Schema({
   corporationId: Number,
   corporationName: String,
   ticker: String,

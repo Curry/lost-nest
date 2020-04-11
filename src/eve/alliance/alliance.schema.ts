@@ -1,6 +1,6 @@
-import { Schema } from 'mongoose';
+import * as mongoose from 'mongoose';
 
-export const AllianceSchema = new Schema({
+export const AllianceSchema = new mongoose.Schema({
   allianceId: Number,
   allianceName: String,
   ticker: String,

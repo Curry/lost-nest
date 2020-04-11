@@ -10,4 +10,7 @@ export class Ship {
 
   @Field(() => Number)
   mass: number;
+
+  @Field(() => String, { nullable: true })
+  alias: string;
 }

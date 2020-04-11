@@ -3,7 +3,7 @@ import { AuthService } from './auth.service';
 import { PassportModule } from '@nestjs/passport';
 import { SSOStrategy } from './strategies/sso.strategy';
 import { AuthController } from './auth.controller';
-import { CharacterModule } from 'src/eve/character/character.module';
+import { CharacterModule } from 'eve/character/character.module';
 import { JwtModule } from '@nestjs/jwt';
 import { JwtStrategy } from './strategies/jwt.strategy';
 

@@ -3,7 +3,6 @@ import { Document } from 'mongoose';
 export interface System extends Document {
   id: number;
   constellationId: number;
-  starId: number;
   regionId: number;
   systemName: string;
   security: string;

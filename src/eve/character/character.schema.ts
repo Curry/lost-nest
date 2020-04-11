@@ -1,10 +1,10 @@
-import { Schema } from 'mongoose';
+import * as mongoose from 'mongoose';
 
-export const CharacterSchema = new Schema(
+export const CharacterSchema = new mongoose.Schema(
   {
     characterId: Number,
     lastLogin: Date,
-    active: Boolean,
+    active: { type: Boolean, default: false },
     name: String,
     ownerHash: String,
     esiAccessToken: String,
