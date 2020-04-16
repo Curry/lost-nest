@@ -91,11 +91,21 @@ enum Effect {
 
 type Mutation {
   addCorporation(corporationData: CorporationInput!): Corporation!
+  addConnection(target: String!, source: String!, map: Float!): Connection!
+  removeConnection(target: String!, source: String!, map: Float!): Connection!
+  removeConnectionsByNode(nodeId: String!): Boolean
+  addNode(system: Float!, map: Float!): Node!
+  moveNode(posY: Float!, posX: Float!, id: String!): Node!
+  deleteNode(id: String!): Node!
 }
 
 type Node {
   id: String!
-  mapId: Int!
+  mapId: Float!
+  systemId: Float!
+  alias: String
+  posX: Float!
+  posY: Float!
   system: System!
 }
 
@@ -128,6 +138,9 @@ type Ship {
 
 type Subscription {
   corpChanged: Corporation!
+  connectionAdded(map: Float!): Connection!
+  connectionRemoved: String!
+  nodeAdded(map: Float!): Node!
 }
 
 type System {
@@ -137,8 +150,6 @@ type System {
   systemName: String!
   security: String
   trueSec: Float!
-  securityStatus: Float!
-  securityClass: String
   class: Class!
   effect: Effect
   statics: [Wormhole!]!

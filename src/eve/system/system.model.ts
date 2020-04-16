@@ -23,12 +23,6 @@ export class System {
   @Field(() => Float)
   trueSec: number;
 
-  @Field(() => Float)
-  securityStatus: number;
-
-  @Field(() => String, { nullable: true })
-  securityClass: string;
-
   @Field(() => Class)
   class: Class;
 

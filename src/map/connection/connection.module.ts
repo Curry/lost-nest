@@ -3,7 +3,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { ConnectionService } from './connection.service';
 import { ConnectionResolver } from './connection.resolver';
 import { ConnectionSchema } from './connection.schema';
-import { NodeModule } from '../node/node.module';
+import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Module({
   imports: [
@@ -14,9 +14,15 @@ import { NodeModule } from '../node/node.module';
         collection: 'connections',
       },
     ]),
-    NodeModule,
   ],
   exports: [ConnectionService],
-  providers: [ConnectionService, ConnectionResolver],
+  providers: [
+    ConnectionService,
+    ConnectionResolver,
+    {
+      provide: 'PUB_SUB',
+      useValue: new RedisPubSub(),
+    },
+  ],
 })
 export class ConnectionModule {}

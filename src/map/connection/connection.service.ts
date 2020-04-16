@@ -1,47 +1,77 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Inject } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Model } from 'mongoose';
+import { Model, Types } from 'mongoose';
 import { Connection } from './connection.interface';
-import { NodeService } from '../node/node.service';
-import { forkJoin, from } from 'rxjs';
-import { map, mergeMap } from 'rxjs/operators';
+import { from } from 'rxjs';
+import { tap, map, mergeMap, combineAll } from 'rxjs/operators';
+import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Injectable()
 export class ConnectionService {
   constructor(
     @InjectModel('Connection')
     private connectionModel: Model<Connection>,
-    private nodeService: NodeService,
+    @Inject('PUB_SUB')
+    private pubSub: RedisPubSub,
   ) {}
+
+  asyncAddIterator = (mapId: number) => this.pubSub.asyncIterator(`connection.add.${mapId}`);
+
+  asyncRemoveIterator = () => this.pubSub.asyncIterator(`connection.remove`);
 
   getConnectionsByMapId = (mapId: number) =>
     from(this.connectionModel.find({ mapId: mapId }));
 
-  saveConnection = (mapId: number, source: number, target: number) =>
-    forkJoin([
-      this.nodeService.findNodeBySystem(source),
-      this.nodeService.findNodeBySystem(target),
-    ]).pipe(
-      map(([source, target]) => ({ source: source._id, target: target._id })),
-      mergeMap(val =>
-        from(
-          this.connectionModel.findOneAndUpdate(
-            {
-              mapId: mapId,
-              source: val.source,
-              target: val.target,
-            },
-            {
-              mapId: mapId,
-              source: val.source,
-              target: val.target,
-            },
-            {
-              upsert: true,
-              setDefaultsOnInsert: true,
-            },
-          ),
-        ),
+  saveConnection = (mapId: number, source: string, target: string) =>
+    from(
+      this.connectionModel.findOneAndUpdate(
+        {
+          mapId: mapId,
+          source: Types.ObjectId(source),
+          target: Types.ObjectId(target),
+        },
+        {
+          mapId: mapId,
+          source: Types.ObjectId(source),
+          target: Types.ObjectId(target),
+        },
+        {
+          upsert: true,
+          setDefaultsOnInsert: true,
+          new: true,
+        },
       ),
-    );
+    ).pipe(tap(connection => this.pubSub.publish(`connection.add.${mapId}`, connection)));
+
+  deleteConnectionsForNode = (nodeId: string) =>
+    from(this.connectionModel.find({
+      $or: [
+        { source: Types.ObjectId(nodeId) },
+        { target: Types.ObjectId(nodeId) },
+      ],
+    })).pipe(
+      mergeMap(connections => from(connections).pipe(
+        tap(val => this.pubSub.publish('connection.remove', val.id)),
+        map(connection => this.connectionModel.findOneAndDelete(connection.id)),
+        combineAll(),
+      ))
+  )
+    // from(
+    //   this.connectionModel.deleteMany({
+    //     $or: [
+    //       { source: Types.ObjectId(nodeId) },
+    //       { target: Types.ObjectId(nodeId) },
+    //     ],
+    //   }),
+    // ).pipe(map(val => val.ok === 1 ? nodeId : ''), tap(val => this.pubSub.publish('connection.remove', val)));
+
+  deleteConnection = (mapId: number, source: string, target: string) =>
+    from(
+      this.connectionModel.findOneAndDelete({
+        $or: [
+          { source: Types.ObjectId(source), target: Types.ObjectId(target) },
+          { source: Types.ObjectId(target), target: Types.ObjectId(source) },
+        ],
+      }),
+    ).pipe(tap(val => this.pubSub.publish('connection.remove', val.id)));
 }

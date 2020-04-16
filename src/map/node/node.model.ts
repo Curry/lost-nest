@@ -1,14 +1,22 @@
-import { Field, Int, ObjectType } from '@nestjs/graphql';
-import { System } from 'eve/system/system.model';
+import { Field, ObjectType } from '@nestjs/graphql';
 
 @ObjectType()
 export class Node {
   @Field(() => String)
   id: string;
 
-  @Field(() => Int)
+  @Field(() => Number)
   mapId: number;
 
-  @Field(() => System)
-  system: System;
+  @Field(() => Number)
+  systemId: number;
+
+  @Field(() => String, { nullable: true })
+  alias: string;
+
+  @Field(() => Number)
+  posX: number;
+
+  @Field(() => Number)
+  posY: number;
 }
