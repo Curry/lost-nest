@@ -24,7 +24,7 @@ export class ConnectionResolver {
     return this.service.deleteConnection(map, source, target);
   }
 
-  @Mutation(() => Boolean, { nullable: true })
+  @Mutation(() => [Connection])
   removeConnectionsByNode(
     @Args('nodeId') nodeId: string
   ) {

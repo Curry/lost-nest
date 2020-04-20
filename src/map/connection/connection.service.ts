@@ -56,14 +56,6 @@ export class ConnectionService {
         combineAll(),
       ))
   )
-    // from(
-    //   this.connectionModel.deleteMany({
-    //     $or: [
-    //       { source: Types.ObjectId(nodeId) },
-    //       { target: Types.ObjectId(nodeId) },
-    //     ],
-    //   }),
-    // ).pipe(map(val => val.ok === 1 ? nodeId : ''), tap(val => this.pubSub.publish('connection.remove', val)));
 
   deleteConnection = (mapId: number, source: string, target: string) =>
     from(

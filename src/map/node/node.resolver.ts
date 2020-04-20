@@ -45,6 +45,14 @@ export class NodeResolver {
     return this.service.deleteNode(id);
   }
 
+  @Mutation(() => Node)
+  deleteNodeBySystem(
+    @Args('systemId') systemId: number
+  ) {
+    return this.service.deleteNodeBySystem(systemId);
+  }
+
+
   @Subscription(() => Node, {
     resolve: val => {
       return { id: val._id, ...val }

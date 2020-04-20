@@ -93,10 +93,11 @@ type Mutation {
   addCorporation(corporationData: CorporationInput!): Corporation!
   addConnection(target: String!, source: String!, map: Float!): Connection!
   removeConnection(target: String!, source: String!, map: Float!): Connection!
-  removeConnectionsByNode(nodeId: String!): Boolean
+  removeConnectionsByNode(nodeId: String!): [Connection!]!
   addNode(system: Float!, map: Float!): Node!
   moveNode(posY: Float!, posX: Float!, id: String!): Node!
   deleteNode(id: String!): Node!
+  deleteNodeBySystem(systemId: Float!): Node!
 }
 
 type Node {

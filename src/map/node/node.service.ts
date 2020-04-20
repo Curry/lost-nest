@@ -61,4 +61,6 @@ export class NodeService {
     from(this.nodeModel.findOne({ systemId: systemId }));
 
   deleteNode = (id: string) => from(this.nodeModel.findOneAndDelete({ _id: id}));
+
+  deleteNodeBySystem = (systemId: number) => from(this.nodeModel.findOneAndDelete({ systemId }));
 }
