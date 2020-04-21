@@ -15,12 +15,8 @@ export class ConnectionService {
     private pubSub: RedisPubSub,
   ) {}
 
-  asyncAddIterator = (mapId: number) => this.pubSub.asyncIterator(`connection.add.${mapId}`);
-
-  asyncRemoveIterator = () => this.pubSub.asyncIterator(`connection.remove`);
-
   getConnectionsByMapId = (mapId: number) =>
-    from(this.connectionModel.find({ mapId: mapId }));
+    from(this.connectionModel.find({ mapId }));
 
   saveConnection = (mapId: number, source: string, target: string) =>
     from(
@@ -41,23 +37,38 @@ export class ConnectionService {
           new: true,
         },
       ),
-    ).pipe(tap(connection => this.pubSub.publish(`connection.add.${mapId}`, connection)));
+    ).pipe(
+      tap(connection => {
+        this.generateStateChange('Add Connection', connection);
+      }),
+    );
 
   deleteConnectionsForNode = (nodeId: string) =>
-    from(this.connectionModel.find({
-      $or: [
-        { source: Types.ObjectId(nodeId) },
-        { target: Types.ObjectId(nodeId) },
-      ],
-    })).pipe(
-      mergeMap(connections => from(connections).pipe(
-        tap(val => this.pubSub.publish('connection.remove', val.id)),
-        map(connection => this.connectionModel.findOneAndDelete(connection.id)),
-        combineAll(),
-      ))
-  )
+    from(
+      this.connectionModel.find({
+        $or: [
+          { source: Types.ObjectId(nodeId) },
+          { target: Types.ObjectId(nodeId) },
+        ],
+      }),
+    ).pipe(
+      mergeMap(connections =>
+        from(connections).pipe(
+          map(connection =>
+            from(
+              this.connectionModel.findOneAndDelete({ _id: connection.id }),
+            ).pipe(
+              tap(connection => {
+                this.generateStateChange('Delete Connection', connection);
+              }),
+            ),
+          ),
+          combineAll(),
+        ),
+      ),
+    );
 
-  deleteConnection = (mapId: number, source: string, target: string) =>
+  deleteConnection = (source: string, target: string) =>
     from(
       this.connectionModel.findOneAndDelete({
         $or: [
@@ -65,5 +76,23 @@ export class ConnectionService {
           { source: Types.ObjectId(target), target: Types.ObjectId(source) },
         ],
       }),
-    ).pipe(tap(val => this.pubSub.publish('connection.remove', val.id)));
+    ).pipe(
+      tap(connection => {
+        this.generateStateChange('Delete Connection', connection);
+      }),
+    );
+
+  generateStateChange = (type: string, connection: Connection) => {
+    this.pubSub.publish(`sub.${connection.mapId}`, {
+      type: `[Socket] ${type}`,
+      connection: {
+        id: connection.id,
+        mapId: connection.mapId,
+        source: connection.source,
+        target: connection.target,
+        createdAt: connection.createdAt,
+        updatedAt: connection.updatedAt,
+      },
+    });
+  };
 }

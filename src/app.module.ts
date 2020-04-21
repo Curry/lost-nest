@@ -10,6 +10,7 @@ import { DateScalar } from './common/scalars/date.scalar';
 import { AuthModule } from './auth/auth.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MapModule } from './map/map.module';
+import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Module({
   imports: [
@@ -39,6 +40,14 @@ import { MapModule } from './map/map.module';
     MapModule,
   ],
   controllers: [AppController],
-  providers: [AppService, AppResolver, DateScalar],
+  providers: [
+    AppService,
+    AppResolver,
+    DateScalar,
+    {
+      provide: 'PUB_SUB',
+      useValue: new RedisPubSub(),
+    },
+  ],
 })
 export class AppModule {}

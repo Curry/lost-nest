@@ -1,8 +1,10 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Inject } from '@nestjs/common';
+import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
-  }
+  constructor(@Inject('PUB_SUB') private pubSub: RedisPubSub) {}
+
+  asyncIterator = (mapId: number) =>
+    this.pubSub.asyncIterator(`sub.${mapId}`);
 }

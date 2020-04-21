@@ -1,4 +1,4 @@
-import { Resolver, Query, Args, Mutation, Subscription } from '@nestjs/graphql';
+import { Resolver, Query, Args, Mutation } from '@nestjs/graphql';
 import { ConnectionService } from './connection.service';
 import { Connection } from './connection.model';
 
@@ -17,14 +17,13 @@ export class ConnectionResolver {
 
   @Mutation(() => Connection)
   removeConnection(
-    @Args('map') map: number,
     @Args('source') source: string,
     @Args('target') target: string,
   ) {
-    return this.service.deleteConnection(map, source, target);
+    return this.service.deleteConnection(source, target);
   }
 
-  @Mutation(() => [Connection])
+  @Mutation(() => [Connection], { nullable: true })
   removeConnectionsByNode(
     @Args('nodeId') nodeId: string
   ) {
@@ -34,21 +33,5 @@ export class ConnectionResolver {
   @Query(() => [Connection])
   connections(@Args('map') map: number) {
     return this.service.getConnectionsByMapId(map);
-  }
-
-  @Subscription(() => Connection, {
-    resolve: val => {
-      return { id: val._id, ...val }
-    },
-  })
-  connectionAdded(@Args('map') map: number) {
-    return this.service.asyncAddIterator(map);
-  }
-
-  @Subscription(() => String, {
-    resolve: val => val
-  })
-  connectionRemoved() {
-    return this.service.asyncRemoveIterator();
   }
 }

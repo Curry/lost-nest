@@ -13,11 +13,7 @@ export class NodeService {
     private nodeModel: Model<Node>,
     @Inject('PUB_SUB')
     private pubSub: RedisPubSub,
-  ) {
-    // this.nodeModel.findOne().exec().then(val => console.log(val))
-  }
-
-  asyncIterator = (mapId: number) => this.pubSub.asyncIterator(`node.${mapId}`);
+  ) {}
 
   saveNode = (mapId: number, systemId: number) =>
     from(
@@ -36,7 +32,11 @@ export class NodeService {
           new: true,
         },
       ),
-    ).pipe(tap(node => this.pubSub.publish(`node.${mapId}`, node)));
+    ).pipe(
+      tap(node => {
+        this.generateStateChange('Add Node', node);
+      }),
+    );
 
   moveNode = (id: string, posX: number, posY: number) =>
     from(
@@ -52,15 +52,43 @@ export class NodeService {
           new: true,
         },
       ),
+    ).pipe(
+      tap(node => {
+        this.generateStateChange('Move Node', node);
+      })
     );
 
   findNodesByMapId = (mapId: number) =>
-    from(this.nodeModel.find({ mapId: mapId }));
+    from(this.nodeModel.find({ mapId }));
 
   findNodeBySystem = (systemId: number) =>
-    from(this.nodeModel.findOne({ systemId: systemId }));
+    from(this.nodeModel.findOne({ systemId }));
 
-  deleteNode = (id: string) => from(this.nodeModel.findOneAndDelete({ _id: id}));
+  deleteNode = (id: string) =>
+    from(this.nodeModel.findOneAndDelete({ _id: id })).pipe(
+      tap(node => {
+        this.generateStateChange('Delete Node', node);
+      }),
+    );
 
-  deleteNodeBySystem = (systemId: number) => from(this.nodeModel.findOneAndDelete({ systemId }));
+  deleteNodeBySystem = (systemId: number) =>
+    from(this.nodeModel.findOneAndDelete({ systemId })).pipe(
+      tap(node => {
+        this.generateStateChange('Delete Node', node);
+      }),
+    );
+
+  generateStateChange = (type: string, node: Node) => {
+    this.pubSub.publish(`sub.${node.mapId}`, {
+      type: `[Socket] ${type}`,
+      node: {
+        id: node.id,
+        mapId: node.mapId,
+        systemId: node.systemId,
+        alias: node.alias,
+        posX: node.posX,
+        posY: node.posY,
+      },
+    });
+  };
 }

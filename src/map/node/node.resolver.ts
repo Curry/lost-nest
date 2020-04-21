@@ -1,4 +1,4 @@
-import { Resolver, Args, Query, Subscription, Mutation, ResolveField, Parent } from '@nestjs/graphql';
+import { Resolver, Args, Query, Mutation, ResolveField, Parent } from '@nestjs/graphql';
 import { NodeService } from './node.service';
 import { Node } from './node.model';
 import { SystemService } from 'eve/system/system.service';
@@ -50,15 +50,5 @@ export class NodeResolver {
     @Args('systemId') systemId: number
   ) {
     return this.service.deleteNodeBySystem(systemId);
-  }
-
-
-  @Subscription(() => Node, {
-    resolve: val => {
-      return { id: val._id, ...val }
-    },
-  })
-  nodeAdded(@Args('map') map: number) {
-    return this.service.asyncIterator(map);
   }
 }
