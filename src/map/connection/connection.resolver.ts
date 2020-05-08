@@ -1,6 +1,7 @@
 import { Resolver, Query, Args, Mutation } from '@nestjs/graphql';
 import { ConnectionService } from './connection.service';
 import { Connection } from './connection.model';
+import { ConnectionInput } from './connection.input';
 
 @Resolver(() => Connection)
 export class ConnectionResolver {
@@ -13,6 +14,13 @@ export class ConnectionResolver {
     @Args('target') target: string,
   ) {
     return this.service.saveConnection(map, source, target);
+  }
+
+  @Mutation(() => Connection)
+  syncConnection(
+    @Args('connection') connection: ConnectionInput,
+  ) {
+    return this.service.syncChanges(connection);
   }
 
   @Mutation(() => Connection)

@@ -2,6 +2,7 @@ import { Injectable, Inject } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Node } from './node.interface';
+import { Node as NodeModel } from './node.model';
 import { from } from 'rxjs';
 import { RedisPubSub } from 'graphql-redis-subscriptions';
 import { tap } from 'rxjs/operators';
@@ -19,12 +20,12 @@ export class NodeService {
     from(
       this.nodeModel.findOneAndUpdate(
         {
-          mapId: mapId,
-          systemId: systemId,
+          mapId,
+          systemId,
         },
         {
-          mapId: mapId,
-          systemId: systemId,
+          mapId,
+          systemId,
         },
         {
           upsert: true,
@@ -36,6 +37,19 @@ export class NodeService {
       tap(node => {
         this.generateStateChange('Add Node', node);
       }),
+    );
+
+  syncChanges = (node: NodeModel) =>
+    from(
+      this.nodeModel.findByIdAndUpdate(
+        node.id,
+        node,
+        {
+          upsert: true,
+          setDefaultsOnInsert: true,
+          new: true,
+        },
+      ),
     );
 
   moveNode = (id: string, posX: number, posY: number) =>

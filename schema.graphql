@@ -53,6 +53,15 @@ type Connection {
   updatedAt: Date!
 }
 
+input ConnectionInput {
+  id: String!
+  mapId: Int!
+  source: String!
+  target: String!
+  createdAt: Date!
+  updatedAt: Date!
+}
+
 type Corporation {
   corporationId: Int!
   corporationName: String!
@@ -92,9 +101,11 @@ enum Effect {
 type Mutation {
   addCorporation(corporationData: CorporationInput!): Corporation!
   addConnection(target: String!, source: String!, map: Float!): Connection!
+  syncConnection(connection: ConnectionInput!): Connection!
   removeConnection(target: String!, source: String!): Connection!
   removeConnectionsByNode(nodeId: String!): [Connection!]
   addNode(system: Float!, map: Float!): Node!
+  syncNode(node: NodeInput!): Node!
   moveNode(posY: Float!, posX: Float!, id: String!): Node!
   deleteNode(id: String!): Node!
   deleteNodeBySystem(systemId: Float!): Node!
@@ -108,6 +119,15 @@ type Node {
   posX: Float!
   posY: Float!
   system: System!
+}
+
+input NodeInput {
+  id: String!
+  mapId: Float!
+  systemId: Float!
+  alias: String
+  posX: Float!
+  posY: Float!
 }
 
 type Query {

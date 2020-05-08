@@ -3,6 +3,7 @@ import { NodeService } from './node.service';
 import { Node } from './node.model';
 import { SystemService } from 'eve/system/system.service';
 import { System } from 'eve/system/system.model';
+import { NodeInput } from './node.input';
 
 @Resolver(() => Node)
 export class NodeResolver {
@@ -27,6 +28,13 @@ export class NodeResolver {
     @Args('system') system: number,
   ) {
     return this.service.saveNode(map, system);
+  }
+
+  @Mutation(() => Node)
+  syncNode(
+    @Args('node') node: NodeInput,
+  ) {
+    return this.service.syncChanges(node);
   }
 
   @Mutation(() => Node)

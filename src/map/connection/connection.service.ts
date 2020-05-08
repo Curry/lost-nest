@@ -2,8 +2,9 @@ import { Injectable, Inject } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
 import { Connection } from './connection.interface';
+import { Connection as ConnectionModel } from './connection.model';
 import { from } from 'rxjs';
-import { tap, map, mergeMap, combineAll } from 'rxjs/operators';
+import { tap, map, mergeMap, combineAll, pluck } from 'rxjs/operators';
 import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Injectable()
@@ -17,6 +18,19 @@ export class ConnectionService {
 
   getConnectionsByMapId = (mapId: number) =>
     from(this.connectionModel.find({ mapId }));
+
+  syncChanges = (connection: ConnectionModel) =>
+    from(
+      this.connectionModel.findByIdAndUpdate(
+        connection.id,
+        connection,
+        {
+          upsert: true,
+          setDefaultsOnInsert: true,
+          new: true,
+        },
+      ),
+    );
 
   saveConnection = (mapId: number, source: string, target: string) =>
     from(
