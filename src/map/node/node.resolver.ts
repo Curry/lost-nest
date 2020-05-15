@@ -1,8 +1,7 @@
-import { Resolver, Args, Query, Mutation, ResolveField, Parent } from '@nestjs/graphql';
+import { Resolver, Args, Query, Mutation } from '@nestjs/graphql';
 import { NodeService } from './node.service';
 import { Node } from './node.model';
 import { SystemService } from 'eve/system/system.service';
-import { System } from 'eve/system/system.model';
 import { NodeInput } from './node.input';
 
 @Resolver(() => Node)
@@ -15,11 +14,6 @@ export class NodeResolver {
   @Query(() => [Node])
   nodes(@Args('map') map: number) {
     return this.service.findNodesByMapId(map);
-  }
-
-  @ResolveField('system', () => System)
-  system(@Parent() node: Node) {
-    return this.systemService.getSystemById(node.systemId);
   }
 
   @Mutation(() => Node)

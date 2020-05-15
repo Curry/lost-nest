@@ -1,4 +1,5 @@
 import { Field, ObjectType } from '@nestjs/graphql';
+import { System } from 'eve/system/system.model';
 
 @ObjectType()
 export class Node {
@@ -19,4 +20,7 @@ export class Node {
 
   @Field(() => Number)
   posY: number;
+
+  @Field(() => System)
+  system: System;
 }

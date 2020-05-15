@@ -8,15 +8,15 @@ import * as mongoose from 'mongoose';
     posX: { type: Number, default: 0 },
     posY: { type: Number, default: 0 },
   },
-  { timestamps: true },
+  { timestamps: true, toObject: { virtuals: true } },
 );
 
-// NodeSchema.virtual('system', {
-//   ref: 'System',
-//   localField: 'systemId',
-//   foreignField: '_id',
-//   justOne: true,
-//   autopopulate: true
-// });
+NodeSchema.virtual('system', {
+  ref: 'System',
+  localField: 'systemId',
+  foreignField: '_id',
+  justOne: true,
+  autopopulate: true
+});
 
 export { NodeSchema }

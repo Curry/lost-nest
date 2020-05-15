@@ -4,7 +4,7 @@ import { Model, Types } from 'mongoose';
 import { Connection } from './connection.interface';
 import { Connection as ConnectionModel } from './connection.model';
 import { from } from 'rxjs';
-import { tap, map, mergeMap, combineAll, pluck } from 'rxjs/operators';
+import { tap, map, mergeMap, combineAll } from 'rxjs/operators';
 import { RedisPubSub } from 'graphql-redis-subscriptions';
 
 @Injectable()
@@ -21,15 +21,11 @@ export class ConnectionService {
 
   syncChanges = (connection: ConnectionModel) =>
     from(
-      this.connectionModel.findByIdAndUpdate(
-        connection.id,
-        connection,
-        {
-          upsert: true,
-          setDefaultsOnInsert: true,
-          new: true,
-        },
-      ),
+      this.connectionModel.findByIdAndUpdate(connection.id, connection, {
+        upsert: true,
+        setDefaultsOnInsert: true,
+        new: true,
+      }),
     );
 
   saveConnection = (mapId: number, source: string, target: string) =>
@@ -96,17 +92,20 @@ export class ConnectionService {
       }),
     );
 
-  generateStateChange = (type: string, connection: Connection) => {
-    this.pubSub.publish(`sub.${connection.mapId}`, {
+  generateStateChange = (
+    type: string,
+    { id, mapId, source, target, createdAt, updatedAt }: Connection,
+  ) => {
+    this.pubSub.publish(`sub.${mapId}`, {
       type: `[Socket] ${type}`,
-      connection: {
-        id: connection.id,
-        mapId: connection.mapId,
-        source: connection.source,
-        target: connection.target,
-        createdAt: connection.createdAt,
-        updatedAt: connection.updatedAt,
-      },
+      props: JSON.stringify({
+        id,
+        mapId,
+        source,
+        target,
+        createdAt,
+        updatedAt,
+      }),
     });
   };
 }

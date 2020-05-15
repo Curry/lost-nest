@@ -159,8 +159,7 @@ type Ship {
 
 type StateChange {
   type: String!
-  node: Node
-  connection: Connection
+  props: String!
 }
 
 type Subscription {

@@ -2,10 +2,10 @@ import { Injectable, Inject } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Node } from './node.interface';
-import { Node as NodeModel } from './node.model';
 import { from } from 'rxjs';
 import { RedisPubSub } from 'graphql-redis-subscriptions';
 import { tap } from 'rxjs/operators';
+import { NodeInput } from './node.input';
 
 @Injectable()
 export class NodeService {
@@ -39,28 +39,21 @@ export class NodeService {
       }),
     );
 
-  syncChanges = (node: NodeModel) =>
+  syncChanges = (node: NodeInput) =>
     from(
-      this.nodeModel.findByIdAndUpdate(
-        node.id,
-        node,
-        {
-          upsert: true,
-          setDefaultsOnInsert: true,
-          new: true,
-        },
-      ),
+      this.nodeModel.findByIdAndUpdate(node.id, node, {
+        upsert: true,
+        setDefaultsOnInsert: true,
+        new: true,
+      }),
     );
 
   moveNode = (id: string, posX: number, posY: number) =>
     from(
-      this.nodeModel.findOneAndUpdate(
+      this.nodeModel.findByIdAndUpdate(id,
         {
-          _id: id,
-        },
-        {
-          posX: posX,
-          posY: posY,
+          posX,
+          posY,
         },
         {
           new: true,
@@ -69,17 +62,16 @@ export class NodeService {
     ).pipe(
       tap(node => {
         this.generateStateChange('Move Node', node);
-      })
+      }),
     );
 
-  findNodesByMapId = (mapId: number) =>
-    from(this.nodeModel.find({ mapId }));
+  findNodesByMapId = (mapId: number) => from(this.nodeModel.find({ mapId }));
 
   findNodeBySystem = (systemId: number) =>
     from(this.nodeModel.findOne({ systemId }));
 
   deleteNode = (id: string) =>
-    from(this.nodeModel.findOneAndDelete({ _id: id })).pipe(
+    from(this.nodeModel.findByIdAndDelete(id)).pipe(
       tap(node => {
         this.generateStateChange('Delete Node', node);
       }),
@@ -92,17 +84,21 @@ export class NodeService {
       }),
     );
 
-  generateStateChange = (type: string, node: Node) => {
-    this.pubSub.publish(`sub.${node.mapId}`, {
+  generateStateChange = (
+    type: string,
+    { id, mapId, systemId, system, alias, posX, posY }: Node,
+  ) => {
+    this.pubSub.publish(`sub.${mapId}`, {
       type: `[Socket] ${type}`,
-      node: {
-        id: node.id,
-        mapId: node.mapId,
-        systemId: node.systemId,
-        alias: node.alias,
-        posX: node.posX,
-        posY: node.posY,
-      },
+      props: JSON.stringify({
+        id,
+        mapId,
+        systemId,
+        system,
+        alias,
+        posX,
+        posY,
+      }),
     });
   };
 }
